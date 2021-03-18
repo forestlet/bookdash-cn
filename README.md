@@ -97,18 +97,29 @@
 
 2. [pdf.js](http://mozilla.github.io/pdf.js/)
 
+3. todos
+
+   - [ ] 翻页 📖
+   - [ ] 搜索 🔍
+
 ## 绘本列表
 
-| 状态 | 绘本英文名        | 绘本中文名     | 译者      | 日期      |
-| ---- | ----------------- | -------------- | --------- | --------- |
-| ✅   | a-beautiful-day   | 美好的一天     | forestlet | 2021.3.13 |
-| ✅   | a-dancers-tale    | 一位舞者的故事 | forestlet | 2021.3.13 |
-| ✅   | a-day-out         | 一日游         | forestlet | 2021.3.14 |
-| ✅   | a-fish-and-a-gift | 鱼和礼物       | forestlet | 2021.3.14 |
-| ✅   | a-house-for-mouse | 小老鼠的家     | forestlet | 2021.3.14 |
-| ✅   | amazing-daisy     | 了不起的黛西   | forestlet | 2021.3.9  |
-| ✅   | and-also          | 还有           | forestlet | 2021.3.14 |
-| ⬜   | ...               |
+| 状态 | 绘本英文名               | 绘本中文名     | 译者      | 日期      |
+| ---- | ------------------------ | -------------- | --------- | --------- |
+| ✅   | a-beautiful-day          | 美好的一天     | forestlet | 2021.3.13 |
+| ✅   | a-dancers-tale           | 一位舞者的故事 | forestlet | 2021.3.13 |
+| ✅   | a-day-out                | 一日游         | forestlet | 2021.3.14 |
+| ✅   | a-fish-and-a-gift        | 鱼和礼物       | forestlet | 2021.3.14 |
+| ✅   | a-house-for-mouse        | 小老鼠的家     | forestlet | 2021.3.14 |
+| ✅   | amazing-daisy            | 了不起的黛西   | forestlet | 2021.3.9  |
+| ✅   | and-also                 | 还有           | forestlet | 2021.3.14 |
+| ✅   | ann-nem-oh-nee           | 小海葵大冒险   | forestlet | 2021.3.15 |
+| ✅   | a-tiny-seed              | 小小的种子     | forestlet | 2021.3.15 |
+| ⬜   | auntie-bois-gift         |                |           |           |
+| ⬜   | a-very-busy-day          |                |           |           |
+| ⬜   | baby-babble              |                |           |           |
+| ⬜   | babys-first-family-photo |                |           |           |
+| ⬜   | bathtub-safari           |                |           |           |
 
 ## 项目说明
 
