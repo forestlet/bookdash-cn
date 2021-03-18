@@ -77,3 +77,12 @@
 .card-text {
   height: 80px;
 }
+
+div .card button a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+div .card button:hover a {
+  color: #fff;
+}
