@@ -4,7 +4,7 @@
 
 ## 项目介绍
 
-1. 本项目旨在翻译 [bookdash](https://bookdash.org/) 中 [英文绘本](https://bookdash.org/books/?languages=en) 至中文，且遵循 [CC4.0](https://creativecommons.org/licenses/by/4.0/) 协议
+1. 本项目旨在翻译 [bookdash 中英文绘本](https://bookdash.org/books/?languages=en) 至中文，且遵循 [CC4.0](https://creativecommons.org/licenses/by/4.0/) 协议
 
 2. 项目结构
 
@@ -12,6 +12,7 @@
    📂 asset                # 绘本文件
       📂 amazing-daisy     # 绘本故事《amazing-daisy》
       📂 ...
+      📄 book.json
    📂 img
    📂 web                  # 网页
    📝 README               # 说明
@@ -23,7 +24,7 @@
 1. 翻译流程
 
    ```txt
-   PPT 新建相册 -> 插入图片 -> 对照英文绘本翻译 -> 导出 PDF -> 审核 -> 发布
+   PPT 插入图片 -> 对照英文绘本翻译 -> 审核 —> 导出 PDF ->  -> 发布
    ```
 
 2. 文档规范
@@ -91,16 +92,14 @@
      }
      ```
 
-## 实现技术
+## 实现
 
 1. [bootstrap](https://getbootstrap.com/)
 
-2. [pdf.js](http://mozilla.github.io/pdf.js/)
-
-3. todos
+2. todos
 
    - [x] 💾 下载
-   - [ ] 🤲 在线阅读
+   - [x] 🤲 在线阅读
    - [ ] 📖 翻页
    - [ ] 🔍 搜索
 
