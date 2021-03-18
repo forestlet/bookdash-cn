@@ -75,18 +75,18 @@
 
      ```json
      "amazing-daizy": {
-        "book_cn": "Amazing Daisy",
-        "contents": "Daisy the chicken lives on a small farm and wishes she could fly. The other chickens tease her about her daily flying practice. But one day, something amazing happens ......",
+        "book_cn": "了不起的黛西",
+        "contents": "小鸡黛西住在一个小农场里，她希望自己能飞。其他鸡都嘲笑她每天的飞行练习。但有一天，惊人的事情发生了……",
         "cover": "amazing-daizy/amazing-daizy_cover.jpg",
         "file": "amazing-daisy_cn.pdf",
         "translator": "forestlet",
         "date": "2021.3.9",
         "tags": [
-            "chick",
-            "animal",
-            "fly",
-            "inspirational",
-            "imagination"
+            "小鸡",
+            "动物",
+            "飞",
+            "励志",
+            "想象"
         ],
         "src": "https://bookdash.org/books/amazing-daisy-by-nozizwe-herero-siya-masuku-and-leona-ingram/"
      }
