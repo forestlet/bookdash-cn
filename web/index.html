@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="阅读port" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="forestlet">
   <title>bookdash-cn</title>
@@ -70,46 +70,46 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
+          <img></img>
 
           <div class="container">
             <div class="carousel-caption text-start">
               <h1>Example headline.</h1>
               <p>Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              <p>
+                <button class="btn btn-lg btn-primary" href="#">在线阅读</button>
+                <a class="btn btn-lg btn-primary" href="#">下载</a>
+              </p>
             </div>
           </div>
         </div>
 
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
+          <img></img>
 
           <div class="container">
             <div class="carousel-caption text-start">
               <h1>Example headline.</h1>
               <p>Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              <p>
+                <button class="btn btn-lg btn-primary" href="#">在线阅读</button>
+                <a class="btn btn-lg btn-primary" href="#">下载</a>
+              </p>
             </div>
           </div>
         </div>
 
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
+          <img></img>
 
           <div class="container">
             <div class="carousel-caption text-start">
               <h1>Example headline.</h1>
               <p>Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              <p>
+                <button class="btn btn-lg btn-primary" href="#">在线阅读</button>
+                <a class="btn btn-lg btn-primary" href="#">下载</a>
+              </p>
             </div>
           </div>
         </div>
@@ -125,6 +125,16 @@
       </button>
     </div>
 
+    <!-- modal -->
+    <div class="modal fade" id="viewer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" style="min-width:80%;">
+        <div class="modal-content">
+          <div class="modal-body" style="height:calc(100vh - 80px)">
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="album py-5 bg-light">
       <div class="container">
 
@@ -133,10 +143,11 @@
             <div class="card shadow-sm">
               <img src="" alt="">
               <div class="card-body">
+                <h3></h3>
                 <p class="card-text"></p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">阅读</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -149,11 +160,11 @@
               <img src="" alt="">
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h3></h3>
+                <p class="card-text"></p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">阅读</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -166,63 +177,11 @@
               <img src="" alt="">
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h3></h3>
+                <p class="card-text"></p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">阅读</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="" alt="">
-
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">阅读</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="" alt="">
-
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">阅读</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="" alt="">
-
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">阅读</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -236,11 +195,11 @@
               <img src="" alt="">
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h3></h3>
+                <p class="card-text"></p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">阅读</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -253,11 +212,11 @@
               <img src="" alt="">
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h3></h3>
+                <p class="card-text"></p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">阅读</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -270,11 +229,63 @@
               <img src="" alt="">
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h3></h3>
+                <p class="card-text"></p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">阅读</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="" alt="">
+
+              <div class="card-body">
+                <h3></h3>
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="" alt="">
+
+              <div class="card-body">
+                <h3></h3>
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="" alt="">
+
+              <div class="card-body">
+                <h3></h3>
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -302,20 +313,75 @@
   </footer>
 
   <script>
-    let i = 0
+    function randomNums(n, min, max) {
+      var arr = [];
+      for (i = 0; i < n; i++) {
+        var ran = Math.ceil(Math.random() * (max - min) + min);
+        while (isExist(arr, ran)) {
+          ran = Math.ceil(Math.random() * (max - min) + min);
+        }
+        arr[i] = ran;
+      }
+      return arr;
+    }
+
+    function isExist(arr, ran) {
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i] == ran) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    $("#viewer").on('show.bs.modal', (event) => {
+      let button = event.relatedTarget
+      let file = button.getAttribute('data-bs-file')
+      let obj = "<object type='application/pdf' data='" + file + "' id='review' style='width: 100%; height: 100%;'></object>";
+      console.log(obj);
+      $(".modal-body").append(obj)
+    })
+
+    $("#viewer").on('hide.bs.modal', () => {
+      $(".modal-body").empty()
+    })
 
     $.getJSON("../asset/book.json", (data) => {
-      for (const book in data) {
-        if (Object.hasOwnProperty.call(data, book)) {
-          let this_book = data[book]
-          $("div.card").eq(i).find("img").attr("src", "../asset/" + this_book.cover);
-          $("div.card").eq(i).find("img").attr("alt", this_book.book_cn);
-          $("div.card").eq(i).find("p.card-text").text(this_book.contents);
-          $("div.card").eq(i).find("small.text-muted").text(this_book.date);
-          $("div.card").eq(i).find("button").eq(1).find("a").attr("href", "../asset/" + this_book.file);
-          $("div.card").eq(i).find("button").eq(1).find("a").attr("download", "../asset/" + this_book.file);
-          i++
-        }
+      // carousels
+      book_number = data["books"].length;
+      random_nums = randomNums(3, 0, book_number)
+      let j = 0
+      for (const num in random_nums) {
+        let this_book = data["info"][data["books"][num]]
+
+        $("div.carousel-item").eq(j).find("img").attr("src", "../asset/" + this_book.cover);
+        $("div.carousel-item").eq(j).find("img").attr("alt", this_book.book_cn);
+        $("div.carousel-item").eq(j).find("h1").text(this_book.book_cn);
+        $("div.carousel-item").eq(j).find("p").eq(0).text(this_book.contents);
+        $("div.carousel-item").eq(j).find("a").eq(1).attr("href", "../asset/" + this_book.file);
+        $("div.carousel-item").eq(j).find("a").eq(1).attr("download", "../asset/" + this_book.file);
+        $("div.carousel-item").eq(j).find("button").attr("data-bs-toggle", "modal")
+        $("div.carousel-item").eq(j).find("button").attr("data-bs-target", "#viewer")
+        $("div.carousel-item").eq(j).find("button").attr("data-bs-file", "../asset/" + this_book.file)
+        j++
+      }
+
+      // cards
+      let i = 0
+      for (const book in data["info"]) {
+        let this_book = data["info"][book]
+
+        $("div.card").eq(i).find("img").attr("src", "../asset/" + this_book.cover);
+        $("div.card").eq(i).find("img").attr("alt", this_book.book_cn);
+        $("div.card").eq(i).find("h3").text(this_book.book_cn);
+        $("div.card").eq(i).find("p.card-text").text(this_book.contents);
+        $("div.card").eq(i).find("small.text-muted").text(this_book.date);
+        $("div.card").eq(i).find("button").eq(1).find("a").attr("href", "../asset/" + this_book.file);
+        $("div.card").eq(i).find("button").eq(1).find("a").attr("download", "../asset/" + this_book.file);
+        $("div.card").eq(i).find("button").eq(0).attr("data-bs-toggle", "modal")
+        $("div.card").eq(i).find("button").eq(0).attr("data-bs-target", "#viewer")
+        $("div.card").eq(i).find("button").eq(0).attr("data-bs-file", "../asset/" + this_book.file)
+        i++
       }
     })
   </script>

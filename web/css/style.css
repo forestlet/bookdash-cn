@@ -7,6 +7,11 @@
   z-index: 10;
 }
 
+.carousel-caption h1,
+.carousel-caption p {
+  text-shadow: 2px 2px 2px #444444;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
@@ -15,8 +20,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 32rem;
+  width: 100%;
 }
 
 /* MARKETING CONTENT
@@ -75,7 +79,7 @@
 }
 
 .card-text {
-  height: 80px;
+  min-height: 80px;
 }
 
 div .card button a {
