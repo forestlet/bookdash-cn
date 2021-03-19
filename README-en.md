@@ -99,9 +99,10 @@
 2. todos
 
    - [x] 💾 Download
-   - [x] 🤲 read online
-   - [ ] 📖 Turn the page
+   - [x] 🤲 Read online
+   - [x] 📖 Page
    - [ ] 🔍 Search
+   - [ ] 🚀 Build
 
 ## List of picture books
 

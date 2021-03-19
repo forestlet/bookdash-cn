@@ -90,3 +90,16 @@ div .card button a {
 div .card button:hover a {
   color: #fff;
 }
+
+nav {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.carousel-caption p a {
+  text-shadow: none;
+}
+
+a.page-link {
+  cursor: pointer;
+}
