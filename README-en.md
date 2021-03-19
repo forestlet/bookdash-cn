@@ -1,6 +1,6 @@
 # 🤲 bookdash-cn
 
-> [README-cn](README.md) & [online page](#_)
+> [README-cn](README.md) & [online page](https://forestlet.github.io/bookdash-cn)
 
 ## Project Description
 
@@ -107,7 +107,7 @@
    - [x] 🤲 Read online
    - [x] 📖 Page
    - [ ] 🔍 Search
-   - [ ] 🚀 Build
+   - [x] 🚀 Development
 
 ## List of picture books
 

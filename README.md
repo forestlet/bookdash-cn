@@ -1,6 +1,6 @@
 # 🤲 bookdash-cn
 
-> [README-en](README-en.md) & [在线地址](#_)
+> [README-en](README-en.md) & [在线地址](https://forestlet.github.io/bookdash-cn)
 
 ## 项目介绍
 
@@ -107,7 +107,7 @@
    - [x] 🤲 在线阅读
    - [x] 📖 页码
    - [ ] 🔍 搜索
-   - [ ] 🚀 发布
+   - [x] 🚀 发布
 
 ## 绘本列表
 
