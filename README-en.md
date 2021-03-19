@@ -27,7 +27,12 @@
    Insert pictures to PPT -> Translate to Chinese -> Review -> Export PDF -> Publish
    ```
 
-2. Document specification
+2. Files need to be modified
+
+   1. booklist.md
+   2. asset/book.json: books & info
+
+3. Document specification
 
    - PPT each page should be sized to picture book image size
 
@@ -45,7 +50,7 @@
 
    - Line spacing is 1.5, font size 24
 
-3. Submission Information
+4. Submission Information
 
    - The submission file format is as follows.
 
@@ -106,22 +111,7 @@
 
 ## List of picture books
 
-| Status | English Name             | Chinese Name   | Translator | Date      |
-| ------ | ------------------------ | -------------- | ---------- | --------- |
-| ✅     | a-beautiful-day          | 美好的一天     | forestlet  | 2021.3.13 |
-| ✅     | a-dancers-tale           | 一位舞者的故事 | forestlet  | 2021.3.13 |
-| ✅     | a-day-out                | 一日游         | forestlet  | 2021.3.14 |
-| ✅     | a-fish-and-a-gift        | 鱼和礼物       | forestlet  | 2021.3.14 |
-| ✅     | a-house-for-mouse        | 小老鼠的家     | forestlet  | 2021.3.14 |
-| ✅     | amazing-daisy            | 了不起的黛西   | forestlet  | 2021.3.9  |
-| ✅     | and-also                 | 还有           | forestlet  | 2021.3.14 |
-| ✅     | ann-nem-oh-nee           | 小海葵大冒险   | forestlet  | 2021.3.15 |
-| ✅     | a-tiny-seed              | 小小的种子     | forestlet  | 2021.3.15 |
-| ⬜     | auntie-bois-gift         |                |            |           |
-| ⬜     | a-very-busy-day          |                |            |           |
-| ⬜     | baby-babble              |                |            |           |
-| ⬜     | babys-first-family-photo |                |            |           |
-| ⬜     | bathtub-safari           |                |            |           |
+see 👉 [booklist.md](booklist.md)
 
 ## About
 
