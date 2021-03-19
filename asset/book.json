@@ -8,7 +8,8 @@
         "amazing-daisy",
         "and-also",
         "ann-nem-oh-nee",
-        "a-tiny-seed"
+        "a-tiny-seed",
+        "auntie-bois-gift"
     ],
     "info": {
         "a-beautiful-day": {
@@ -129,6 +130,18 @@
                 "自然"
             ],
             "src": "https://bookdash.org/books/a-tiny-seed-by-nicola-rijsdijk-maya-marshak/"
+        },
+        "auntie-bois-gift": {
+            "book_cn": "博伊阿姨的礼物",
+            "contents": "博伊阿姨从肯尼亚寄来了一份礼物，科帕诺和蕊去镇上取，会是一段怎样的旅程呢？",
+            "cover": "auntie-bois-gift/auntie-bois-gift_cover.jpg",
+            "file": "auntie-bois-gift/auntie-bois-gift_cn.pdf",
+            "translator": "forestlet",
+            "date": "2021.3.19",
+            "tags": [
+                "礼物"
+            ],
+            "src": "https://bookdash.org/books/auntie-bois-gift-by-baeletsi-tsatsi-ndumiso-nyoni-and-bianca-wiesner/"
         }
     }
 }
