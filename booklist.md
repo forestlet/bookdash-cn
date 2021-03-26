@@ -13,6 +13,6 @@
 | ✅          | a-tiny-seed              | 小小的种子              | forestlet       | 2021.3.15 |
 | ✅          | auntie-bois-gift         | 博伊阿姨的礼物          | forestlet       | 2021.3.19 |
 | ⬜          | a-very-busy-day          |                         |                 |           |
-| ⬜          | baby-babble              |                         |                 |           |
-| ⬜          | babys-first-family-photo |                         |                 |           |
+| ✅          | baby-babble              | 咿咿呀呀                | forestlet       | 2021.3.26 |
+| ✅          | babys-first-family-photo | 宝宝的第一张全家福      | forestlet       | 2021.3.26 |
 | ⬜          | bathtub-safari           |                         |                 |           |

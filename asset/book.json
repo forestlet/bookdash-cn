@@ -9,7 +9,9 @@
         "and-also",
         "ann-nem-oh-nee",
         "a-tiny-seed",
-        "auntie-bois-gift"
+        "auntie-bois-gift",
+        "baby-babble",
+        "babys-first-family-photo"
     ],
     "info": {
         "a-beautiful-day": {
@@ -142,6 +144,31 @@
                 "礼物"
             ],
             "src": "https://bookdash.org/books/auntie-bois-gift-by-baeletsi-tsatsi-ndumiso-nyoni-and-bianca-wiesner/"
+        },
+        "baby-babble": {
+            "book_cn": "咿咿呀呀",
+            "contents": "宝宝一天都在咿咿呀呀，无论是肚子饿，找泰迪熊，在浴缸里玩水，还是晚上缩在床上……",
+            "cover": "baby-babble/baby-babble_cover.jpg",
+            "file": "baby-babble/baby-babble_cn.pdf",
+            "translator": "forestlet",
+            "date": "2021.3.26",
+            "tags": [
+                "宝宝"
+            ],
+            "src": "https://bookdash.org/books/baby-babble-by-nicola-smith-katherine-graham-sarah-slater/"
+        },
+        "babys-first-family-photo": {
+            "book_cn": "宝宝的第一张全家福",
+            "contents": "宝宝全家为他们第一张全家福感到兴奋，妈妈、爸爸、哥哥、姐姐和我会穿什么衣服？",
+            "cover": "babys-first-family-photo/babys-first-family-photo_cover.jpg",
+            "file": "babys-first-family-photo/babys-first-family-photo_cn.pdf",
+            "translator": "forestlet",
+            "date": "2021.3.26",
+            "tags": [
+                "宝宝",
+                "照片"
+            ],
+            "src": "https://bookdash.org/books/babys-first-family-photo-by-megan-andrews-edem-torkornoo-nadene-kriel/"
         }
     }
 }
