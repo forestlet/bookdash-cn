@@ -117,6 +117,4 @@ see 👉 [booklist.md](booklist.md)
 
 1. If you have any comments or good suggestions, contact me at <hyf2021@outlook.com>
 
-2. ☕ If you find this project helpful, you can buy me a coffee 🤗👇 Thanks!
-
-   <img src="img/donate.jpg" alt="donate" style="zoom: 25%;" />
+2. ☕ If you find this project helpful, just ⭐star it~
