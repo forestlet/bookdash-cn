@@ -151,7 +151,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -185,7 +185,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -202,7 +202,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -219,7 +219,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -236,7 +236,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -253,7 +253,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -270,7 +270,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -287,7 +287,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -304,7 +304,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -321,7 +321,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -338,7 +338,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">在线阅读</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a>下载</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             </div>
@@ -377,7 +377,6 @@
       let button = event.relatedTarget
       let file = button.getAttribute('data-bs-file')
       let obj = "<object type='application/pdf' data='" + file + "' id='review' style='width: 100%; height: 100%;'></object>";
-      console.log(obj);
       $(".modal-body").append(obj)
     })
 
@@ -423,8 +422,8 @@
 
       // carousels
       random_nums = randomNums(3, 0, book_num)
-      let j = 0 // j: 0~2
-      for (const num in random_nums) {
+      for (let j = 0; j < 3; j++) {
+        num = random_nums[j]
         let this_book = data["info"][data["books"][num]]
         this_carousel = $("div.carousel-item").eq(j)
         this_carousel.find("img").attr("src", "../asset/" + this_book.cover);
@@ -436,11 +435,10 @@
         this_carousel.find("button").attr("data-bs-file", "../asset/" + this_book.file)
         this_carousel.find("a").eq(0).attr("href", "../asset/" + this_book.file);
         this_carousel.find("a").eq(0).attr("download", "../asset/" + this_book.file);
-        j++
       }
 
       // cards
-      for (let i = 0; i < Math.min(book_num, 11); i++) {
+      for (let i = 0; i < Math.min(book_num, 12); i++) {
         let this_book = data["info"][data["books"][i]]
         this_card = $("div.card").eq(i)
         this_card.find("img").attr("src", "../asset/" + this_book.cover);
