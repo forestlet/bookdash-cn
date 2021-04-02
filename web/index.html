@@ -14,14 +14,6 @@
   <link href="css/style.css" rel="stylesheet">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 110 110%22><text y=%221em%22 font-size=%2290%22>🤲</text></svg>">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
-  <script src="js/feature.js"></script>
 </head>
 
 <body>
@@ -127,7 +119,7 @@
 
     <!-- modal -->
     <div class="modal fade" id="viewer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog" style="min-width:80%;">
+      <div class="modal-dialog" style="min-width:80%">
         <div class="modal-content">
           <div class="modal-body" style="height:calc(100vh - 80px)">
           </div>
@@ -361,36 +353,30 @@
         <a href="#" class="text-white">👆</a>
       </p>
       <p class="mb-1">项目正在持续施工中ing👨‍💻 希望您能够看得开心~🤗</p>
-      <p class="mb-1">如果您有什么意见和好的建议，可以发
-        <a href="mailto:hyf2021@outlook.com" style="color: #495057;">邮件</a>
+      <p class="mb-1">如果您有什么意见和好的建议，可以发 📧
+        <a href="mailto:hyf2021@outlook.com" style="color: #495057">邮件</a>
         给我
       </p>
     </div>
   </footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="js/feature.js"></script>
   <script>
 
-    localStorage.setItem("page", 1);
-
-    // each time change object data
-    $("#viewer").on('show.bs.modal', (event) => {
-      let button = event.relatedTarget
-      let file = button.getAttribute('data-bs-file')
-      let obj = "<object type='application/pdf' data='" + file + "' id='review' style='width: 100%; height: 100%;'></object>";
-      $(".modal-body").append(obj)
-    })
-
-    $("#viewer").on('hide.bs.modal', () => {
-      $(".modal-body").empty()
-    })
-
+    localStorage.setItem("page", 1)
 
     $.getJSON("../asset/book.json", (data) => {
 
-      let book_num = data["books"].length;
+      let book_num = data["books"].length
       let page_len = Math.ceil(book_num / 12)
 
-      // page
+      // pages
       let current_page = localStorage.getItem("page")
 
       let page_start = '<li class="page-item"><a class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>'
@@ -402,62 +388,35 @@
       let page_end = '<li class="page-item"><a class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>'
       $("ul.pagination").append(page_end)
 
-      // page active & disable
-      if (current_page == 1) { $("li.page-item").eq(0).attr("class", "page-item disabled") }
-      if (current_page == page_len) { $("li.page-item").eq(page_len + 1).attr("class", "page-item disabled") }
-      $("li.page-item").eq(current_page).attr("class", "page-item active")
+      stylePage(current_page, page_len)
 
       $('li.page-item').on("click", (event) => {
-        let page_click = event.target.innerText;
+        let page_click = event.target.innerText
         if (page_click == "«" && current_page > 1) {
-          localStorage.setItem("page", current_page - 1)
+          localStorage.setItem("page", parseInt(current_page) - 1)
+          console.log(localStorage.getItem("page"))
         }
         else if (page_click == "»" && current_page < page_len) {
-          localStorage.setItem("page", current_page + 1)
+          localStorage.setItem("page", parseInt(current_page) + 1)
+          console.log(localStorage.getItem("page"))
         }
-        else {
+        else if (page_click != "«" && page_click != "»") {
           localStorage.setItem("page", page_click)
+          console.log(localStorage.getItem("page"))
         }
+
+        // update
+        current_page = localStorage.getItem("page")
+        stylePage(current_page, page_len)
+        showCarousels(data, book_num)
+        showCards(data, book_num)
       })
 
       // carousels
-      random_nums = randomNums(3, 0, book_num)
-      for (let j = 0; j < 3; j++) {
-        num = random_nums[j]
-        let this_book = data["info"][data["books"][num]]
-        this_carousel = $("div.carousel-item").eq(j)
-        this_carousel.find("img").attr("src", "../asset/" + this_book.cover);
-        this_carousel.find("img").attr("alt", this_book.book_cn);
-        this_carousel.find("h1").text(this_book.book_cn);
-        this_carousel.find("p").eq(0).text(this_book.contents);
-        this_carousel.find("button").attr("data-bs-toggle", "modal")
-        this_carousel.find("button").attr("data-bs-target", "#viewer")
-        this_carousel.find("button").attr("data-bs-file", "../asset/" + this_book.file)
-        this_carousel.find("a").eq(0).attr("href", "../asset/" + this_book.file);
-        this_carousel.find("a").eq(0).attr("download", "../asset/" + this_book.file);
-      }
+      showCarousels(data, book_num)
 
       // cards
-      for (let i = 0; i < Math.min(book_num, 12); i++) {
-        let this_book = data["info"][data["books"][i]]
-        this_card = $("div.card").eq(i)
-        this_card.find("img").attr("src", "../asset/" + this_book.cover);
-        this_card.find("img").attr("alt", this_book.book_cn);
-        this_card.find("h3").text(this_book.book_cn);
-        this_card.find("p.card-text").text(this_book.contents);
-        this_card.find("button").eq(0).attr("data-bs-toggle", "modal")
-        this_card.find("button").eq(0).attr("data-bs-target", "#viewer")
-        this_card.find("button").eq(0).attr("data-bs-file", "../asset/" + this_book.file)
-        this_card.find("small.text-muted").text(this_book.date);
-        this_card.find("button").eq(1).find("a").attr("href", "../asset/" + this_book.file);
-        this_card.find("button").eq(1).find("a").attr("download", "../asset/" + this_book.file);
-      }
-
-      for (let k = 0; k < 12; k++) {
-        if ($("div.card").find("img").eq(k).attr("src") == undefined) {
-          $("div.card").eq(k).hide()
-        }
-      }
+      showCards(data, book_num)
     })
   </script>
 </body>
