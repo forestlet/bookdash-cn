@@ -11,7 +11,9 @@
         "a-tiny-seed",
         "auntie-bois-gift",
         "baby-babble",
-        "babys-first-family-photo"
+        "babys-first-family-photo",
+        "a-very-busy-day",
+        "bathtub-safari"
     ],
     "info": {
         "a-beautiful-day": {
@@ -169,6 +171,33 @@
                 "照片"
             ],
             "src": "https://bookdash.org/books/babys-first-family-photo-by-megan-andrews-edem-torkornoo-nadene-kriel/"
+        },
+        "a-very-busy-day": {
+            "book_cn": "忙碌的一天",
+            "contents": "今天是忙碌的一天，跟我和妈妈一起进城吧！",
+            "cover": "a-very-busy-day/a-very-busy-day_cover.jpg",
+            "file": "a-very-busy-day/a-very-busy-day_cn.pdf",
+            "translator": "forestlet",
+            "date": "2021.4.2",
+            "tags": [
+                "城",
+                "超市"
+            ],
+            "src": "https://bookdash.org/books/a-very-busy-day/"
+        },
+        "bathtub-safari": {
+            "book_cn": "浴缸大冒险",
+            "contents": "杰克洗澡时，浴缸忽然发生了变化，杰克也开始了冒险，和他一起吧！",
+            "cover": "bathtub-safari/bathtub-safari_cover.jpg",
+            "file": "bathtub-safari/bathtub-safari_cn.pdf",
+            "translator": "forestlet",
+            "date": "2021.4.2",
+            "tags": [
+                "宝宝",
+                "浴缸",
+                "冒险"
+            ],
+            "src": "https://bookdash.org/books/bathtub-safari-by-sarah-jane-williams-robert-mcewan-tracy-lynn-chemaly/"
         }
     }
 }
