@@ -30,7 +30,7 @@
 2. 需要修改的文件
 
    1. booklist.md
-   2. asset/book.json: books & info
+   2. asset/book.json
 
 3. 文档规范
 

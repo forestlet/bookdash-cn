@@ -41,13 +41,16 @@ function stylePage(current_page, page_len) {
 }
 
 // update carousels
-function showCarousels(data, book_num) {
-    console.log("showCarousels");
+function showCarousels(book_info, book_num) {
+    // console.log("showCarousels");
+
+    let book_keys = book_info.keys();
+    let book_names = [...book_keys];
 
     random_nums = randomNums(3, -1, book_num - 1)
     for (let j = 0; j < 3; j++) {
         num = random_nums[j]
-        let this_book = data["info"][data["books"][num]]
+        let this_book = book_info.get(book_names[num])
         this_carousel = $("div.carousel-item").eq(j)
         this_carousel.find("img").attr("src", "../asset/" + this_book.cover)
         this_carousel.find("img").attr("alt", this_book.book_cn)
@@ -62,8 +65,8 @@ function showCarousels(data, book_num) {
 }
 
 // update cards
-function showCards(data, book_num) {
-    console.log("showCards");
+function showCards(book_info, book_num) {
+    // console.log("showCards");
 
     let current_page = localStorage.getItem("page")
 
@@ -74,10 +77,13 @@ function showCards(data, book_num) {
         $("div.card").eq(j).show()
     }
 
+    let book_keys = book_info.keys();
+    let book_names = [...book_keys];
+
     for (let i = (current_page - 1) * 12, j = 0; i < Math.min(book_num, current_page * 12); i++, j++) {
-        let this_book = data["info"][data["books"][i]]
+        let this_book = book_info.get(book_names[i])
         this_card = $("div.card").eq(j)
-        console.log(this_card);
+        // console.log(this_card);
         this_card.find("img").attr("src", "../asset/" + this_book.cover)
         this_card.find("img").attr("alt", this_book.book_cn)
         this_card.find("h3").text(this_book.book_cn)

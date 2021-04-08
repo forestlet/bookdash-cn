@@ -30,7 +30,7 @@
 2. Files need to be modified
 
    1. booklist.md
-   2. asset/book.json: books & info
+   2. asset/book.json
 
 3. Document specification
 
