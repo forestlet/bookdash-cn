@@ -2,7 +2,7 @@
 
 > [README-en](README-en.md) & [在线地址](https://forestlet.github.io/bookdash-cn)
 
-## 项目介绍
+## 项目说明
 
 1. 本项目旨在翻译 [bookdash 中英文绘本](https://bookdash.org/books/?languages=en) 至中文，且遵循 [CC4.0](https://creativecommons.org/licenses/by/4.0/) 协议
 
@@ -18,6 +18,12 @@
    📝 README               # 说明
    📝 README-en            # 英文说明
    ```
+
+3. 绘本列表 👉 [booklist.md](booklist.md)
+
+4. 如果您有什么意见和好的建议，可以发邮件到：<hyf2021@outlook.com>
+
+5. ☕ 如果您觉得这个项目对您有帮助的话，就 star ⭐ 一下好了，不用赞赏啦~
 
 ## 翻译规范
 
@@ -48,7 +54,9 @@
 
    - 字体设置为“思源雅黑 Medium”
 
-   - 行间距为 1.5，字号 24
+   - 行间距为 1.5
+
+   - 字号为 24
 
 4. 提交信息
 
@@ -101,20 +109,12 @@
 
 1. [bootstrap](https://getbootstrap.com/)
 
-2. todos
+2. [jQuery](https://jquery.com/)
+
+3. todos
 
    - [x] 💾 下载
    - [x] 🤲 在线阅读
    - [x] 📖 页码
    - [ ] 🔍 搜索
    - [x] 🚀 发布
-
-## 绘本列表
-
-见 👉 [booklist.md](booklist.md)
-
-## 项目说明
-
-1. 如果您有什么意见和好的建议，可以发邮件到：<hyf2021@outlook.com>
-
-2. ☕ 如果您觉得这个项目对您有帮助的话，就 star ⭐ 一下好了，不用赞赏啦~

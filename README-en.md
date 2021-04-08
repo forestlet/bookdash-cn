@@ -2,7 +2,7 @@
 
 > [README-cn](README.md) & [online page](https://forestlet.github.io/bookdash-cn)
 
-## Project Description
+## Description
 
 1. This project aims to translate [English picture book in bookdash](https://bookdash.org/books/?languages=en) to Chinese and follow [CC4.0](https://creativecommons.org/licenses/by/4.0/) protocol.
 
@@ -18,6 +18,12 @@
    📝 README            # description in Chinese
    📝 README-en         # description in English
    ```
+
+3. picture books list 👉 [booklist.md](booklist.md)
+
+4. If you have any comments or good suggestions, contact me at <hyf2021@outlook.com>
+
+5. ☕ If you find this project helpful, just ⭐star this repository~
 
 ## Translation specifications
 
@@ -48,7 +54,9 @@
 
    - The font is set to "Source Han Sans Medium"
 
-   - Line spacing is 1.5, font size 24
+   - Line spacing is 1.5
+
+   - font size is 24
 
 4. Submission Information
 
@@ -101,20 +109,12 @@
 
 1. [bootstrap](https://getbootstrap.com/)
 
-2. todos
+2. [jQuery](https://jquery.com/)
+
+3. todos
 
    - [x] 💾 Download
    - [x] 🤲 Read online
    - [x] 📖 Page
    - [ ] 🔍 Search
    - [x] 🚀 Development
-
-## List of picture books
-
-see 👉 [booklist.md](booklist.md)
-
-## About
-
-1. If you have any comments or good suggestions, contact me at <hyf2021@outlook.com>
-
-2. ☕ If you find this project helpful, just ⭐star it~
