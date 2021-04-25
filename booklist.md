@@ -17,3 +17,5 @@
 | ✅          | babys-first-family-photo | 宝宝的第一张全家福      | forestlet       | 2021.3.26 |
 | ✅          | bathtub-safari           | 浴缸大冒险              | forestlet       | 2021.4.2  |
 | ✅          | circles                  | 生生不息                | forestlet       | 2021.4.8  |
+| ✅          | egg                      | 蛋                      | forestlet       | 2021.4.25 |
+| ✅          | clever-pig               | 聪明的猪猪              | forestlet       | 2021.4.25 |
