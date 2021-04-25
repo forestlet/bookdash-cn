@@ -194,5 +194,31 @@
             "生命"
         ],
         "src": "https://bookdash.org/books/circles-alex-latimer-gordon-latimer-patrick-latimer/"
+    },
+    "clever-pig": {
+        "book_cn": "聪明的猪猪",
+        "contents": "猪猪喜欢玩！聪明的猪猪。有一天，猪猪不见了。猪猪会回来吗？",
+        "cover": "clever-pig/clever-pig_cover.jpg",
+        "file": "clever-pig/clever-pig_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.4.25",
+        "tags": [
+            "猪"
+        ],
+        "src": "https://bookdash.org/books/clever-pig-josh-morgan-lee-anne-knowles-nathalie-koenig/"
+    },
+    "egg": {
+        "book_cn": "蛋",
+        "contents": "鳄鱼、乌龟、企鹅、鸡和鸵鸟找到了一个蛋。是他们的蛋吗？",
+        "cover": "egg/egg_cover.jpg",
+        "file": "egg/egg_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.4.25",
+        "tags": [
+            "自然",
+            "生命",
+            "蛋"
+        ],
+        "src": "https://bookdash.org/books/egg/"
     }
 }
