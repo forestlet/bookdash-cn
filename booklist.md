@@ -19,3 +19,5 @@
 | ✅          | circles                  | 生生不息                | forestlet       | 2021.4.8  |
 | ✅          | egg                      | 蛋                      | forestlet       | 2021.4.25 |
 | ✅          | clever-pig               | 聪明的猪猪              | forestlet       | 2021.4.25 |
+| ✅          | dance-mihlali            | 跳舞吧，米哈利！        | forestlet       | 2021.5.2  |
+| ✅          | come-stay-with-me        | 和我在一起              | forestlet       | 2021.5.2  |
