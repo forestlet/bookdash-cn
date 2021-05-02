@@ -220,5 +220,31 @@
             "蛋"
         ],
         "src": "https://bookdash.org/books/egg/"
+    },
+    "dance-mihlali": {
+        "book_cn": "跳舞吧，米哈利！",
+        "contents": "音乐会快到了，米哈利变得越来越紧张。她愿意在所有人面前跳舞吗？",
+        "cover": "dance-mihlali/dance-mihlali_cover.jpg",
+        "file": "dance-mihlali/dance-mihlali_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.5.2",
+        "tags": [
+            "跳舞",
+            "音乐会"
+        ],
+        "src": "https://bookdash.org/books/dance-mihlali-by-aimee-ayres-khuty-ngqayimbana-and-matona-fatman/"
+    },
+    "come-stay-with-me": {
+        "book_cn": "和我在一起",
+        "contents": "天台龟的奶奶伤了她的壳，天台龟的妈妈和爸爸必须去帮她。天台龟最好的朋友布西兔说：“和我在一起吧。”快乐便开始了。",
+        "cover": "come-stay-with-me/come-stay-with-me_cover.jpg",
+        "file": "come-stay-with-me/come-stay-with-me_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.5.2",
+        "tags": [
+            "友情",
+            "乌龟"
+        ],
+        "src": " https://bookdash.org/books/come-stay-with-me/"
     }
 }
