@@ -245,6 +245,32 @@
             "友情",
             "乌龟"
         ],
-        "src": " https://bookdash.org/books/come-stay-with-me/"
+        "src": "https://bookdash.org/books/come-stay-with-me/"
+    },
+    "goldfish-genius": {
+        "book_cn": "金鱼天才",
+        "contents": "尼奥的金鱼是个天才，当她出去玩时，金鱼试图跟着她，最终进行了一场令人难以置信的冒险……",
+        "cover": "goldfish-genius/goldfish-genius_cover.jpg",
+        "file": "goldfish-genius/goldfish-genius_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.5.8",
+        "tags": [
+            "金鱼",
+            "天才"
+        ],
+        "src": "https://bookdash.org/books/goldfish-genius-sam-wilson-thea-nicole-de-klerk-chenel-ferreira/"
+    },
+    "foxy-joxy-plays-a-trick": {
+        "book_cn": "狡猾的胡胡耍花招",
+        "contents": "狐狸胡胡是一只狡猾的狐狸，他卖西瓜。有一天，他想出了一个“聪明”的主意。动物们并不高兴。他们会怎么给他一个教训呢？",
+        "cover": "foxy-joxy-plays-a-trick/foxy-joxy-plays-a-trick_cover.jpg",
+        "file": "foxy-joxy-plays-a-trick/foxy-joxy-plays-a-trick_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.5.8",
+        "tags": [
+            "西瓜",
+            "狐狸"
+        ],
+        "src": "https://bookdash.org/books/foxy-joxy-plays-trick-mdu-ntuli-nahida-esmail-samantha-rice/"
     }
 }
