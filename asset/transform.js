@@ -18,7 +18,7 @@ for (let index = 0; index < booklist_map.size; index++) {
     let this_book = booklist_map.get(book_names[index])
     content = `|✅|${book_names[index]}|${this_book["book_cn"]}|${this_book["translator"]}|${this_book["date"]}|\n`
 
-    fs.appendFile('booklist.md', content, err => {
+    fs.appendFileSync('booklist.md', content, err => {
         if (err) {
             console.error(err)
             return
