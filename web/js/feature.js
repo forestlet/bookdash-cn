@@ -103,3 +103,9 @@ function showCards(book_info, book_num) {
         }
     }
 }
+
+// back to top
+function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

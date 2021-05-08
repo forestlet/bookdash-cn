@@ -402,12 +402,16 @@
         else if (page_click != "«" && page_click != "»") {
           localStorage.setItem("page", page_click)
         }
+        else {
+          return
+        }
 
         // update
         current_page = localStorage.getItem("page")
         stylePage(current_page, page_len)
         showCarousels(book_info, book_num)
         showCards(book_info, book_num)
+        backToTop()
       })
 
       // carousels
