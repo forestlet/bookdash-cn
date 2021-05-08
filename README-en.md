@@ -12,14 +12,15 @@
    📂 asset             # picture book file
       📂 amazing-daisy  # a story
       📂 ...
-      📄 book.json
+      📄 booklist.json
+      📄 booklist.md
    📂 img
    📂 web               # web page
    📝 README            # description in Chinese
    📝 README-en         # description in English
    ```
 
-3. picture books list 👉 [booklist.md](booklist.md)
+3. translated picture books list 👉 [booklist](asset/booklist.md)
 
 4. If you have any comments or good suggestions, contact me at <hyf2021@outlook.com>
 
@@ -35,8 +36,8 @@
 
 2. Files need to be modified
 
-   1. booklist.md
-   2. asset/book.json
+   1. asset/booklist.json
+   2. asset/booklist.md in 'asset' use `node transform.js` to generate
 
 3. Document specification
 
@@ -71,7 +72,7 @@
          📄 xxx_cover   # Picture book cover
      ```
 
-   - Also add information about the picture book to the `book.json` file.
+   - Also add information about the picture book to the `booklist.json` file.
 
      | Information | Meaning                                                  |
      | ----------- | -------------------------------------------------------- |

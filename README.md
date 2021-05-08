@@ -12,14 +12,15 @@
    📂 asset                # 绘本文件
       📂 amazing-daisy     # 绘本故事《amazing-daisy》
       📂 ...
-      📄 book.json
+      📄 booklist.json
+      📄 booklist.md
    📂 img
    📂 web                  # 网页
    📝 README               # 说明
    📝 README-en            # 英文说明
    ```
 
-3. 绘本列表 👉 [booklist.md](booklist.md)
+3. 已翻译绘本列表 👉 [booklist](asset/booklist.md)
 
 4. 如果您有什么意见和好的建议，可以发邮件到：<hyf2021@outlook.com>
 
@@ -35,8 +36,8 @@
 
 2. 需要修改的文件
 
-   1. booklist.md
-   2. asset/book.json
+   1. asset/booklist.json
+   2. asset/booklist.md 在“asset”文件夹内运行 `node transform.js` 直接生成
 
 3. 文档规范
 
@@ -71,7 +72,7 @@
          📄 xxx_cover   # 绘本封面
      ```
 
-   - 同时将绘本相关信息添加到 `book.json` 文件中：
+   - 同时将绘本相关信息添加到 `booklist.json` 文件中：
 
      | 信息       | 含义                  |
      | ---------- | --------------------- |
