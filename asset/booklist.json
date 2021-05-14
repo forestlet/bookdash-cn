@@ -272,5 +272,18 @@
             "狐狸"
         ],
         "src": "https://bookdash.org/books/foxy-joxy-plays-trick-mdu-ntuli-nahida-esmail-samantha-rice/"
+    },
+    "dudus-hat": {
+        "book_cn": "嘟嘟的帽子",
+        "contents": "摘下帽子！嘟嘟和杜米萨尼想出了一款新游戏。嘘——不要告诉老师。",
+        "cover": "dudus-hat/dudus-hat_cover.jpg",
+        "file": "dudus-hat/dudus-hat_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.5.14",
+        "tags": [
+            "帽子",
+            "友谊"
+        ],
+        "src": "https://bookdash.org/books/dudus-hat/"
     }
 }

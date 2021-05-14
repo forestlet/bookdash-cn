@@ -23,3 +23,4 @@
 |✅|come-stay-with-me|和我在一起|forestlet|2021.5.2|
 |✅|goldfish-genius|金鱼天才|forestlet|2021.5.8|
 |✅|foxy-joxy-plays-a-trick|狡猾的胡胡耍花招|forestlet|2021.5.8|
+|✅|dudus-hat|嘟嘟的帽子|forestlet|2021.5.14|
