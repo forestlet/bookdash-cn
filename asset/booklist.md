@@ -24,3 +24,5 @@
 |✅|goldfish-genius|金鱼天才|forestlet|2021.5.8|
 |✅|foxy-joxy-plays-a-trick|狡猾的胡胡耍花招|forestlet|2021.5.8|
 |✅|dudus-hat|嘟嘟的帽子|forestlet|2021.5.14|
+|✅|come-back-cat|回来，猫猫！|forestlet|2021.5.15|
+|✅|feathered-friends|羽毛朋友|forestlet|2021.5.15|

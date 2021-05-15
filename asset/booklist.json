@@ -285,5 +285,31 @@
             "友谊"
         ],
         "src": "https://bookdash.org/books/dudus-hat/"
+    },
+    "come-back-cat": {
+        "book_cn": "回来，猫猫！",
+        "contents": "关于一只独立的猫的快乐故事。",
+        "cover": "come-back-cat/come-back-cat_cover.jpg",
+        "file": "come-back-cat/come-back-cat_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.5.15",
+        "tags": [
+            "猫"
+        ],
+        "src": "https://bookdash.org/books/come-back-cat-by-karen-lilje-nicola-rijsdijk-and-sam-scarborough/"
+    },
+    "feathered-friends": {
+        "book_cn": "羽毛朋友",
+        "contents": "“麻絮”男孩出去走走，发现了之前没见过的……许多不同的企鹅、一个特殊的朋友，以及一个很大的变化。长大是所有人最大的冒险！",
+        "cover": "feathered-friends/feathered-friends_cover.jpg",
+        "file": "feathered-friends/feathered-friends_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.5.15",
+        "tags": [
+            "企鹅",
+            "成长",
+            "羽毛"
+        ],
+        "src": "https://bookdash.org/books/feathered-friends-daniela-hammond-jacqui-lange-stephanie-pretorius/"
     }
 }
