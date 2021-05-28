@@ -12,19 +12,21 @@
    📂 asset             # picture book file
       📂 amazing-daisy  # a story
       📂 ...
+   📂 doc               # picture book list
       📄 booklist.json
       📄 booklist.md
+   📂 util              # tools
    📂 img
    📂 web               # web page
    📝 README            # description in Chinese
    📝 README-en         # description in English
    ```
 
-3. translated picture books list 👉 [booklist](asset/booklist.md)
+3. translated picture books list 👉 [booklist](doc/booklist.md)
 
-4. If you have any comments or good suggestions, contact me at <hyf2021@outlook.com>
+4. If you have any comments or good suggestions, please submit new issue
 
-5. ☕ If you find this project helpful, just ⭐star this repository~
+5. ☕ If you think this project is good, just ⭐star this repository~
 
 ## Translation specifications
 
@@ -36,8 +38,8 @@
 
 2. Files need to be modified
 
-   1. asset/booklist.json
-   2. asset/booklist.md in 'asset' use `node transform.js` to generate
+   1. [booklist.json](doc/booklist.json)
+   2. [booklist.md](doc/booklist.md) in 'util' use `node transform.js` to generate
 
 3. Document specification
 
@@ -72,7 +74,7 @@
          📄 xxx_cover   # Picture book cover
      ```
 
-   - Also add information about the picture book to the `booklist.json` file.
+   - Also add information about the picture book to the [booklist.json](doc/booklist.json)
 
      | Information | Meaning                                                  |
      | ----------- | -------------------------------------------------------- |
@@ -118,4 +120,4 @@
    - [x] 🤲 Read online
    - [x] 📖 Page
    - [ ] 🔍 Search
-   - [x] 🚀 Development
+   - [x] 🚀 Github Pages
