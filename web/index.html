@@ -367,7 +367,7 @@
 
     localStorage.setItem("page", 1)
 
-    $.getJSON("../asset/booklist.json", (data) => {
+    $.getJSON("../doc/booklist.json", (data) => {
 
       let book_info = new Map(Object.entries(data));
       let book_num = book_info.size
