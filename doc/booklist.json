@@ -324,5 +324,19 @@
             "自我"
         ],
         "src": "https://bookdash.org/books/is-there-anyone-like-me-by-fred-strydom-jess-jardim-wedepohl-and-stephen-wallace/"
+    },
+    "grandpa-farouk-garden": {
+        "book_cn": "祖父法鲁克的花园",
+        "contents": "阿米尔喜欢祖父法鲁克的花园。但花园正在死去。阿米尔能做些什么？",
+        "cover": "grandpa-farouk-garden/grandpa-farouk-garden_cover.jpg",
+        "file": "grandpa-farouk-garden/grandpa-farouk-garden_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.5.29",
+        "tags": [
+            "花园",
+            "祖父",
+            "自然"
+        ],
+        "src": "https://bookdash.org/books/grandpa-farouks-garden-by-sam-van-riet-matthew-kalil-and-nina-lewis/"
     }
 }
