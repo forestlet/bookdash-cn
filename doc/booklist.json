@@ -311,5 +311,18 @@
             "羽毛"
         ],
         "src": "https://bookdash.org/books/feathered-friends-daniela-hammond-jacqui-lange-stephanie-pretorius/"
+    },
+    "anyone-like-me": {
+        "book_cn": "有和我一样的人吗？",
+        "contents": "我想知道世界上是否还有另一个我……",
+        "cover": "anyone-like-me/anyone-like-me_cover.jpg",
+        "file": "anyone-like-me/anyone-like-me_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.5.29",
+        "tags": [
+            "成长",
+            "自我"
+        ],
+        "src": "https://bookdash.org/books/is-there-anyone-like-me-by-fred-strydom-jess-jardim-wedepohl-and-stephen-wallace/"
     }
 }

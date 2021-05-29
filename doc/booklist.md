@@ -26,3 +26,4 @@
 |✅|dudus-hat|嘟嘟的帽子|forestlet|2021.5.14|
 |✅|come-back-cat|回来，猫猫！|forestlet|2021.5.15|
 |✅|feathered-friends|羽毛朋友|forestlet|2021.5.15|
+|✅|anyone-like-me|有和我一样的人吗？|forestlet|2021.5.29|
