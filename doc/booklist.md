@@ -28,3 +28,5 @@
 |✅|feathered-friends|羽毛朋友|forestlet|2021.5.15|
 |✅|anyone-like-me|有和我一样的人吗？|forestlet|2021.5.29|
 |✅|grandpa-farouk-garden|祖父法鲁克的花园|forestlet|2021.5.29|
+|✅|grandpas-gold|爷爷的黄金|forestlet|2021.6.5|
+|✅|gracas-dream|格蕾卡的梦想|forestlet|2021.6.5|

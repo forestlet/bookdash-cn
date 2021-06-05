@@ -338,5 +338,32 @@
             "自然"
         ],
         "src": "https://bookdash.org/books/grandpa-farouks-garden-by-sam-van-riet-matthew-kalil-and-nina-lewis/"
+    },
+    "grandpas-gold": {
+        "book_cn": "爷爷的黄金",
+        "contents": "孩子们正在谈论着他们的祖父。长颈鹿的爷爷可以建造摩天大楼。大象的爷爷可以做一顿丰盛的大餐。但谁的爷爷会给孩子们最大的惊喜呢？",
+        "cover": "grandpas-gold/grandpas-gold_cover.jpg",
+        "file": "grandpas-gold/grandpas-gold_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.5",
+        "tags": [
+            "爷爷",
+            "黄金",
+            "惊喜"
+        ],
+        "src": "https://bookdash.org/books/grandpas-gold-by-kerry-saadien-raad-elsabe-milandri-and-mathilde-de-blois/"
+    },
+    "gracas-dream": {
+        "book_cn": "格蕾卡的梦想",
+        "contents": "格蕾卡马歇尔的励志故事，以及她向莫桑比克和非洲其他地区的孩子们，灌输对阅读和学习热爱的梦想。",
+        "cover": "gracas-dream/gracas-dream_cover.jpg",
+        "file": "gracas-dream/gracas-dream_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.5",
+        "tags": [
+            "梦想",
+            "非洲"
+        ],
+        "src": "https://bookdash.org/books/gracas-dream-by-melissa-fagan-karlien-de-villiers-and-marike-le-roux/"
     }
 }
