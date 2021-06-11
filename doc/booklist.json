@@ -390,16 +390,16 @@
         ],
         "src": "https://bookdash.org/books/hello-baby-by-demi-sue-meyer-diane-awerbuck-christian-jaggers/"
     },
-    "hello-baby": {
-        "book_cn": "你好，孩子",
-        "contents": "孩子在哪儿？",
-        "cover": "hello-baby/hello-baby_cover.jpg",
-        "file": "hello-baby/hello-baby_cn.pdf",
+    "hippo-wants-to-dance": {
+        "book_cn": "河马想跳舞",
+        "contents": "河马想跳舞。会有人和她一起跳吗？",
+        "cover": "hippo-wants-to-dance/hippo-wants-to-dance_cover.jpg",
+        "file": "hippo-wants-to-dance/hippo-wants-to-dance_cn.pdf",
         "translator": "forestlet",
         "date": "2021.6.11",
         "tags": [
-            "孩子"
+            "跳舞"
         ],
-        "src": "https://bookdash.org/books/hello-baby-by-demi-sue-meyer-diane-awerbuck-christian-jaggers/"
+        "src": "https://bookdash.org/books/hippo-wants-dance-megan-andrews-sam-beckbessinger-marisa-steyn/"
     }
 }
