@@ -31,3 +31,4 @@
 |✅|grandpas-gold|爷爷的黄金|forestlet|2021.6.5|
 |✅|gracas-dream|格蕾卡的梦想|forestlet|2021.6.5|
 |✅|hello|你好|forestlet|2021.6.11|
+|✅|hello-baby|你好，孩子|forestlet|2021.6.11|

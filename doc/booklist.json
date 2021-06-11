@@ -377,5 +377,29 @@
             "朋友"
         ],
         "src": "https://bookdash.org/books/hello-rox-jaden-palmer-imile-wepener-jennie-marima/"
+    },
+    "hello-baby": {
+        "book_cn": "你好，孩子",
+        "contents": "孩子在哪儿？",
+        "cover": "hello-baby/hello-baby_cover.jpg",
+        "file": "hello-baby/hello-baby_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.11",
+        "tags": [
+            "孩子"
+        ],
+        "src": "https://bookdash.org/books/hello-baby-by-demi-sue-meyer-diane-awerbuck-christian-jaggers/"
+    },
+    "hello-baby": {
+        "book_cn": "你好，孩子",
+        "contents": "孩子在哪儿？",
+        "cover": "hello-baby/hello-baby_cover.jpg",
+        "file": "hello-baby/hello-baby_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.11",
+        "tags": [
+            "孩子"
+        ],
+        "src": "https://bookdash.org/books/hello-baby-by-demi-sue-meyer-diane-awerbuck-christian-jaggers/"
     }
 }
