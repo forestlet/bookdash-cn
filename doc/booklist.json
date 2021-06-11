@@ -365,5 +365,17 @@
             "非洲"
         ],
         "src": "https://bookdash.org/books/gracas-dream-by-melissa-fagan-karlien-de-villiers-and-marike-le-roux/"
+    },
+    "hello": {
+        "book_cn": "你好",
+        "contents": "洛洛有很多可爱的朋友，他们是太阳、月亮、星星、小鸟。她很想把他们介绍给你。",
+        "cover": "hello/hello_cover.jpg",
+        "file": "hello/hello_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.11",
+        "tags": [
+            "朋友"
+        ],
+        "src": "https://bookdash.org/books/hello-rox-jaden-palmer-imile-wepener-jennie-marima/"
     }
 }
