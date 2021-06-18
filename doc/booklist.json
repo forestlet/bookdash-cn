@@ -426,5 +426,17 @@
             "拥抱"
         ],
         "src": "https://bookdash.org/books/hugs-city-jp-brouard-milly-brouard-kalynne-vorster/"
+    },
+    "i-can-dress-myself": {
+        "book_cn": "我会自己穿衣",
+        "contents": "妈妈在睡觉，于是这个独立的小女孩决定自己穿衣服。",
+        "cover": "i-can-dress-myself/i-can-dress-myself_cover.jpg",
+        "file": "i-can-dress-myself/i-can-dress-myself_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.18",
+        "tags": [
+            "自己"
+        ],
+        "src": "https://bookdash.org/books/i-can-dress-myself-by-nontobeko-kunene-heidel-dedekind-and-bridget-krone/"
     }
 }
