@@ -66,9 +66,10 @@ function showCarousels(book_info, book_num) {
 
 // update cards
 function showCards(book_info, book_num) {
-    // console.log("showCards");
 
-    let current_page = localStorage.getItem("page")
+    const paramsStr = window.location.search
+    const params = new URLSearchParams(paramsStr)
+    let current_page = params.get('page')
 
     // clean up
     for (let j = 0; j < 12; j++) {
