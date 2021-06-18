@@ -413,5 +413,18 @@
             "朋友"
         ],
         "src": "https://bookdash.org/books/how-about-you-by-renate-van-rensburg-margot-bertelsmann-and-ronell-botes/"
+    },
+    "hugs-in-the-city": {
+        "book_cn": "城市里的拥抱",
+        "contents": "这是吉莉。今天她抱了镇上大部分的猫！",
+        "cover": "hugs-in-the-city/hugs-in-the-city_cover.jpg",
+        "file": "hugs-in-the-city/hugs-in-the-city_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.18",
+        "tags": [
+            "猫",
+            "拥抱"
+        ],
+        "src": "https://bookdash.org/books/hugs-city-jp-brouard-milly-brouard-kalynne-vorster/"
     }
 }
