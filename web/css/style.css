@@ -30,7 +30,7 @@
 
 .carousel-item .imgContainer > img:last-of-type {
   width: 100%;
-  filter: blur(20px);
+  filter: blur(40px);
   z-index: 1;
   position: absolute;
 }
