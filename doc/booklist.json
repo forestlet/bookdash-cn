@@ -401,5 +401,17 @@
             "跳舞"
         ],
         "src": "https://bookdash.org/books/hippo-wants-dance-megan-andrews-sam-beckbessinger-marisa-steyn/"
+    },
+    "how-about-you": {
+        "book_cn": "你呢？",
+        "contents": "不需要相似才能做朋友。当两个截然不同的孩子遇到一个不寻常的生物时，是机会问问：“你呢？”",
+        "cover": "how-about-you/how-about-you_cover.jpg",
+        "file": "how-about-you/how-about-you_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.18",
+        "tags": [
+            "朋友"
+        ],
+        "src": "https://bookdash.org/books/how-about-you-by-renate-van-rensburg-margot-bertelsmann-and-ronell-botes/"
     }
 }
