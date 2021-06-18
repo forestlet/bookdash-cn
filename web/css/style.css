@@ -16,8 +16,23 @@
 .carousel-item {
   height: 32rem;
 }
-.carousel-item > img {
+
+.carousel-item .imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item .imgContainer > img:first-of-type {
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+}
+
+.carousel-item .imgContainer > img:last-of-type {
   width: 100%;
+  filter: blur(20px);
+  z-index: 1;
+  position: absolute;
 }
 
 /* MARKETING CONTENT
