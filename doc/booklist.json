@@ -438,5 +438,18 @@
             "自己"
         ],
         "src": "https://bookdash.org/books/i-can-dress-myself-by-nontobeko-kunene-heidel-dedekind-and-bridget-krone/"
+    },
+    "i-dont-want-to-go-to-sleep": {
+        "book_cn": "我不想睡觉",
+        "contents": "南迪不想睡觉。没办法！她想去冒险。加入南迪，让想象力自由驰骋。",
+        "cover": "i-dont-want-to-go-to-sleep/i-dont-want-to-go-to-sleep_cover.jpg",
+        "file": "i-dont-want-to-go-to-sleep/i-dont-want-to-go-to-sleep_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.26",
+        "tags": [
+            "睡觉",
+            "冒险"
+        ],
+        "src": "https://bookdash.org/books/i-dont-want-to-go-to-sleep-by-subi-bosa-sarah-mcgregor-and-alexia-greef/"
     }
 }
