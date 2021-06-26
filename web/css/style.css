@@ -126,3 +126,11 @@ a.page-link {
 .img_frame img {
   width: 100%;
 }
+
+.tags {
+  margin: 10px 0;
+}
+
+.tags .badge {
+  margin-right: 10px;
+}

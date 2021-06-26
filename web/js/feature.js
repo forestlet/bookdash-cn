@@ -88,6 +88,10 @@ function showCards(book_info, book_num) {
         this_card.find("img").attr("src", "../asset/" + this_book.cover)
         this_card.find("img").attr("alt", this_book.book_cn)
         this_card.find("h3").text(this_book.book_cn)
+        this_book.tags.forEach(tag => {
+            let tag_element = `<span class="badge bg-light text-dark">${tag}</span>`
+            this_card.find(".tags").append(tag_element)
+        })
         this_card.find("p.card-text").text(this_book.contents)
         this_card.find("button").eq(0).attr("data-bs-toggle", "modal")
         this_card.find("button").eq(0).attr("data-bs-target", "#viewer")
