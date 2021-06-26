@@ -464,5 +464,18 @@
             "颜色"
         ],
         "src": "https://bookdash.org/books/im-the-colour-of-honey/"
+    },
+    "it-wasnt-me": {
+        "book_cn": "不是我干的",
+        "contents": "妈妈就出去五分钟。会出什么问题呢？",
+        "cover": "it-wasnt-me/it-wasnt-me_cover.jpg",
+        "file": "it-wasnt-me/it-wasnt-me_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.6.26",
+        "tags": [
+            "猫",
+            "狗"
+        ],
+        "src": "https://bookdash.org/books/wasnt-lesley-beake-gwendoline-van-der-merwe-alexandria-mackinnon/"
     }
 }
