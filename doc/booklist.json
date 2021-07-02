@@ -477,5 +477,17 @@
             "狗"
         ],
         "src": "https://bookdash.org/books/wasnt-lesley-beake-gwendoline-van-der-merwe-alexandria-mackinnon/"
+    },
+    "i-want-to": {
+        "book_cn": "我想要",
+        "contents": "这个可爱的小宝宝很清楚自己想要什么。她想吃东西，玩东西，还想和妈妈一起读书！",
+        "cover": "i-want-to/i-want-to_cover.jpg",
+        "file": "i-want-to/i-want-to_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.7.2",
+        "tags": [
+            "宝贝"
+        ],
+        "src": "https://bookdash.org/books/i-want-to-by-mary-anne-hampton-sam-wilson-pippa-serritslev/"
     }
 }
