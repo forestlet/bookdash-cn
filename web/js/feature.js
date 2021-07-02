@@ -55,10 +55,16 @@ function showCarousels(book_info, book_num) {
         this_carousel.find("img").attr("src", "../asset/" + this_book.cover)
         this_carousel.find("img").attr("alt", this_book.book_cn)
         this_carousel.find("h1").text(this_book.book_cn)
+        this_book.tags.forEach(tag => {
+            let tag_element = `<span class="badge bg-light text-dark">${tag}</span>`
+            this_carousel.find(".tags").append(tag_element)
+        })
         this_carousel.find("p").eq(0).text(this_book.contents)
-        this_carousel.find("button").attr("data-bs-toggle", "modal")
-        this_carousel.find("button").attr("data-bs-target", "#viewer")
-        this_carousel.find("button").attr("data-bs-file", "../asset/" + this_book.file)
+        this_carousel.find("button").eq(0).attr("data-bs-toggle", "modal")
+        this_carousel.find("button").eq(0).attr("data-bs-target", "#viewer")
+        this_carousel.find("button").eq(0).attr("data-bs-file", "../asset/" + this_book.file)
+        this_carousel.find("small").text(`翻译日期：${this_book.date}`)
+        this_carousel.find(".en-url").eq(0).attr("href", this_book.src)
         this_carousel.find("a").eq(0).attr("href", "../asset/" + this_book.file)
         this_carousel.find("a").eq(0).attr("download", "../asset/" + this_book.file)
     }
@@ -96,7 +102,8 @@ function showCards(book_info, book_num) {
         this_card.find("button").eq(0).attr("data-bs-toggle", "modal")
         this_card.find("button").eq(0).attr("data-bs-target", "#viewer")
         this_card.find("button").eq(0).attr("data-bs-file", "../asset/" + this_book.file)
-        this_card.find("small.text-muted").text(this_book.date)
+        this_card.find("small").text(`翻译日期：${this_book.date}`)
+        this_card.find(".en-url").eq(0).attr("href", this_book.src)
         this_card.find("button").eq(1).find("a").attr("href", "../asset/" + this_book.file)
         this_card.find("button").eq(1).find("a").attr("download", "../asset/" + this_book.file)
     }
