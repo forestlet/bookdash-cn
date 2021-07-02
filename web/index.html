@@ -474,27 +474,27 @@
         window.location = window.location.origin + window.location.pathname + "?page=1"
       }
 
-      let page_start = '<li class="page-item" title="上一页"><a class="page-link" aria-label="上一页"><span aria-hidden="true">&laquo;</span></a></li>'
+      let page_start = '<li class="page-item" title="上一页"><a class="page-link" aria-label="上一页"><span aria-hidden="true">&lt;</span></a></li>'
       $("ul.pagination").append(page_start)
       for (let page = 0; page < page_len; page++) {
         let page_item = `<li class='page-item' title="第${page + 1}页"><a class='page-link'>${page + 1}</a></li>`
         $("ul.pagination").append(page_item)
       }
-      let page_end = '<li class="page-item" title="下一页"><a class="page-link" aria-label="下一页"><span aria-hidden="true">&raquo;</span></a></li>'
+      let page_end = '<li class="page-item" title="下一页"><a class="page-link" aria-label="下一页"><span aria-hidden="true">&gt;</span></a></li>'
       $("ul.pagination").append(page_end)
 
       stylePage(current_page, page_len)
 
       $('li.page-item').on("click", (event) => {
         let page_click = event.target.innerText
-        if (page_click == "«" && current_page > 1) {
+        if (page_click == "<" && current_page > 1) {
           window.location = window.location.origin + window.location.pathname + "?page=" + parseInt(parseInt(current_page) - 1)
         }
-        else if (page_click == "»" && current_page < page_len) {
+        else if (page_click == ">" && current_page < page_len) {
           console.log(current_page + 1);
           window.location = window.location.origin + window.location.pathname + "?page=" + parseInt(parseInt(current_page) + 1)
         }
-        else if (page_click != "«" && page_click != "»") {
+        else if (page_click != "<" && page_click != ">") {
           window.location = window.location.origin + window.location.pathname + "?page=" + page_click
         }
         else {
@@ -502,7 +502,6 @@
         }
 
         // update
-        current_page = localStorage.getItem("page")
         stylePage(current_page, page_len)
         showCarousels(book_info, book_num)
         showCards(book_info, book_num)
