@@ -489,5 +489,18 @@
             "宝贝"
         ],
         "src": "https://bookdash.org/books/i-want-to-by-mary-anne-hampton-sam-wilson-pippa-serritslev/"
+    },
+    "i-will-help-you": {
+        "book_cn": "我来帮你",
+        "contents": "当鹭妈妈需要帮助时，隆基尔来帮她。",
+        "cover": "i-will-help-you/i-will-help-you_cover.jpg",
+        "file": "i-will-help-you/i-will-help-you_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.7.2",
+        "tags": [
+            "鹭",
+            "帮助"
+        ],
+        "src": "https://bookdash.org/books/i-will-help-you-by-fathima-kathrada-olivia-villet-and-andrea-abbott/"
     }
 }
