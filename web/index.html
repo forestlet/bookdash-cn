@@ -510,8 +510,6 @@
       let page_last = '<li class="page-item" title="末页"><a class="page-link" aria-label="末页"><span aria-hidden="true">&raquo;</span></a></li>'
       $("ul.pagination").append(page_last)
 
-      stylePage(current_page, page_len)
-
       $('li.page-item').on("click", (event) => {
         let page_click = event.target.innerText
         if (page_click == "»" && current_page != page_len) {
@@ -533,17 +531,12 @@
         else {
           return
         }
-
-        // update
-        stylePage(current_page, page_len)
-        showCarousels(book_info, book_num)
-        showCards(book_info, book_num)
-        // backToTop()
       })
 
+      // 页码样式
+      stylePage(current_page, page_len)
       // carousels
       showCarousels(book_info, book_num)
-
       // cards
       showCards(book_info, book_num)
     })
