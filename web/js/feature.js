@@ -35,9 +35,15 @@ $("#viewer").on('hide.bs.modal', () => {
 function stylePage(current_page, page_len) {
     $("li.page-item").attr("class", "page-item")
     // page active & disable
-    if (current_page == 1) { $("li.page-item").eq(0).attr("class", "page-item disabled") }
-    if (current_page == page_len) { $("li.page-item").eq(page_len + 1).attr("class", "page-item disabled") }
-    $("li.page-item").eq(current_page).attr("class", "page-item active")
+    if (current_page == 1) {
+        $("li.page-item").eq(0).attr("class", "page-item disabled")
+        $("li.page-item").eq(1).attr("class", "page-item disabled")
+    }
+    if (current_page == page_len) {
+        $("li.page-item").eq(7).attr("class", "page-item disabled")
+        $("li.page-item").eq(8).attr("class", "page-item disabled")
+    }
+    $(`[title="第${current_page}页"]`).attr("class", "page-item active")
 }
 
 // update carousels

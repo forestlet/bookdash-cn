@@ -474,27 +474,60 @@
         window.location = window.location.origin + window.location.pathname + "?page=1"
       }
 
-      let page_start = '<li class="page-item" title="上一页"><a class="page-link" aria-label="上一页"><span aria-hidden="true">&lt;</span></a></li>'
-      $("ul.pagination").append(page_start)
-      for (let page = 0; page < page_len; page++) {
-        let page_item = `<li class='page-item' title="第${page + 1}页"><a class='page-link'>${page + 1}</a></li>`
-        $("ul.pagination").append(page_item)
+      let page_first = '<li class="page-item" title="首页"><a class="page-link" aria-label="首页"><span aria-hidden="true">&laquo;</span></a></li>'
+      $("ul.pagination").append(page_first)
+      let page_prev = '<li class="page-item" title="上一页"><a class="page-link" aria-label="上一页"><span aria-hidden="true">&lt;</span></a></li>'
+      $("ul.pagination").append(page_prev)
+
+      // 只显示相邻 5 页
+      let pages = []
+      if (page_len >= 5) {
+        if (current_page - 2 < 1) {
+          let offset = 1 - (current_page - 2)
+          pages = [current_page - 2 + offset, current_page - 1 + offset, parseInt(current_page) + offset, parseInt(current_page) + 1 + offset, parseInt(current_page) + 2 + offset]
+        }
+        else if (parseInt(current_page) + 2 > page_len) {
+          let offset = parseInt(current_page) + 2 - page_len
+          pages = [current_page - 2 - offset, current_page - 1 - offset, parseInt(current_page) - offset, parseInt(current_page) + 1 - offset, parseInt(current_page) + 2 - offset]
+        }
+        else {
+          pages = [current_page - 2, current_page - 1, current_page, parseInt(current_page) + 1, parseInt(current_page) + 2]
+        }
       }
-      let page_end = '<li class="page-item" title="下一页"><a class="page-link" aria-label="下一页"><span aria-hidden="true">&gt;</span></a></li>'
-      $("ul.pagination").append(page_end)
+      else {
+        let i = 1
+        while (i <= page_len) {
+          pages.push(i++)
+        }
+      }
+      pages.forEach((page) => {
+        let page_item = `<li class='page-item' title="第${page}页"><a class='page-link'>${page}</a></li>`
+        $("ul.pagination").append(page_item)
+      })
+
+      let page_next = '<li class="page-item" title="下一页"><a class="page-link" aria-label="下一页"><span aria-hidden="true">&gt;</span></a></li>'
+      $("ul.pagination").append(page_next)
+      let page_last = '<li class="page-item" title="末页"><a class="page-link" aria-label="末页"><span aria-hidden="true">&raquo;</span></a></li>'
+      $("ul.pagination").append(page_last)
 
       stylePage(current_page, page_len)
 
       $('li.page-item').on("click", (event) => {
         let page_click = event.target.innerText
-        if (page_click == "<" && current_page > 1) {
+        if (page_click == "»" && current_page != page_len) {
+          window.location = window.location.origin + window.location.pathname + "?page=" + page_len
+        }
+        else if (page_click == "«" && current_page != 1) {
+          window.location = window.location.origin + window.location.pathname + "?page=1"
+        }
+        else if (page_click == "<" && current_page > 1) {
           window.location = window.location.origin + window.location.pathname + "?page=" + parseInt(parseInt(current_page) - 1)
         }
         else if (page_click == ">" && current_page < page_len) {
           console.log(current_page + 1);
           window.location = window.location.origin + window.location.pathname + "?page=" + parseInt(parseInt(current_page) + 1)
         }
-        else if (page_click != "<" && page_click != ">") {
+        else if (page_click != "<" && page_click != ">" && page_click != "«" && page_click != "»") {
           window.location = window.location.origin + window.location.pathname + "?page=" + page_click
         }
         else {
