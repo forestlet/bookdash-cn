@@ -502,5 +502,18 @@
             "帮助"
         ],
         "src": "https://bookdash.org/books/i-will-help-you-by-fathima-kathrada-olivia-villet-and-andrea-abbott/"
+    },
+    "just-like-me": {
+        "book_cn": "像我一样",
+        "contents": "快到拉哈的生日派对了，妈妈想知道她会邀请谁，他们都能玩得开心吗？",
+        "cover": "just-like-me/just-like-me_cover.jpg",
+        "file": "just-like-me/just-like-me_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.7.10",
+        "tags": [
+            "朋友",
+            "生日"
+        ],
+        "src": "https://bookdash.org/books/just-like-mary-anne-hampton-hani-du-toit-christian-jaggers/"
     }
 }
