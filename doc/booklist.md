@@ -42,3 +42,4 @@
 |✅|i-want-to|我想要|forestlet|2021.7.2|
 |✅|i-will-help-you|我来帮你|forestlet|2021.7.2|
 |✅|just-like-me|像我一样|forestlet|2021.7.10|
+|✅|karabos-question|卡拉波的疑问|forestlet|2021.7.17|

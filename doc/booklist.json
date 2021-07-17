@@ -515,5 +515,17 @@
             "生日"
         ],
         "src": "https://bookdash.org/books/just-like-mary-anne-hampton-hani-du-toit-christian-jaggers/"
+    },
+    "karabos-question": {
+        "book_cn": "卡拉波的疑问",
+        "contents": "小卡拉波看着家里所有的大人，想知道：“我该做什么？我知道什么？”",
+        "cover": "karabos-question/karabos-question_cover.jpg",
+        "file": "karabos-question/karabos-question_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.7.17",
+        "tags": [
+            "成长"
+        ],
+        "src": "https://bookdash.org/books/karabos-question-by-natalie-edwards-liesl-jobson-and-marike-beyleveld/"
     }
 }
