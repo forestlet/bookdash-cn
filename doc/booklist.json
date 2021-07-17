@@ -527,5 +527,18 @@
             "成长"
         ],
         "src": "https://bookdash.org/books/karabos-question-by-natalie-edwards-liesl-jobson-and-marike-beyleveld/"
+    },
+    "katiitis-song": {
+        "book_cn": "卡蒂提的歌",
+        "contents": "每天，卡蒂提的妈妈都会唱一首优美的歌叫她回家。一天，一只狡猾的大猩猩试图唱得像她妈妈一样甜美。",
+        "cover": "katiitis-song/katiitis-song_cover.jpg",
+        "file": "katiitis-song/katiitis-song_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.7.17",
+        "tags": [
+            "唱歌",
+            "猩猩"
+        ],
+        "src": "https://bookdash.org/books/katiitis-song-philippa-namutebi-kabali-kagwa-mary-marble-kirsten-walker/"
     }
 }
