@@ -119,3 +119,12 @@ nav {
 a.page-link {
   cursor: pointer;
 }
+
+.up {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.pagination i {
+  font-size: 0.6rem;
+}
