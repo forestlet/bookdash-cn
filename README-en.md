@@ -95,7 +95,7 @@ Translation process
 
 6. New added picture book will be automatically posted to the web page 🚀
 
-## Implementation
+## Tech to Implement
 
 1. [bootstrap](https://getbootstrap.com/)
 
