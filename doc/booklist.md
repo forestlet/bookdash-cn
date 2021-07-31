@@ -45,3 +45,4 @@
 |✅|karabos-question|卡拉波的疑问|forestlet|2021.07.17|
 |✅|katiitis-song|卡蒂提的歌|forestlet|2021.07.17|
 |✅|knight-times|骑士时间|forestlet|2021.07.31|
+|✅|lara-the-yellow-ladybird|黄色瓢虫劳拉|forestlet|2021.07.31|

@@ -554,5 +554,19 @@
             "扮演"
         ],
         "src": "https://bookdash.org/books/knight-times-dianne-makings-nicola-smith-luke-mateman-colin-payne/"
+    },
+    "lara-the-yellow-ladybird": {
+        "book_cn": "黄色瓢虫劳拉",
+        "contents": "在全是红色瓢虫的世界，黄色瓢虫劳拉想要融入其中。",
+        "cover": "lara-the-yellow-ladybird/lara-the-yellow-ladybird_cover.jpg",
+        "file": "lara-the-yellow-ladybird/lara-the-yellow-ladybird_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.07.31",
+        "tags": [
+            "骑士",
+            "玩耍",
+            "扮演"
+        ],
+        "src": "https://bookdash.org/books/yellow-ladybird-martha-evans-catherine-holtzhausen-nadene-kriel/"
     }
 }
