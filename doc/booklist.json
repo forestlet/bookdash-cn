@@ -569,7 +569,7 @@
         ],
         "src": "https://bookdash.org/books/yellow-ladybird-martha-evans-catherine-holtzhausen-nadene-kriel/"
     },
-    "little-shoots":{
+    "little-shoots": {
         "book_cn": "小芽",
         "contents": "拉约迫不及待地想要长大，但就像他和奶奶种的竹子一样，可能需要花比他想的更长一些的时间！",
         "cover": "little-shoots/little-shoots_cover.jpg",
@@ -580,5 +580,18 @@
             "成长"
         ],
         "src": "https://bookdash.org/books/little-shoots/"
+    },
+    "little-sock": {
+        "book_cn": "小袜子和小生物",
+        "contents": "今天是洗袜子的日子，但是小袜子去哪里了？",
+        "cover": "little-sock/little-sock_cover.jpg",
+        "file": "little-sock/little-sock_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.08.07",
+        "tags": [
+            "袜子",
+            "冒险"
+        ],
+        "src": "https://bookdash.org/books/little-sock-tiny-creatures-lili-probart-jon-keevy-chani-coetzee/"
     }
 }
