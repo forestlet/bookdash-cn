@@ -31,8 +31,78 @@ $("#viewer").on('hide.bs.modal', () => {
     $(".modal-body").empty()
 })
 
+// search
+$("#searchBtn").click(() => {
+    if ($("#searchInput").val() == "") return
+    let search = $("#searchInput").val()
+
+    window.open(window.location.origin + window.location.pathname.replace("index.html", `page/search.html?search=${search}`))
+})
+
+// pages
+function setPagination(current_page, page_len) {
+    let page_first = '<li class="page-item" title="首页"><a class="page-link" aria-label="首页"><i class="bi bi-chevron-double-left"></i></a></li>'
+    $("ul.pagination").append(page_first)
+    let page_prev = '<li class="page-item" title="上一页"><a class="page-link" aria-label="上一页"><i class="bi bi-chevron-left"></i></a></li>'
+    $("ul.pagination").append(page_prev)
+
+    // 只显示相邻 5 页
+    let pages = []
+    if (page_len >= 5) {
+        if (current_page - 2 < 1) {
+            let offset = 1 - (current_page - 2)
+            pages = [current_page - 2 + offset, current_page - 1 + offset, parseInt(current_page) + offset, parseInt(current_page) + 1 + offset, parseInt(current_page) + 2 + offset]
+        }
+        else if (parseInt(current_page) + 2 > page_len) {
+            let offset = parseInt(current_page) + 2 - page_len
+            pages = [current_page - 2 - offset, current_page - 1 - offset, parseInt(current_page) - offset, parseInt(current_page) + 1 - offset, parseInt(current_page) + 2 - offset]
+        }
+        else {
+            pages = [current_page - 2, current_page - 1, current_page, parseInt(current_page) + 1, parseInt(current_page) + 2]
+        }
+    }
+    else {
+        let i = 1
+        while (i <= page_len) {
+            pages.push(i++)
+        }
+    }
+    pages.forEach((page) => {
+        let page_item = `<li class='page-item' title="第${page}页"><a class='page-link'>${page}</a></li>`
+        $("ul.pagination").append(page_item)
+    })
+
+    let page_next = '<li class="page-item" title="下一页"><a class="page-link" aria-label="下一页"><i class="bi bi-chevron-right"></i></a></li>'
+    $("ul.pagination").append(page_next)
+    let page_last = '<li class="page-item" title="末页"><a class="page-link" aria-label="末页"><i class="bi bi-chevron-double-right"></i></a></li>'
+    $("ul.pagination").append(page_last)
+
+    $('li.page-item').on("click", (event) => {
+        let page_click_innerHTML = event.currentTarget.innerHTML
+        if (page_click_innerHTML.match(/\d/)) {
+            window.location = window.location.origin + window.location.pathname + "?page=" + page_click_innerHTML.match(/\d/)
+        }
+        else if (page_click_innerHTML.includes("末页") && current_page != page_len) {
+            window.location = window.location.origin + window.location.pathname + "?page=" + page_len
+        }
+        else if (page_click_innerHTML.includes("首页") && current_page != 1) {
+            window.location = window.location.origin + window.location.pathname + "?page=1"
+        }
+        else if (page_click_innerHTML.includes("上一页") && current_page > 1) {
+            window.location = window.location.origin + window.location.pathname + "?page=" + parseInt(parseInt(current_page) - 1)
+        }
+        else if (page_click_innerHTML.includes("下一页") && current_page < page_len) {
+            console.log(current_page + 1);
+            window.location = window.location.origin + window.location.pathname + "?page=" + parseInt(parseInt(current_page) + 1)
+        }
+        else {
+            return
+        }
+    })
+}
+
 // change page-item style
-function stylePage(current_page, page_len) {
+function highLightPagination(current_page, page_len) {
     $("li.page-item").attr("class", "page-item")
     // page active & disable
     if (current_page == 1) {
@@ -126,4 +196,24 @@ function showCards(book_info, book_num) {
 function backToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+}
+
+function showPage(book_info) {
+    let book_num = book_info.size
+    let page_len = Math.ceil(book_num / 12)
+
+    const paramsStr = window.location.search
+    const params = new URLSearchParams(paramsStr)
+    let current_page = params.get('page')
+    if (current_page == null) {
+        window.location = window.location.origin + window.location.pathname + "?page=1"
+    }
+
+    setPagination(current_page, page_len)
+    // 页码样式
+    highLightPagination(current_page, page_len)
+    // carousels
+    showCarousels(book_info, book_num)
+    // cards
+    showCards(book_info, book_num)
 }

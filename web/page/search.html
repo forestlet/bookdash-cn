@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    👷 正在施工中ing...
+    请耐心等待~🤗
+    <script>
+        function searchPictureBook(book_info) {
+            let searchBook = new Map([])
+            let book_keys = book_info.keys();
+            let book_names = [...book_keys];
+
+            for (let i = 0; i < book_info.size; i++) {
+                // console.log(book_info.get(book_names[i]));
+                let this_book = book_info.get(book_names[i])
+                if (
+                    this_book.book_cn.includes(search)
+                    || this_book.contents.includes(search)
+                    || this_book.tags.includes(search)
+                    && !searchBook.has(this_book.book_cn)
+                )
+                    searchBook.set(book_names[i], this_book)
+            }
+
+            showPage(searchBook)
+        }
+    </script>
+</body>
+
+</html>
