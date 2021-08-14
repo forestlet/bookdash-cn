@@ -355,7 +355,7 @@
     },
     "gracas-dream": {
         "book_cn": "格蕾卡的梦想",
-        "contents": "格蕾卡马歇尔的励志故事，以及她向莫桑比克和非洲其他地区的孩子们，灌输对阅读和学习热爱的梦想。",
+        "contents": "格蕾卡·马歇尔的励志故事，以及她向莫桑比克和非洲其他地区的孩子们灌输对阅读和学习的梦想。",
         "cover": "gracas-dream/gracas-dream_cover.jpg",
         "file": "gracas-dream/gracas-dream_cn.pdf",
         "translator": "forestlet",
@@ -593,5 +593,17 @@
             "冒险"
         ],
         "src": "https://bookdash.org/books/little-sock-tiny-creatures-lili-probart-jon-keevy-chani-coetzee/"
+    },
+    "londi-the-dreaming-girl": {
+        "book_cn": "隆迪 爱做梦的女孩",
+        "contents": "隆迪喜欢整日做梦。她的梦会带她去到哪里？",
+        "cover": "londi-the-dreaming-girl/londi-the-dreaming-girl_cover.jpg",
+        "file": "londi-the-dreaming-girl/londi-the-dreaming-girl_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.08.14",
+        "tags": [
+            "梦"
+        ],
+        "src": "https://bookdash.org/books/londi-the-dreaming-girl-by-lauren-holliday-and-nathalie-koenig/"
     }
 }
