@@ -618,5 +618,18 @@
             "情绪"
         ],
         "src": "https://bookdash.org/books/how-to-tame-a-monster/"
+    },
+    "lesedis-sandbox": {
+        "book_cn": "莱塞迪的沙箱",
+        "contents": "莱塞迪的梦想是去海滩。他想用脚趾感受沙砾，然后建造一座沙堡。所以他的爸爸妈妈想出了一个计划……",
+        "cover": "lesedis-sandbox/lesedis-sandbox_cover.jpg",
+        "file": "lesedis-sandbox/lesedis-sandbox_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.08.28",
+        "tags": [
+            "惊喜",
+            "沙箱"
+        ],
+        "src": "https://bookdash.org/books/lesedis-sandbox/"
     }
 }
