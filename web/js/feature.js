@@ -33,11 +33,21 @@ $("#viewer").on('hide.bs.modal', () => {
 
 // search
 $("#searchBtn").click(() => {
+    search()
+})
+
+$("#searchInput").bind('keypress', function (event) {
+    if (event.keyCode == "13") {
+        $("#searchBtn").click();
+    }
+});
+
+function search() {
     if ($("#searchInput").val() == "") return
     let search = $("#searchInput").val()
 
     window.open(window.location.origin + window.location.pathname.replace("index.html", `page/search.html?search=${search}`))
-})
+}
 
 // pages
 function setPagination(current_page, page_len) {

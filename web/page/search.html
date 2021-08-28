@@ -5,17 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>绘本小屋</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 110 110%22><text y=%221em%22 font-size=%2290%22>🏠</text></svg>">
 </head>
 
 <body>
     👷 正在施工中ing...
     请耐心等待~🤗
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.0-beta3/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/feature.js"></script>
     <script>
+        $.getJSON("../../doc/booklist.json", (data) => {
+            let book_info = new Map(Object.entries(data));
+            searchPictureBook(book_info)
+            // showPage(book_info)
+        })
+
         function searchPictureBook(book_info) {
             let searchBook = new Map([])
             let book_keys = book_info.keys();
             let book_names = [...book_keys];
+
+            const paramsStr = window.location.search
+            const params = new URLSearchParams(paramsStr)
+            let search = params.get('search')
 
             for (let i = 0; i < book_info.size; i++) {
                 // console.log(book_info.get(book_names[i]));
@@ -29,7 +49,7 @@
                     searchBook.set(book_names[i], this_book)
             }
 
-            showPage(searchBook)
+            console.log(searchBook);
         }
     </script>
 </body>
