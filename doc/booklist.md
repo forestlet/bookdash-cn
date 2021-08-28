@@ -49,3 +49,4 @@
 |✅|little-shoots|小芽|forestlet|2021.08.07|
 |✅|little-sock|小袜子和小生物|forestlet|2021.08.07|
 |✅|londi-the-dreaming-girl|隆迪 爱做梦的女孩|forestlet|2021.08.14|
+|✅|how-to-tame-a-monster|如何驯服怪兽|forestlet|2021.08.28|
