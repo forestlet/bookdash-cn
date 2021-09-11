@@ -631,5 +631,57 @@
             "沙箱"
         ],
         "src": "https://bookdash.org/books/lesedis-sandbox/"
+    },
+    "lions-are-always-brave": {
+        "book_cn": "狮子总是很勇敢",
+        "contents": "这只小狮子想让你知道狮子是强壮的、敏捷的，更重要的是勇敢的。但是地平线上的暴风云是什么？一个关于我们是谁以及我们认为我们应该是谁的故事。",
+        "cover": "lions-are-always-brave/lions-are-always-brave_cover.jpg",
+        "file": "lions-are-always-brave/lions-are-always-brave_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.09.04",
+        "tags": [
+            "狮子",
+            "勇敢"
+        ],
+        "src": "https://bookdash.org/books/lions-are-always-brave-by-carlos-amato-daniel-browde-and-thabang-tlhako/"
+    },
+    "lets-have-an-inside-day": {
+        "book_cn": "让我们今天宅在家里！",
+        "contents": "谁说下雨天不能变成令人兴奋的宅在家里的一天？",
+        "cover": "lets-have-an-inside-day/lets-have-an-inside-day_cover.jpg",
+        "file": "lets-have-an-inside-day/lets-have-an-inside-day_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.09.04",
+        "tags": [
+            "狮子",
+            "勇敢"
+        ],
+        "src": "https://bookdash.org/books/lets-have-an-inside-day-by-alicia-van-zyl-lerato-mbangeni-and-rendani-nemakhavhani/"
+    },
+    "little-goat": {
+        "book_cn": "小山羊",
+        "contents": "小山羊去寻找最甜的草，却没有意识到她离山羊妈妈越来越远……",
+        "cover": "little-goat/little-goat_cover.jpg",
+        "file": "little-goat/little-goat_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.09.11",
+        "tags": [
+            "山羊",
+            "草"
+        ],
+        "src": "https://bookdash.org/books/little-goat-tiffany-mac-sherry-nicola-anne-smith-mirna-lawrence/"
+    },
+    "little-ants-big-plan": {
+        "book_cn": "小蚂蚁大计划",
+        "contents": "这是一个关于一只有大计划的小蚂蚁，以及他对阅读的热爱如何拯救这一天的故事。",
+        "cover": "little-ants-big-plan/little-ants-big-plan_cover.jpg",
+        "file": "little-ants-big-plan/little-ants-big-plan_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.09.11",
+        "tags": [
+            "蚂蚁",
+            "计划"
+        ],
+        "src": "https://bookdash.org/books/little-ants-big-plan-by-candice-dingwall-steven-mckimmie-and-telri-stoop/"
     }
 }

@@ -51,3 +51,7 @@
 |✅|londi-the-dreaming-girl|隆迪 爱做梦的女孩|forestlet|2021.08.14|
 |✅|how-to-tame-a-monster|如何驯服怪兽|forestlet|2021.08.28|
 |✅|lesedis-sandbox|莱塞迪的沙箱|forestlet|2021.08.28|
+|✅|lions-are-always-brave|狮子总是很勇敢|forestlet|2021.09.04|
+|✅|lets-have-an-inside-day|让我们今天宅在家里！|forestlet|2021.09.04|
+|✅|little-goat|小山羊|forestlet|2021.09.11|
+|✅|little-ants-big-plan|小蚂蚁大计划|forestlet|2021.09.11|
