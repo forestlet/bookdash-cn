@@ -55,3 +55,4 @@
 |✅|lets-have-an-inside-day|让我们今天宅在家里！|forestlet|2021.09.04|
 |✅|little-goat|小山羊|forestlet|2021.09.11|
 |✅|little-ants-big-plan|小蚂蚁大计划|forestlet|2021.09.11|
+|✅|lonwabos-recipes|隆瓦波的食谱|forestlet|2021.09.11|

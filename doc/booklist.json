@@ -683,5 +683,18 @@
             "计划"
         ],
         "src": "https://bookdash.org/books/little-ants-big-plan-by-candice-dingwall-steven-mckimmie-and-telri-stoop/"
+    },
+    "lonwabos-recipes": {
+        "book_cn": "隆瓦波的食谱",
+        "contents": "隆瓦波喜欢帮助奶奶种蔬菜和为家人做美味的饭菜。他梦想着有一天开一家餐馆，像奶奶一样做饭。",
+        "cover": "lonwabos-recipes/lonwabos-recipes_cover.jpg",
+        "file": "lonwabos-recipes/lonwabos-recipes_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.09.11",
+        "tags": [
+            "食谱",
+            "食物"
+        ],
+        "src": "https://bookdash.org/books/lonwabos-recipes-mihlali-kumalo-sarah-rose-de-villiers-zandile-makina/"
     }
 }
