@@ -721,5 +721,18 @@
             "花园"
         ],
         "src": "https://bookdash.org/books/my-little-garden/"
+    },
+    "lost-toy": {
+        "book_cn": "长颈鹿丢了",
+        "contents": "小男孩弄丢了他最喜欢的玩偶，他好伤心，会有好心人帮忙吗？",
+        "cover": "lost-toy/lost-toy_cover.jpg",
+        "file": "lost-toy/lost-toy_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.09.25",
+        "tags": [
+            "玩偶",
+            "玩具"
+        ],
+        "src": "https://bookdash.org/books/lost-toy/"
     }
 }
