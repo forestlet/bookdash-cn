@@ -709,5 +709,17 @@
             "自我"
         ],
         "src": "https://bookdash.org/books/lory-dory-by-sonia-dearling-brendon-oneill-and-arthur-attwell/"
+    },
+    "my-little-garden": {
+        "book_cn": "我的小花园",
+        "contents": "小男孩和他爸爸发现一块满是垃圾的土地，他们能让它变得美丽起来吗？",
+        "cover": "my-little-garden/my-little-garden_cover.jpg",
+        "file": "my-little-garden/my-little-garden_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.09.25",
+        "tags": [
+            "花园"
+        ],
+        "src": "https://bookdash.org/books/my-little-garden/"
     }
 }
