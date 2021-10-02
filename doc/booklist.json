@@ -734,5 +734,18 @@
             "玩具"
         ],
         "src": "https://bookdash.org/books/lost-toy/"
+    },
+    "o-rain-come": {
+        "book_cn": "啊，下雨了",
+        "contents": "太热了！莉拉托和马亚弥托好无聊。咚咚！那是什么声音？",
+        "cover": "o-rain-come/o-rain-come_cover.jpg",
+        "file": "o-rain-come/o-rain-come_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.10.02",
+        "tags": [
+            "雨",
+            "玩耍"
+        ],
+        "src": "https://bookdash.org/books/o-rain-come/"
     }
 }
