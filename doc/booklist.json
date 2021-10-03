@@ -747,5 +747,18 @@
             "玩耍"
         ],
         "src": "https://bookdash.org/books/o-rain-come/"
+    },
+    "sizwes-smile": {
+        "book_cn": "西兹的微笑",
+        "contents": "今天西兹学到了：把微笑送人，也不会失去。",
+        "cover": "sizwes-smile/sizwes-smile_cover.jpg",
+        "file": "sizwes-smile/sizwes-smile_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.10.03",
+        "tags": [
+            "雨",
+            "微笑"
+        ],
+        "src": "https://bookdash.org/books/sizwes-smile-by-vianne-venter-genevieve-terblanche-and-lauren-rycroft/"
     }
 }
