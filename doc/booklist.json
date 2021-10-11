@@ -773,5 +773,18 @@
             "睡觉"
         ],
         "src": "https://bookdash.org/books/sleepy-mr-sloth-by-paul-kennedy-nick-mulgrew-and-graham-paterson/"
+    },
+    "small-birds-big-adventure": {
+        "book_cn": "小小鸟的大冒险",
+        "contents": "小小鸟爱着巨人，但是巨人去哪儿了？小小鸟踏上冒险之旅，为了找到她。",
+        "cover": "small-birds-big-adventure/small-birds-big-adventure_cover.jpg",
+        "file": "small-birds-big-adventure/small-birds-big-adventure_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.10.11",
+        "tags": [
+            "鸟",
+            "冒险"
+        ],
+        "src": "https://bookdash.org/books/small-birds-big-adventure-wesley-van-eeden-nick-mulgrew-jennifer-jacobs/"
     }
 }
