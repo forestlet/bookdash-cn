@@ -61,3 +61,4 @@
 |✅|lost-toy|长颈鹿丢了|forestlet|2021.09.25|
 |✅|o-rain-come|啊，下雨了|forestlet|2021.10.02|
 |✅|sizwes-smile|西兹的微笑|forestlet|2021.10.03|
+|✅|sleepy-mr-sloth|爱睡觉的树懒先生|forestlet|2021.10.11|

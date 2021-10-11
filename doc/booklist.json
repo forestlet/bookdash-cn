@@ -760,5 +760,18 @@
             "微笑"
         ],
         "src": "https://bookdash.org/books/sizwes-smile-by-vianne-venter-genevieve-terblanche-and-lauren-rycroft/"
+    },
+    "sleepy-mr-sloth": {
+        "book_cn": "爱睡觉的树懒先生",
+        "contents": "他很擅长爬树。他也知道怎么摇来摆去。但他最爱的事是睡觉，睡觉！",
+        "cover": "sleepy-mr-sloth/sleepy-mr-sloth_cover.jpg",
+        "file": "sleepy-mr-sloth/sleepy-mr-sloth_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.10.11",
+        "tags": [
+            "树懒",
+            "睡觉"
+        ],
+        "src": "https://bookdash.org/books/sleepy-mr-sloth-by-paul-kennedy-nick-mulgrew-and-graham-paterson/"
     }
 }
