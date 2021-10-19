@@ -799,5 +799,17 @@
             "惊喜"
         ],
         "src": "https://bookdash.org/books/thatos-birthday-surprise-by-brad-cuzen-corinne-lamoral-rosmarin-and-jodi-houareau/"
+    },
+    "tejus-shadow": {
+        "book_cn": "泰茹的影子",
+        "contents": "泰茹很担心。什么东西一直跟着他！那是什么？",
+        "cover": "tejus-shadow/tejus-shadow_cover.jpg",
+        "file": "tejus-shadow/tejus-shadow_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.10.19",
+        "tags": [
+            "影子"
+        ],
+        "src": "https://bookdash.org/books/tejus-shadow/"
     }
 }
