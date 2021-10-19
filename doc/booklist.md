@@ -63,3 +63,4 @@
 |✅|sizwes-smile|西兹的微笑|forestlet|2021.10.03|
 |✅|sleepy-mr-sloth|爱睡觉的树懒先生|forestlet|2021.10.11|
 |✅|small-birds-big-adventure|小小鸟的大冒险|forestlet|2021.10.11|
+|✅|thatos-birthday-surprise|塔托的生日惊喜|forestlet|2021.10.19|
