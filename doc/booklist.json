@@ -823,5 +823,17 @@
             "足球"
         ],
         "src": "https://bookdash.org/books/yapo-saves-the-day/"
+    },
+    "thats-not-thabi": {
+        "book_cn": "那不是塔比",
+        "contents": "露西找不到姐姐塔比。但她每到一个地方都看到了只可疑的河马。河马知道塔比在哪儿吗？",
+        "cover": "thats-not-thabi/thats-not-thabi_cover.jpg",
+        "file": "thats-not-thabi/thats-not-thabi_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.10.24",
+        "tags": [
+            "河马"
+        ],
+        "src": "https://bookdash.org/books/thats-not-thabi-thats-hippopotamus-jon-keevy-mbongeni-fongoqa-roule-le-roux/"
     }
 }

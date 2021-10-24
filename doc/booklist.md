@@ -66,3 +66,4 @@
 |✅|thatos-birthday-surprise|塔托的生日惊喜|forestlet|2021.10.19|
 |✅|tejus-shadow|泰茹的影子|forestlet|2021.10.19|
 |✅|yapo-saves-the-day|亚伯反败为胜|forestlet|2021.10.24|
+|✅|thats-not-thabi|那不是塔比|forestlet|2021.10.24|
