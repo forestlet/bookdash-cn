@@ -67,3 +67,4 @@
 |✅|tejus-shadow|泰茹的影子|forestlet|2021.10.19|
 |✅|yapo-saves-the-day|亚伯反败为胜|forestlet|2021.10.24|
 |✅|thats-not-thabi|那不是塔比|forestlet|2021.10.24|
+|✅|maddy-moona|玛迪·穆娜的动物园|forestlet|2021.10.24|

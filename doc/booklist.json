@@ -835,5 +835,19 @@
             "河马"
         ],
         "src": "https://bookdash.org/books/thats-not-thabi-thats-hippopotamus-jon-keevy-mbongeni-fongoqa-roule-le-roux/"
+    },
+    "maddy-moona": {
+        "book_cn": "玛迪·穆娜的动物园",
+        "contents": "今天是玛迪·穆娜的生日，她真的想要一只宠物！但挑剔的她会得到哪种动物呢？",
+        "cover": "maddy-moona/maddy-moona_cover.jpg",
+        "file": "maddy-moona/maddy-moona_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.10.24",
+        "tags": [
+            "宠物",
+            "动物",
+            "动物园"
+        ],
+        "src": "https://bookdash.org/books/maddy-moonas-menagerie-by-candice-ditalamo-rachel-zadok-and-nick-mulgrew/"
     }
 }
