@@ -68,3 +68,4 @@
 |✅|yapo-saves-the-day|亚伯反败为胜|forestlet|2021.10.24|
 |✅|thats-not-thabi|那不是塔比|forestlet|2021.10.24|
 |✅|maddy-moona|玛迪·穆娜的动物园|forestlet|2021.10.24|
+|✅|sbus-special-shoes|寺布的神奇帆布鞋|forestlet|2021.11.13|

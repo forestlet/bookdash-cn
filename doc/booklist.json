@@ -849,5 +849,18 @@
             "动物园"
         ],
         "src": "https://bookdash.org/books/maddy-moonas-menagerie-by-candice-ditalamo-rachel-zadok-and-nick-mulgrew/"
+    },
+    "sbus-special-shoes": {
+        "book_cn": "寺布的神奇帆布鞋",
+        "contents": "寺布弟弟找到了寺布最喜欢的帆布鞋。当他穿上它们时，他发现它们很特别。",
+        "cover": "sbus-special-shoes/sbus-special-shoes_cover.jpg",
+        "file": "sbus-special-shoes/sbus-special-shoes_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.11.13",
+        "tags": [
+            "鞋",
+            "神奇"
+        ],
+        "src": "https://bookdash.org/books/sbus-special-shoes-by-megan-pirie-eidin-griffin-and-mark-hardie/"
     }
 }
