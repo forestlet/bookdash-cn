@@ -69,3 +69,4 @@
 |✅|thats-not-thabi|那不是塔比|forestlet|2021.10.24|
 |✅|maddy-moona|玛迪·穆娜的动物园|forestlet|2021.10.24|
 |✅|sbus-special-shoes|寺布的神奇帆布鞋|forestlet|2021.11.13|
+|✅|scared-tumi|害怕的图米|forestlet|2021.11.13|

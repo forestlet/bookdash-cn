@@ -862,5 +862,17 @@
             "神奇"
         ],
         "src": "https://bookdash.org/books/sbus-special-shoes-by-megan-pirie-eidin-griffin-and-mark-hardie/"
+    },
+    "scared-tumi": {
+        "book_cn": "害怕的图米",
+        "contents": "“如果我床下有个怪物怎么办？”图米很害怕。妈妈试着让他安心。",
+        "cover": "scared-tumi/scared-tumi_cover.jpg",
+        "file": "scared-tumi/scared-tumi_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.11.13",
+        "tags": [
+            "害怕"
+        ],
+        "src": "https://bookdash.org/books/scared-tumi-nicola-anne-smith-mohale-mashigo-nontobeko-kunene/"
     }
 }
