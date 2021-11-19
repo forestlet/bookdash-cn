@@ -874,5 +874,17 @@
             "害怕"
         ],
         "src": "https://bookdash.org/books/scared-tumi-nicola-anne-smith-mohale-mashigo-nontobeko-kunene/"
+    },
+    "shaka-and-mazi": {
+        "book_cn": "沙卡和马兹",
+        "contents": "沙卡有一个特别朋友，其他人都看不见。但现在沙卡和家人不得不搬走。他能为新的友谊腾出空间吗？",
+        "cover": "shaka-and-mazi/shaka-and-mazi_cover.jpg",
+        "file": "shaka-and-mazi/shaka-and-mazi_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.11.19",
+        "tags": [
+            "朋友"
+        ],
+        "src": "https://bookdash.org/books/shaka-and-mazi/"
     }
 }
