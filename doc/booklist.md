@@ -71,3 +71,4 @@
 |✅|sbus-special-shoes|寺布的神奇帆布鞋|forestlet|2021.11.13|
 |✅|scared-tumi|害怕的图米|forestlet|2021.11.13|
 |✅|shaka-and-mazi|沙卡和马兹|forestlet|2021.11.19|
+|✅|shhhhh|嘘|forestlet|2021.11.19|

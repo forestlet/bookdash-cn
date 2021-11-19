@@ -886,5 +886,17 @@
             "朋友"
         ],
         "src": "https://bookdash.org/books/shaka-and-mazi/"
+    },
+    "shhhhh": {
+        "book_cn": "嘘",
+        "contents": "嘘！小宝宝睡着了！为什么每个人都这么吵？",
+        "cover": "shhhhh/shhhhh_cover.jpg",
+        "file": "shhhhh/shhhhh_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.11.19",
+        "tags": [
+            "宝宝"
+        ],
+        "src": "https://bookdash.org/books/shhhhh-by-alex-latimer-anita-van-der-merwe-sam-wilson/"
     }
 }
