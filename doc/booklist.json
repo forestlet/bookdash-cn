@@ -898,5 +898,18 @@
             "宝宝"
         ],
         "src": "https://bookdash.org/books/shhhhh-by-alex-latimer-anita-van-der-merwe-sam-wilson/"
+    },
+    "shongololos-shoes": {
+        "book_cn": "蜈蚣的鞋",
+        "contents": "蜈蚣的鞋丢了，其他的动物却帮不上什么忙。他能找到吗？",
+        "cover": "shongololos-shoes/shongololos-shoes_cover.jpg",
+        "file": "shongololos-shoes/shongololos-shoes_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.11.27",
+        "tags": [
+            "蜈蚣",
+            "鞋"
+        ],
+        "src": "https://bookdash.org/books/shongololos-shoes-marteli-kleyn-megan-lotter-jacqui-lange/"
     }
 }
