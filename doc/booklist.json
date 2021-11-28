@@ -911,5 +911,18 @@
             "鞋"
         ],
         "src": "https://bookdash.org/books/shongololos-shoes-marteli-kleyn-megan-lotter-jacqui-lange/"
+    },
+    "sima-and-siza": {
+        "book_cn": "西玛和西扎",
+        "contents": "西玛想成为一名护士。他最喜欢玩医院过家家。但爸爸和朋友们不赞成。什么会改变他们的想法？",
+        "cover": "sima-and-siza/sima-and-siza_cover.jpg",
+        "file": "sima-and-siza/sima-and-siza_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.11.28",
+        "tags": [
+            "医院",
+            "过家家"
+        ],
+        "src": "https://bookdash.org/books/sima-and-siza-by-claire-ingram-lwando-xaso-and-arthur-attwell/"
     }
 }

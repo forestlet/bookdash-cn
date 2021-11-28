@@ -73,3 +73,4 @@
 |✅|shaka-and-mazi|沙卡和马兹|forestlet|2021.11.19|
 |✅|shhhhh|嘘|forestlet|2021.11.19|
 |✅|shongololos-shoes|蜈蚣的鞋|forestlet|2021.11.27|
+|✅|sima-and-siza|西玛和西扎|forestlet|2021.11.28|
