@@ -924,5 +924,18 @@
             "过家家"
         ],
         "src": "https://bookdash.org/books/sima-and-siza-by-claire-ingram-lwando-xaso-and-arthur-attwell/"
+    },
+    "sing-to-me": {
+        "book_cn": "唱歌给我",
+        "contents": "妈妈喜欢整天唱歌，特别是唱给宝宝。",
+        "cover": "sing-to-me/sing-to-me_cover.jpg",
+        "file": "sing-to-me/sing-to-me_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.12.4",
+        "tags": [
+            "唱歌",
+            "妈妈"
+        ],
+        "src": "https://bookdash.org/books/sing-to-me-by-lauren-nel-nicole-levin-sasha-lee-bing/"
     }
 }
