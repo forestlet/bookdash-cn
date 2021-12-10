@@ -937,5 +937,20 @@
             "妈妈"
         ],
         "src": "https://bookdash.org/books/sing-to-me-by-lauren-nel-nicole-levin-sasha-lee-bing/"
+    },
+    "sindi-and-the-moon": {
+        "book_cn": "辛迪和月亮",
+        "contents": "辛迪唱着五颜六色的歌还舞着蹈。开学会结束这一切吗？",
+        "cover": "sindi-and-the-moon/sindi-and-the-moon_cover.jpg",
+        "file": "sindi-and-the-moon/sindi-and-the-moon_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.12.10",
+        "tags": [
+            "唱歌",
+            "跳舞",
+            "上学",
+            "月亮"
+        ],
+        "src": "https://bookdash.org/books/sindi-and-the-moon-zanele-dlamini-thokozani-mkhize-wesley-van-eeden/"
     }
 }

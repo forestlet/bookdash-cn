@@ -75,3 +75,4 @@
 |✅|shongololos-shoes|蜈蚣的鞋|forestlet|2021.11.27|
 |✅|sima-and-siza|西玛和西扎|forestlet|2021.11.28|
 |✅|sing-to-me|唱歌给我|forestlet|2021.12.4|
+|✅|sindi-and-the-moon|辛迪和月亮|forestlet|2021.12.10|
