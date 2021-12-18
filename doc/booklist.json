@@ -952,5 +952,18 @@
             "月亮"
         ],
         "src": "https://bookdash.org/books/sindi-and-the-moon-zanele-dlamini-thokozani-mkhize-wesley-van-eeden/"
+    },
+    "springloaded": {
+        "book_cn": "装上弹簧",
+        "contents": "尼奥的父亲是一位发明家，当他发明了一顶直升机帽飞走后，尼奥决定自己也发明一样。",
+        "cover": "springloaded/springloaded_cover.jpg",
+        "file": "springloaded/springloaded_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.12.18",
+        "tags": [
+            "宇宙",
+            "飞行"
+        ],
+        "src": "https://bookdash.org/books/springloaded-thea-nicole-de-klerk-sam-wilson-chenel-ferreira/"
     }
 }
