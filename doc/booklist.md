@@ -77,3 +77,5 @@
 |✅|sing-to-me|唱歌给我|forestlet|2021.12.4|
 |✅|sindi-and-the-moon|辛迪和月亮|forestlet|2021.12.10|
 |✅|springloaded|装上弹簧|forestlet|2021.12.18|
+|✅|malis-friend|马利的朋友|forestlet|2021.12.27|
+|✅|miss-tiny-chef|小小大厨|forestlet|2021.12.27|

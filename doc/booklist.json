@@ -965,5 +965,30 @@
             "飞行"
         ],
         "src": "https://bookdash.org/books/springloaded-thea-nicole-de-klerk-sam-wilson-chenel-ferreira/"
+    },
+    "malis-friend": {
+        "book_cn": "马利的朋友",
+        "contents": "马利喜欢一个人玩。婆婆想让他和别人一起玩。马利试过，但就是不喜欢。直到莱塞迪的出现……",
+        "cover": "malis-friend/malis-friend_cover.jpg",
+        "file": "malis-friend/malis-friend_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.12.27",
+        "tags": [
+            "朋友",
+            "玩"
+        ],
+        "src": "https://bookdash.org/books/malis-friend-by-rujeko-moyo-ellen-heydenrych-and-rj-palmer/"
+    },
+    "miss-tiny-chef": {
+        "book_cn": "小小大厨",
+        "contents": "小小大厨只有 8 岁。她做其他小女孩不会做的事儿。有一根会说话的搅拌棒的帮助，和它分享的所有好菜，卡西尼为妈妈烹饪出一份特别的惊喜。",
+        "cover": "miss-tiny-chef/miss-tiny-chef_cover.jpg",
+        "file": "miss-tiny-chef/miss-tiny-chef_cn.pdf",
+        "translator": "forestlet",
+        "date": "2021.12.27",
+        "tags": [
+            "烹饪"
+        ],
+        "src": "https://bookdash.org/books/miss-tiny-chef-linda-nabasa-ruramai-musekiwa-raymond-diby/"
     }
 }
