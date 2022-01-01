@@ -5,51 +5,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>绘本小屋</title>
+    <title>搜索</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link href="../css/style.css" rel="stylesheet">
     <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 110 110%22><text y=%221em%22 font-size=%2290%22>🏠</text></svg>">
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 110 110%22><text y=%221em%22 font-size=%2290%22>🔍</text></svg>">
 </head>
 
 <body>
-    👷 正在施工中ing...
-    请耐心等待~🤗
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="col-4">
+                    <a href="/" class="title text-white"> 🏠 绘本小屋 </a>
+                </div>
+                <div class="col-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" aria-label="Text input" id="searchInput">
+                        <button type="button" class="btn btn-primary" id="searchBtn">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-1 offset-1">
+                    <a href="https://github.com/forestlet/bookdash-cn" class="text-white" title="github">
+                        <i class="bi bi-github"> </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="album py-5 bg-light">
+
+            <p id="keyword"></p>
+
+            <!-- results -->
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="resultsBox">
+                </div>
+            </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="viewer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" style="min-width:calc(100vw - 80px)">
+                    <div class="modal-content">
+                        <div class="modal-body" style="height:calc(100vh - 60px)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p id="no_more">没有更多结果了</p>
+        </div>
+    </main>
+
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#" class="up">
+                    <i class="bi bi-arrow-up-square-fill"></i>
+                </a>
+            </p>
+            <p class="mb-1">项目正在持续施工中 👨‍💻 希望您看得开心~</p>
+            <p class="mb-1">如果您有什么意见和建议，可以
+                <a class="url" href="https://github.com/forestlet/bookdash-cn/issues/new">提交新的 Issue</a>
+                给我 🤗
+            </p>
+        </div>
+    </footer>
+
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.0-beta3/js/bootstrap.bundle.min.js"></script>
     <script src="../js/feature.js"></script>
     <script>
+        // keyword
+        const paramsStr = window.location.search
+        const params = new URLSearchParams(paramsStr)
+        let keyword = params.get('search')
+
+        // show keyword
+        $("#keyword").html(`搜索关键词：<span class="badge bg-primary">${keyword}</span>`)
+        $("#searchInput").val(keyword)
+
+        // get data base
         $.getJSON("../../doc/booklist.json", (data) => {
             let book_info = new Map(Object.entries(data));
-            searchPictureBook(book_info)
-            // showPage(book_info)
+            let results = searchPictureBook(book_info)
+            showPictureBook(results)
         })
 
         function searchPictureBook(book_info) {
-            let searchBook = new Map([])
+            let results = new Map([])
             let book_keys = book_info.keys();
             let book_names = [...book_keys];
-
-            const paramsStr = window.location.search
-            const params = new URLSearchParams(paramsStr)
-            let search = params.get('search')
 
             for (let i = 0; i < book_info.size; i++) {
                 // console.log(book_info.get(book_names[i]));
                 let this_book = book_info.get(book_names[i])
                 if (
-                    this_book.book_cn.includes(search)
-                    || this_book.contents.includes(search)
-                    || this_book.tags.includes(search)
-                    && !searchBook.has(this_book.book_cn)
+                    this_book.book_cn.includes(keyword)
+                    || this_book.contents.includes(keyword)
+                    || this_book.tags.includes(keyword)
+                    && !results.has(this_book.book_cn)
                 )
-                    searchBook.set(book_names[i], this_book)
+                    results.set(book_names[i], this_book)
             }
 
-            console.log(searchBook);
+            return results
+        }
+
+        function showPictureBook(results) {
+            let resultsBox = $("#resultsBox")
+            results.forEach(this_book => {
+                // console.log(this_book);
+
+                let tags = ""
+                this_book.tags.forEach(tag => {
+                    tags += `<span class="badge bg-light text-dark">${tag}</span>`
+                })
+
+                resultsBox.append(
+                    `<div class="col">
+                        <div class="card shadow-sm">
+                            <div class="img_frame">
+                                <img src=${"../../asset/" + this_book.cover} alt=${this_book.book_cn}>
+                            </div>
+                            <div class="card-body">
+                                <h3>${this_book.book_cn}</h3>
+                                <div class="tags">${tags}</div>
+                                <p class="card-text">${this_book.contents}</p>
+                                <div class="d-flex justify-content-between align-items-center line">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#viewer" data-bs-file=${"../../asset/" + this_book.file}>在线阅读</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"><a href=${"../../asset/" + this_book.file} download=${"../asset/" + this_book.file}>下载</a></button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center line">
+                                    <small class="text-muted">翻译日期：${this_book.date}</small>
+                                    <a class="en-url url" href=${this_book.src}>英文原绘本</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`
+                )
+            });
         }
     </script>
 </body>

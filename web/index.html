@@ -22,7 +22,7 @@
     <div class="navbar">
       <div class="container">
         <div class="col-4">
-          <a href="" class="title text-white"> 🏠 绘本小屋 </a>
+          <a href="/" class="title text-white"> 🏠 绘本小屋 </a>
         </div>
         <div class="col-6">
           <div class="input-group">
@@ -43,12 +43,15 @@
 
   <main>
 
+    <!-- carousels -->
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
           aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
       <div class="carousel-inner">
 
@@ -118,6 +121,49 @@
           </div>
         </div>
 
+        <div class="carousel-item" data-bs-interval="10000">
+          <div class="imgContainer">
+            <img>
+            <img>
+          </div>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1></h1>
+              <div class="tags"></div>
+              <p></P>
+              <p>
+                <button class="btn btn-lg btn-primary" href="#">在线阅读</button>
+                <button class="btn btn-lg btn-primary"><a href="#">下载</a></button>
+              </p>
+              <p>
+                <small></small>
+                <a class="en-url">英文原绘本</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="10000">
+          <div class="imgContainer">
+            <img>
+            <img>
+          </div>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1></h1>
+              <div class="tags"></div>
+              <p></P>
+              <p>
+                <button class="btn btn-lg btn-primary" href="#">在线阅读</button>
+                <button class="btn btn-lg btn-primary"><a href="#">下载</a></button>
+              </p>
+              <p>
+                <small></small>
+                <a class="en-url">英文原绘本</a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -131,9 +177,9 @@
 
     <!-- modal -->
     <div class="modal fade" id="viewer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog" style="min-width:80%">
+      <div class="modal-dialog" style="min-width:calc(100vw - 80px)">
         <div class="modal-content">
-          <div class="modal-body" style="height:calc(100vh - 80px)">
+          <div class="modal-body" style="height:calc(100vh - 60px)">
           </div>
         </div>
       </div>
@@ -428,7 +474,6 @@
         <ul class="pagination justify-content-center">
         </ul>
       </nav>
-
   </main>
 
   <footer class="text-muted py-5">

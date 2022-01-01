@@ -44,9 +44,9 @@ $("#searchInput").bind('keypress', function (event) {
 
 function search() {
     if ($("#searchInput").val() == "") return
-    let search = $("#searchInput").val()
+    let keyword = $("#searchInput").val()
 
-    window.open(window.location.origin + window.location.pathname.replace("index.html", `page/search.html?search=${search}`))
+    window.open(window.location.origin + `/web/page/search.html?search=${keyword}`)
 }
 
 // pages
@@ -133,8 +133,8 @@ function showCarousels(book_info, book_num) {
     let book_keys = book_info.keys();
     let book_names = [...book_keys];
 
-    random_nums = randomNums(3, -1, book_num - 1)
-    for (let j = 0; j < 3; j++) {
+    random_nums = randomNums(5, -1, book_num - 1)
+    for (let j = 0; j < 5; j++) {
         num = random_nums[j]
         let this_book = book_info.get(book_names[num])
         this_carousel = $("div.carousel-item").eq(j)
