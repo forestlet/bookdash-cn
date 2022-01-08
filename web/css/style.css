@@ -106,6 +106,10 @@ small {
   color: #fff;
 }
 
+.carousel-indicators {
+  z-index: 999;
+}
+
 @media (min-width: 40em) {
   .carousel-caption p {
     margin-bottom: 1.25rem;
