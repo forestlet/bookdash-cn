@@ -25,6 +25,10 @@
   font-weight: 600;
 }
 
+.title span {
+  font-weight: 100;
+}
+
 main {
   margin-top: 60px;
 }
@@ -182,5 +186,5 @@ a.page-link {
 
 #no_more {
   text-align: center;
-  margin: 20px;
+  margin-top: 120px;
 }
