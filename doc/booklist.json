@@ -1003,5 +1003,17 @@
             "神奇"
         ],
         "src": "https://bookdash.org/books/my-special-hair/"
+    },
+    "no": {
+        "book_cn": "不要",
+        "contents": "有个小女孩习惯说“不要”，她说个不停。但有一天，面对一个非常诱人的问题，她忍不住说了“我要！”，也许说“我要”并不是那么糟糕。",
+        "cover": "no/no_cover.jpg",
+        "file": "no/no_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.08",
+        "tags": [
+            "不要"
+        ],
+        "src": "https://bookdash.org/books/no/"
     }
 }

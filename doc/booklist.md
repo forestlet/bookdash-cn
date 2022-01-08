@@ -80,3 +80,4 @@
 |✅|malis-friend|马利的朋友|forestlet|2021.12.27|
 |✅|miss-tiny-chef|小小大厨|forestlet|2021.12.27|
 |✅|my-special-hair|我的头发很特别|forestlet|2022.01.08|
+|✅|no|不要|forestlet|2022.01.08|
