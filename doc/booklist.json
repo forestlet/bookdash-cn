@@ -990,5 +990,18 @@
             "烹饪"
         ],
         "src": "https://bookdash.org/books/miss-tiny-chef-linda-nabasa-ruramai-musekiwa-raymond-diby/"
+    },
+    "my-special-hair": {
+        "book_cn": "我的头发很特别",
+        "contents": "一个关于我特别的头发的故事，它有多特别呢？世上有很多特别的头发，看看你的身边，你就会发现。",
+        "cover": "my-special-hair/my-special-hair_cover.jpg",
+        "file": "my-special-hair/my-special-hair_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.08",
+        "tags": [
+            "头发",
+            "神奇"
+        ],
+        "src": "https://bookdash.org/books/my-special-hair/"
     }
 }
