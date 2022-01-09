@@ -1015,5 +1015,18 @@
             "不要"
         ],
         "src": "https://bookdash.org/books/no/"
+    },
+    "my-special-blankie": {
+        "book_cn": "我特别的小毯子",
+        "contents": "小女孩的世界因为妈妈和五彩缤纷的毯子变得特别。你有什么特别的东西？",
+        "cover": "my-special-blankie/my-special-blankie_cover.jpg",
+        "file": "my-special-blankie/my-special-blankie_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.09",
+        "tags": [
+            "毯子",
+            "特别"
+        ],
+        "src": "https://bookdash.org/books/my-special-blankie-by-melissa-fagan-kobie-nieuwoudt-claire-shaban/"
     }
 }

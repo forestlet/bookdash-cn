@@ -81,3 +81,4 @@
 |✅|miss-tiny-chef|小小大厨|forestlet|2021.12.27|
 |✅|my-special-hair|我的头发很特别|forestlet|2022.01.08|
 |✅|no|不要|forestlet|2022.01.08|
+|✅|my-special-blankie|我特别的小毯子|forestlet|2022.01.09|
