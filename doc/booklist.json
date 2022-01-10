@@ -1028,5 +1028,18 @@
             "特别"
         ],
         "src": "https://bookdash.org/books/my-special-blankie-by-melissa-fagan-kobie-nieuwoudt-claire-shaban/"
+    },
+    "mama-antelopes-house": {
+        "book_cn": "羚羊妈妈的房子",
+        "contents": "有人在羚羊妈妈的家里。会是谁呢？所有动物都试图开门，但只有羚羊宝宝知道怎么做。",
+        "cover": "mama-antelopes-house/mama-antelopes-house_cover.jpg",
+        "file": "mama-antelopes-house/mama-antelopes-house_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.10",
+        "tags": [
+            "羚羊",
+            "房子"
+        ],
+        "src": "https://bookdash.org/books/mama-antelopes-house/"
     }
 }
