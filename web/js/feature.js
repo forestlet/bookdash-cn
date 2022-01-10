@@ -46,7 +46,7 @@ function search() {
     if ($("#searchInput").val() == "") return
     let keyword = $("#searchInput").val()
 
-    window.open(window.location.origin + `/web/page/search.html?search=${keyword}`)
+    window.open(window.location.origin + `/bookdash-cn/web/page/search.html?search=${keyword}`)
 }
 
 // pages
