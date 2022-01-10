@@ -210,6 +210,7 @@ function backToTop() {
 
 function showPage(book_info) {
     let book_num = book_info.size
+    $("#total").html(`已翻译 ${book_num} 本绘本 🎉 <br/> 如果你喜欢的话，请到 <a href="https://github.com/forestlet/bookdash-cn" class="alert-link">forestlet/bookdash-cn</a> ⭐ 吧~`)
     let page_len = Math.ceil(book_num / 12)
 
     const paramsStr = window.location.search

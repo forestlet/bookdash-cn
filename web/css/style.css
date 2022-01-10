@@ -60,6 +60,11 @@ small {
   min-height: calc(100vh - 220px);
 }
 
+#total {
+  text-align: center;
+  margin: 0;
+}
+
 /* carousel */
 
 .carousel-caption {
