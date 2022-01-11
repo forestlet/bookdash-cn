@@ -1041,5 +1041,17 @@
             "房子"
         ],
         "src": "https://bookdash.org/books/mama-antelopes-house/"
+    },
+    "mina-and-the-birthday-dress": {
+        "book_cn": "米娜的生日礼服",
+        "contents": "米娜发现很难挑生日礼服。在妈妈挑了半天后，米娜终于做出了选择。",
+        "cover": "mina-and-the-birthday-dress/mina-and-the-birthday-dress_cover.jpg",
+        "file": "mina-and-the-birthday-dress/mina-and-the-birthday-dress_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.11",
+        "tags": [
+            "生日"
+        ],
+        "src": "https://bookdash.org/books/mina-and-the-birthday-dress/"
     }
 }
