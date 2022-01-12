@@ -1053,5 +1053,18 @@
             "生日"
         ],
         "src": "https://bookdash.org/books/mina-and-the-birthday-dress/"
+    },
+    "mogaus-gift": {
+        "book_cn": "莫高的礼物",
+        "contents": "一个一出生就长了一副牙的孩子？这肯定是件奇事！跟随他充满冒险的故事，看看莫高的礼物会带他去往何方。",
+        "cover": "mogaus-gift/mogaus-gift_cover.jpg",
+        "file": "mogaus-gift/mogaus-gift_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.12",
+        "tags": [
+            "礼物",
+            "冒险"
+        ],
+        "src": "https://bookdash.org/books/mogaus-gift-lorato-trok-rofhiwa-mudau-shadrach-munene/"
     }
 }

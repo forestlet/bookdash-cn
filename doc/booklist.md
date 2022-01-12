@@ -84,3 +84,4 @@
 |✅|my-special-blankie|我特别的小毯子|forestlet|2022.01.09|
 |✅|mama-antelopes-house|羚羊妈妈的房子|forestlet|2022.01.10|
 |✅|mina-and-the-birthday-dress|米娜的生日礼服|forestlet|2022.01.11|
+|✅|mogaus-gift|莫高的礼物|forestlet|2022.01.12|
