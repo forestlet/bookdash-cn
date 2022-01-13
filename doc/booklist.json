@@ -1066,5 +1066,18 @@
             "冒险"
         ],
         "src": "https://bookdash.org/books/mogaus-gift-lorato-trok-rofhiwa-mudau-shadrach-munene/"
+    },
+    "mrs-penguins-perfect-palace": {
+        "book_cn": "企鹅夫人的完美宫殿",
+        "contents": "企鹅一家住在海滩上，四周都是垃圾。直到某天，企鹅夫人说：“我们需要一栋房子！”但他们该怎么建一个呢？",
+        "cover": "mrs-penguins-perfect-palace/mrs-penguins-perfect-palace_cover.jpg",
+        "file": "mrs-penguins-perfect-palace/mrs-penguins-perfect-palace_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.13",
+        "tags": [
+            "企鹅",
+            "宫殿"
+        ],
+        "src": "https://bookdash.org/books/mrs-penguins-perfect-palace-helen-brain-celeste-beckerling/"
     }
 }
