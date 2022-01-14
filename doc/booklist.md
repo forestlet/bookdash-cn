@@ -86,3 +86,4 @@
 |✅|mina-and-the-birthday-dress|米娜的生日礼服|forestlet|2022.01.11|
 |✅|mogaus-gift|莫高的礼物|forestlet|2022.01.12|
 |✅|mrs-penguins-perfect-palace|企鹅夫人的完美宫殿|forestlet|2022.01.13|
+|✅|my-inside-weather|我内心的天气|forestlet|2022.01.14|

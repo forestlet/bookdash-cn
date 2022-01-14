@@ -1079,5 +1079,18 @@
             "宫殿"
         ],
         "src": "https://bookdash.org/books/mrs-penguins-perfect-palace-helen-brain-celeste-beckerling/"
+    },
+    "my-inside-weather": {
+        "book_cn": "我内心的天气",
+        "contents": "每个人都知道怎么谈论天气，但我们很难谈论自己的感情。",
+        "cover": "my-inside-weather/my-inside-weather_cover.jpg",
+        "file": "my-inside-weather/my-inside-weather_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.14",
+        "tags": [
+            "内心",
+            "天气"
+        ],
+        "src": "https://bookdash.org/books/inside-weather-jen-thorpe-lara-berge-emma-beckett/"
     }
 }
