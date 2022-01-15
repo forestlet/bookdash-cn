@@ -1092,5 +1092,18 @@
             "天气"
         ],
         "src": "https://bookdash.org/books/inside-weather-jen-thorpe-lara-berge-emma-beckett/"
+    },
+    "rafikis-style": {
+        "book_cn": "拉菲基的风格",
+        "contents": "拉菲基有属于自己的风格，但当酷猫团大摇大摆地走过时，他开始怀疑自己是否足够好。",
+        "cover": "rafikis-style/rafikis-style_cover.jpg",
+        "file": "rafikis-style/rafikis-style_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.15",
+        "tags": [
+            "发型",
+            "足球"
+        ],
+        "src": "https://bookdash.org/books/rafikis-style-by-audrey-anderson-louis-greenberg-and-wesley-thompson/"
     }
 }
