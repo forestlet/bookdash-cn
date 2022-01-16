@@ -1105,5 +1105,17 @@
             "足球"
         ],
         "src": "https://bookdash.org/books/rafikis-style-by-audrey-anderson-louis-greenberg-and-wesley-thompson/"
+    },
+    "my-dream-in-the-drawer": {
+        "book_cn": "抽屉里的梦想",
+        "contents": "我曾经有一个梦想，又小又轻，我把它放在盒子里，藏在袜子抽屉里，安安全全。",
+        "cover": "my-dream-in-the-drawer/my-dream-in-the-drawer_cover.jpg",
+        "file": "my-dream-in-the-drawer/my-dream-in-the-drawer_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.16",
+        "tags": [
+            "梦想"
+        ],
+        "src": "https://bookdash.org/books/dream-drawer-megan-lotter-fred-strydom-marteli-kleyn/"
     }
 }
