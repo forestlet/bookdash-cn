@@ -1117,5 +1117,17 @@
             "梦想"
         ],
         "src": "https://bookdash.org/books/dream-drawer-megan-lotter-fred-strydom-marteli-kleyn/"
+    },
+    "pako_the_pigeon_disappears": {
+        "book_cn": "鸽子帕克不见了",
+        "contents": "当鸽子帕克不见时，娜瓦伊和戴韧在花园里和天上都找不到她。最后是猫咪立了大功。",
+        "cover": "pako_the_pigeon_disappears/pako_the_pigeon_disappears_cover.jpg",
+        "file": "pako_the_pigeon_disappears/pako_the_pigeon_disappears_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.17",
+        "tags": [
+            "鸽子"
+        ],
+        "src": "https://bookdash.org/books/pako-the-pigeon-disappears/"
     }
 }
