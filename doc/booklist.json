@@ -1129,5 +1129,17 @@
             "鸽子"
         ],
         "src": "https://bookdash.org/books/pako-the-pigeon-disappears/"
+    },
+    "palesa-can-walk": {
+        "book_cn": "帕丽莎会走路了",
+        "contents": "一岁的帕丽莎在她生日前一天晚上兴奋得睁大了眼睛。她迫不及待地想知道她每个朋友都会给她送什么。但最大的惊喜是什么呢？",
+        "cover": "palesa-can-walk/palesa-can-walk_cover.jpg",
+        "file": "palesa-can-walk/palesa-can-walk_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.18",
+        "tags": [
+            "生日"
+        ],
+        "src": "https://bookdash.org/books/palesa-can-walk-sindiwe-magona-sinomonde-ngwane-thulisizwe-mamba/"
     }
 }
