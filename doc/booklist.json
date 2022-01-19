@@ -1141,5 +1141,18 @@
             "生日"
         ],
         "src": "https://bookdash.org/books/palesa-can-walk-sindiwe-magona-sinomonde-ngwane-thulisizwe-mamba/"
+    },
+    "nomvundla-and-the-chilli-eating-contest": {
+        "book_cn": "诺姆文德拉和吃辣椒比赛",
+        "contents": "诺姆文德拉和索科去参加吃辣椒比赛。动物们从四面八方赶来，尝试赢得这个令人惊叹的奖项。谁会赢呢？谁会带朋友去汉巴-汉巴游乐场呢？",
+        "cover": "nomvundla-and-the-chilli-eating-contest/nomvundla-and-the-chilli-eating-contest_cover.jpg",
+        "file": "nomvundla-and-the-chilli-eating-contest/nomvundla-and-the-chilli-eating-contest_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.19",
+        "tags": [
+            "辣椒",
+            "朋友"
+        ],
+        "src": "https://bookdash.org/books/nomvundla-and-the-chillieating-contest/"
     }
 }

@@ -91,3 +91,4 @@
 |✅|my-dream-in-the-drawer|抽屉里的梦想|forestlet|2022.01.16|
 |✅|pako_the_pigeon_disappears|鸽子帕克不见了|forestlet|2022.01.17|
 |✅|palesa-can-walk|帕丽莎会走路了|forestlet|2022.01.18|
+|✅|nomvundla-and-the-chilli-eating-contest|诺姆文德拉和吃辣椒比赛|forestlet|2022.01.19|
