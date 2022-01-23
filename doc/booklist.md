@@ -92,3 +92,4 @@
 |✅|pako_the_pigeon_disappears|鸽子帕克不见了|forestlet|2022.01.17|
 |✅|palesa-can-walk|帕丽莎会走路了|forestlet|2022.01.18|
 |✅|nomvundla-and-the-chilli-eating-contest|诺姆文德拉和吃辣椒比赛|forestlet|2022.01.19|
+|✅|miss-helens-magical-world|海伦小姐的魔法世界|forestlet|2022.01.23|

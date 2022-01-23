@@ -1154,5 +1154,18 @@
             "朋友"
         ],
         "src": "https://bookdash.org/books/nomvundla-and-the-chillieating-contest/"
+    },
+    "miss-helens-magical-world": {
+        "book_cn": "海伦小姐的魔法世界",
+        "contents": "这是海伦·马丁斯同黑暗搏斗的故事，讲述者是她最喜欢的动物之一——聪明的老猫头鹰。",
+        "cover": "miss-helens-magical-world/miss-helens-magical-world_cover.jpg",
+        "file": "miss-helens-magical-world/miss-helens-magical-world_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.23",
+        "tags": [
+            "魔法",
+            "猫头鹰"
+        ],
+        "src": "https://bookdash.org/books/miss-helens-magical-world/"
     }
 }
