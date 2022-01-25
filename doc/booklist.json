@@ -1167,5 +1167,18 @@
             "猫头鹰"
         ],
         "src": "https://bookdash.org/books/miss-helens-magical-world/"
+    },
+    "queen-of-soweto": {
+        "book_cn": "索韦托女王",
+        "contents": "巴塞萨娜·库马洛是一位选美皇后，但她不止如此。她教导我们，真正的美是拥有一颗充满爱和慷慨的心。她的故事告诉我们，只要你有勇气和决心，你就能实现你的梦想，不管它们是什么。",
+        "cover": "queen-of-soweto/queen-of-soweto_cover.jpg",
+        "file": "queen-of-soweto/queen-of-soweto_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.25",
+        "tags": [
+            "女王",
+            "梦想"
+        ],
+        "src": "https://bookdash.org/books/queen-of-soweto-by-jessica-taylor-mia-du-plessis-and-marli-fourie/"
     }
 }
