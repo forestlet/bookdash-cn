@@ -1180,5 +1180,18 @@
             "梦想"
         ],
         "src": "https://bookdash.org/books/queen-of-soweto-by-jessica-taylor-mia-du-plessis-and-marli-fourie/"
+    },
+    "searching-for-the-spirit-of-spring": {
+        "book_cn": "寻春意",
+        "contents": "恩坎耶齐期待着春节，但恩德洛夫的人们已经失去了庆祝精神。她必须去寻找春意。她会找到什么？",
+        "cover": "searching-for-the-spirit-of-spring/searching-for-the-spirit-of-spring_cover.jpg",
+        "file": "searching-for-the-spirit-of-spring/searching-for-the-spirit-of-spring_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.01.26",
+        "tags": [
+            "庆祝",
+            "精神"
+        ],
+        "src": "https://bookdash.org/books/searching-for-the-spirit-of-spring-by-mosa-mahlaba-selina-morulane-and-sibusiso-mkhwanazi/"
     }
 }

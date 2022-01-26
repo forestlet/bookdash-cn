@@ -94,3 +94,4 @@
 |✅|nomvundla-and-the-chilli-eating-contest|诺姆文德拉和吃辣椒比赛|forestlet|2022.01.19|
 |✅|miss-helens-magical-world|海伦小姐的魔法世界|forestlet|2022.01.23|
 |✅|queen-of-soweto|索韦托女王|forestlet|2022.01.25|
+|✅|searching-for-the-spirit-of-spring|寻春意|forestlet|2022.01.26|
