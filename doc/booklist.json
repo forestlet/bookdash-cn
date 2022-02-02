@@ -1193,5 +1193,19 @@
             "精神"
         ],
         "src": "https://bookdash.org/books/searching-for-the-spirit-of-spring-by-mosa-mahlaba-selina-morulane-and-sibusiso-mkhwanazi/"
+    },
+    "senzo-and-the-sun": {
+        "book_cn": "森佐与太阳",
+        "contents": "朝阳爬上地平线，透过叶间空隙，唤醒了森佐。婆婆的公鸡扑打着翅膀，伸长脖子正在啼鸣。咯咯咯！加入森佐和太阳，一起度过这一天。",
+        "cover": "senzo-and-the-sun/senzo-and-the-sun_cover.jpg",
+        "file": "senzo-and-the-sun/senzo-and-the-sun_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.02",
+        "tags": [
+            "声音",
+            "一天",
+            "日常"
+        ],
+        "src": "https://bookdash.org/books/senzo-and-the-sun/"
     }
 }

@@ -95,3 +95,4 @@
 |✅|miss-helens-magical-world|海伦小姐的魔法世界|forestlet|2022.01.23|
 |✅|queen-of-soweto|索韦托女王|forestlet|2022.01.25|
 |✅|searching-for-the-spirit-of-spring|寻春意|forestlet|2022.01.26|
+|✅|senzo-and-the-sun|森佐与太阳|forestlet|2022.02.02|
