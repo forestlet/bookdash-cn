@@ -17,7 +17,6 @@
       📄 booklist.md    # picture book info in markdown
       📄 模板.pptx       # PPT template
    📂 util              # tool directory
-   📂 img
    📂 web               # web page
    📝 README            # description in Chinese
    📝 README-en         # description in English (this file)
@@ -30,8 +29,6 @@
 5. ☕ If you think this project is good, just ⭐star this repository~
 
 ## Translation specifications
-
-Translation process
 
 1. Insert pictures to PPT
 
@@ -106,5 +103,6 @@ Translation process
    - [x] 💾 Download
    - [x] 🤲 Read online
    - [x] 📖 Pagination
-   - [ ] 🔍 Search
+   - [x] 🔍 Search
    - [x] 🚀 Github Pages
+   - [ ] 🐾 Share
