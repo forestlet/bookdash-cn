@@ -1207,5 +1207,20 @@
             "日常"
         ],
         "src": "https://bookdash.org/books/senzo-and-the-sun/"
+    },
+    "an_unexpected_adventure": {
+        "book_cn": "意外的冒险",
+        "contents": "当小男孩打开一本书后，无聊的下午变成了一次激动人心的冒险。",
+        "cover": "an_unexpected_adventure/an_unexpected_adventure_cover.jpg",
+        "file": "an_unexpected_adventure/an_unexpected_adventure_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.03",
+        "tags": [
+            "冒险",
+            "恐龙",
+            "海底",
+            "天空"
+        ],
+        "src": "https://bookdash.org/books/an-unexpected-adventure/"
     }
 }

@@ -96,3 +96,4 @@
 |✅|queen-of-soweto|索韦托女王|forestlet|2022.01.25|
 |✅|searching-for-the-spirit-of-spring|寻春意|forestlet|2022.01.26|
 |✅|senzo-and-the-sun|森佐与太阳|forestlet|2022.02.02|
+|✅|an_unexpected_adventure|意外的冒险|forestlet|2022.02.03|
