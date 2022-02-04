@@ -1222,5 +1222,18 @@
             "天空"
         ],
         "src": "https://bookdash.org/books/an-unexpected-adventure/"
+    },
+    "a-very-important-tree": {
+        "book_cn": "树也很重要",
+        "contents": "巴斯喜欢屋外那棵又大又漂亮的树。但她的哥哥想要把它砍掉。她会将如何阻止他？",
+        "cover": "a-very-important-tree/a-very-important-tree_cover.jpg",
+        "file": "a-very-important-tree/a-very-important-tree_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.04",
+        "tags": [
+            "树",
+            "友善"
+        ],
+        "src": "https://bookdash.org/books/a-very-important-tree/"
     }
 }
