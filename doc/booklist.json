@@ -1235,5 +1235,19 @@
             "友善"
         ],
         "src": "https://bookdash.org/books/a-very-important-tree/"
+    },
+    "brave-bora": {
+        "book_cn": "勇敢的布拉",
+        "contents": "去看医生会令人害怕！布拉能在爸爸和乔乔的帮助下克服恐惧吗？",
+        "cover": "brave-bora/brave-bora_cover.jpg",
+        "file": "brave-bora/brave-bora_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.05",
+        "tags": [
+            "打针",
+            "医院",
+            "勇敢"
+        ],
+        "src": "https://bookdash.org/books/brave-bora/"
     }
 }
