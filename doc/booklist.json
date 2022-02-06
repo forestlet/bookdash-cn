@@ -1249,5 +1249,18 @@
             "勇敢"
         ],
         "src": "https://bookdash.org/books/brave-bora/"
+    },
+    "imagine": {
+        "book_cn": "想象",
+        "contents": "铅笔作为礼物？那可不好玩。但也许你所要做的其实是想象。",
+        "cover": "imagine/imagine_cover.jpg",
+        "file": "imagine/imagine_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.06",
+        "tags": [
+            "想象",
+            "怪兽"
+        ],
+        "src": "https://bookdash.org/books/imagine/"
     }
 }
