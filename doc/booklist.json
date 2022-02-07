@@ -1262,5 +1262,20 @@
             "怪兽"
         ],
         "src": "https://bookdash.org/books/imagine/"
+    },
+    "mama-whats-for-lunch": {
+        "book_cn": "妈，中午吃啥？",
+        "contents": "和塔博还有他的妹妹图米一起，与妈妈共进神奇的午餐！",
+        "cover": "mama-whats-for-lunch/mama-whats-for-lunch_cover.jpg",
+        "file": "mama-whats-for-lunch/mama-whats-for-lunch_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.07",
+        "tags": [
+            "午餐",
+            "美味",
+            "想象力",
+            "母亲"
+        ],
+        "src": "https://bookdash.org/books/mama-whats-for-lunch/"
     }
 }
