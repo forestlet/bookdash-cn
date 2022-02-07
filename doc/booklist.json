@@ -1277,5 +1277,18 @@
             "母亲"
         ],
         "src": "https://bookdash.org/books/mama-whats-for-lunch/"
+    },
+    "shongololo": {
+        "book_cn": "百足",
+        "contents": "普拉和普勒发现了火车的奇妙：火车每天承载成年人上下班，这只是他们的想象，还是火车有着秘密的生活？",
+        "cover": "shongololo/shongololo_cover.jpg",
+        "file": "shongololo/shongololo_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.08",
+        "tags": [
+            "火车",
+            "想象力"
+        ],
+        "src": "https://bookdash.org/books/shongololo/"
     }
 }

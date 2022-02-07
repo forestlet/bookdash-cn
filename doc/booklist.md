@@ -101,3 +101,4 @@
 |✅|brave-bora|勇敢的布拉|forestlet|2022.02.05|
 |✅|imagine|想象|forestlet|2022.02.06|
 |✅|mama-whats-for-lunch|妈，中午吃啥？|forestlet|2022.02.07|
+|✅|shongololo|百足|forestlet|2022.02.08|
