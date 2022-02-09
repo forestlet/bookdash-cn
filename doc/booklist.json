@@ -1290,5 +1290,19 @@
             "想象力"
         ],
         "src": "https://bookdash.org/books/shongololo/"
+    },
+    "summertime_adventure": {
+        "book_cn": "夏日大冒险",
+        "contents": "夏天到了，和我们一起玩吧！水花、泡泡和夏令营都是最爱。",
+        "cover": "summertime_adventure/summertime_adventure_cover.jpg",
+        "file": "summertime_adventure/summertime_adventure_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.09",
+        "tags": [
+            "水",
+            "冒险",
+            "夏天"
+        ],
+        "src": "https://bookdash.org/books/summertime-adventure/"
     }
 }
