@@ -1304,5 +1304,18 @@
             "夏天"
         ],
         "src": "https://bookdash.org/books/summertime-adventure/"
+    },
+    "the-best-nest": {
+        "book_cn": "最好的巢",
+        "contents": "两只鸟去寻找最好的巢穴。",
+        "cover": "the-best-nest/the-best-nest_cover.jpg",
+        "file": "the-best-nest/the-best-nest_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.13",
+        "tags": [
+            "巢",
+            "家"
+        ],
+        "src": "https://bookdash.org/books/the-best-nest/"
     }
 }
