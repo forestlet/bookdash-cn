@@ -1317,5 +1317,17 @@
             "家"
         ],
         "src": "https://bookdash.org/books/the-best-nest/"
+    },
+    "the-best-thing-ever": {
+        "book_cn": "有史以来最棒的建筑",
+        "contents": "木子喜欢和他的玩具们一起建房子。但当他把玩具们留在身后，去外婆家时，他发现了这个世界上一些非常特别的东西。他对自己又有了一些新的认识。",
+        "cover": "the-best-thing-ever/the-best-thing-ever_cover.jpg",
+        "file": "the-best-thing-ever/the-best-thing-ever_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.14",
+        "tags": [
+            "建筑"
+        ],
+        "src": "https://bookdash.org/books/the-best-thing-ever/"
     }
 }
