@@ -1329,5 +1329,17 @@
             "建筑"
         ],
         "src": "https://bookdash.org/books/the-best-thing-ever/"
+    },
+    "the-bounce": {
+        "book_cn": "跳",
+        "contents": "大黑狗不高兴。它很孤独，每个人似乎都玩得更开心。于是，它跳呀……跳呀……跳呀……",
+        "cover": "the-bounce/the-bounce_cover.jpg",
+        "file": "the-bounce/the-bounce_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.15",
+        "tags": [
+            "狗"
+        ],
+        "src": "https://bookdash.org/books/the-bounce/"
     }
 }
