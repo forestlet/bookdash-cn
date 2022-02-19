@@ -1341,5 +1341,20 @@
             "狗"
         ],
         "src": "https://bookdash.org/books/the-bounce/"
+    },
+    "the-boy-who-only-ate-pancakes": {
+        "book_cn": "只吃烙饼的男孩",
+        "contents": "瑞凯只喜欢吃烙饼，于是妈妈想办法把它们做得更有营养！",
+        "cover": "the-boy-who-only-ate-pancakes/the-boy-who-only-ate-pancakes_cover.jpg",
+        "file": "the-boy-who-only-ate-pancakes/the-boy-who-only-ate-pancakes_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.19",
+        "tags": [
+            "烙饼",
+            "营养",
+            "蔬菜",
+            "水果"
+        ],
+        "src": "https://bookdash.org/books/the-boy-who-only-ate-pancakes/"
     }
 }
