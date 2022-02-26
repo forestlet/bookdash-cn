@@ -1356,5 +1356,17 @@
             "水果"
         ],
         "src": "https://bookdash.org/books/the-boy-who-only-ate-pancakes/"
+    },
+    "the-dream-pillow": {
+        "book_cn": "美梦枕头",
+        "contents": "海盗、芒果树和泰迪熊让人难以入眠。白天他们是好朋友，但到了晚上，一切都不同了。谁也睡不着。美梦枕头是一个关于如何把噩梦变成美梦的故事。",
+        "cover": "the-dream-pillow/the-dream-pillow_cover.jpg",
+        "file": "the-dream-pillow/the-dream-pillow_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.02.26",
+        "tags": [
+            "梦"
+        ],
+        "src": "https://bookdash.org/books/the-dream-pillow/"
     }
 }
