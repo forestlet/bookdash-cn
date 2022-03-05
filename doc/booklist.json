@@ -1368,5 +1368,18 @@
             "梦"
         ],
         "src": "https://bookdash.org/books/the-dream-pillow/"
+    },
+    "the-fish-that-couldnt-swim": {
+        "book_cn": "无法游泳的鱼",
+        "contents": "你听说过无法游泳的鱼儿吗？",
+        "cover": "the-fish-that-couldnt-swim/the-fish-that-couldnt-swim_cover.jpg",
+        "file": "the-fish-that-couldnt-swim/the-fish-that-couldnt-swim_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.03.05",
+        "tags": [
+            "鱼",
+            "游泳"
+        ],
+        "src": "https://bookdash.org/books/the-fish-that-couldnt-swim/"
     }
 }
