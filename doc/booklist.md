@@ -109,3 +109,4 @@
 |✅|the-boy-who-only-ate-pancakes|只吃烙饼的男孩|forestlet|2022.02.19|
 |✅|the-dream-pillow|美梦枕头|forestlet|2022.02.26|
 |✅|the-fish-that-couldnt-swim|无法游泳的鱼|forestlet|2022.03.05|
+|✅|the-elephant-in-the-room|房间里的大象|forestlet|2022.03.05|

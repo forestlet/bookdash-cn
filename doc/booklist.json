@@ -1381,5 +1381,18 @@
             "游泳"
         ],
         "src": "https://bookdash.org/books/the-fish-that-couldnt-swim/"
+    },
+    "the-elephant-in-the-room": {
+        "book_cn": "房间里的大象",
+        "contents": "林迪在她房间里发现了一头很大的大象。但如果别人都不相信，大象真的存在吗？",
+        "cover": "the-elephant-in-the-room/the-elephant-in-the-room_cover.jpg",
+        "file": "the-elephant-in-the-room/the-elephant-in-the-room_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.03.05",
+        "tags": [
+            "大象",
+            "朋友"
+        ],
+        "src": "https://bookdash.org/books/the-elephant-in-the-room/"
     }
 }
