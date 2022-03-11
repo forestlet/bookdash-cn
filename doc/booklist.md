@@ -110,3 +110,4 @@
 |✅|the-dream-pillow|美梦枕头|forestlet|2022.02.26|
 |✅|the-fish-that-couldnt-swim|无法游泳的鱼|forestlet|2022.03.05|
 |✅|the-elephant-in-the-room|房间里的大象|forestlet|2022.03.05|
+|✅|the-great-cake-contest|蛋糕大赛|forestlet|2022.03.11|

@@ -1394,5 +1394,18 @@
             "朋友"
         ],
         "src": "https://bookdash.org/books/the-elephant-in-the-room/"
+    },
+    "the-great-cake-contest": {
+        "book_cn": "蛋糕大赛",
+        "contents": "谁会赢得蛋糕大赛？一个关于想做最好的蛋糕的小男孩的甜甜的故事。",
+        "cover": "the-great-cake-contest/the-great-cake-contest_cover.jpg",
+        "file": "the-great-cake-contest/the-great-cake-contest_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.03.11",
+        "tags": [
+            "蛋糕",
+            "冠军"
+        ],
+        "src": "https://bookdash.org/books/the-great-cake-contest/"
     }
 }
