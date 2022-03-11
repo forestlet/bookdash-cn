@@ -1407,5 +1407,18 @@
             "冠军"
         ],
         "src": "https://bookdash.org/books/the-great-cake-contest/"
+    },
+    "the-great-tidy-up": {
+        "book_cn": "大扫除",
+        "contents": "当婆婆打盹时，赫维兹和木扎莫决定打扫卫生。会有什么问题呢？",
+        "cover": "the-great-tidy-up/the-great-tidy-up_cover.jpg",
+        "file": "the-great-tidy-up/the-great-tidy-up_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.03.11",
+        "tags": [
+            "清洁",
+            "惊喜"
+        ],
+        "src": "https://bookdash.org/books/the-great-tidy-up/"
     }
 }

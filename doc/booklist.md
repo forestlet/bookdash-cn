@@ -111,3 +111,4 @@
 |✅|the-fish-that-couldnt-swim|无法游泳的鱼|forestlet|2022.03.05|
 |✅|the-elephant-in-the-room|房间里的大象|forestlet|2022.03.05|
 |✅|the-great-cake-contest|蛋糕大赛|forestlet|2022.03.11|
+|✅|the-great-tidy-up|大扫除|forestlet|2022.03.11|
