@@ -1420,5 +1420,18 @@
             "惊喜"
         ],
         "src": "https://bookdash.org/books/the-great-tidy-up/"
+    },
+    "the-lost-laugh": {
+        "book_cn": "笑不见了",
+        "contents": "鬣狗点点把笑弄丢了。这是怎么发生的？笑会在哪里？其他动物能帮他找到吗？",
+        "cover": "the-lost-laugh/the-lost-laugh_cover.jpg",
+        "file": "the-lost-laugh/the-lost-laugh_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.03.19",
+        "tags": [
+            "笑",
+            "快乐"
+        ],
+        "src": "https://bookdash.org/books/the-lost-laugh/"
     }
 }

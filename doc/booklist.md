@@ -112,3 +112,4 @@
 |✅|the-elephant-in-the-room|房间里的大象|forestlet|2022.03.05|
 |✅|the-great-cake-contest|蛋糕大赛|forestlet|2022.03.11|
 |✅|the-great-tidy-up|大扫除|forestlet|2022.03.11|
+|✅|the-lost-laugh|笑不见了|forestlet|2022.03.19|
