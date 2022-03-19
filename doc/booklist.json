@@ -1433,5 +1433,17 @@
             "快乐"
         ],
         "src": "https://bookdash.org/books/the-lost-laugh/"
+    },
+    "the-new-road": {
+        "book_cn": "新路",
+        "contents": "查潘斯担心新公路建成后的飞蚁。但是飞蚁自有计划。",
+        "cover": "the-new-road/the-new-road_cover.jpg",
+        "file": "the-new-road/the-new-road_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.03.19",
+        "tags": [
+            "飞蚁"
+        ],
+        "src": "https://bookdash.org/books/the-new-road/"
     }
 }
