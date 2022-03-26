@@ -1458,5 +1458,18 @@
             "晚餐"
         ],
         "src": "https://bookdash.org/books/the-pumpkin-chase/"
+    },
+    "theres-an-alien-in-my-house": {
+        "book_cn": "家里来了外星人",
+        "contents": "当家里来了外星人，你会怎么做？与其战斗，还是交个朋友？",
+        "cover": "theres-an-alien-in-my-house/theres-an-alien-in-my-house_cover.jpg",
+        "file": "theres-an-alien-in-my-house/theres-an-alien-in-my-house_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.03.26",
+        "tags": [
+            "外星人",
+            "朋友"
+        ],
+        "src": "https://bookdash.org/books/theres-an-alien-in-my-house/"
     }
 }
