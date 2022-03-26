@@ -1445,5 +1445,18 @@
             "飞蚁"
         ],
         "src": "https://bookdash.org/books/the-new-road/"
+    },
+    "the-pumpkin-chase": {
+        "book_cn": "追逐南瓜派",
+        "contents": "哦不，淘气的南瓜馅饼小偷带着向日葵小姐的派逃跑了！你会帮忙抓住毛贼吗？",
+        "cover": "the-pumpkin-chase/the-pumpkin-chase_cover.jpg",
+        "file": "the-pumpkin-chase/the-pumpkin-chase_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.03.26",
+        "tags": [
+            "小偷",
+            "晚餐"
+        ],
+        "src": "https://bookdash.org/books/the-pumpkin-chase/"
     }
 }

@@ -114,3 +114,4 @@
 |✅|the-great-tidy-up|大扫除|forestlet|2022.03.11|
 |✅|the-lost-laugh|笑不见了|forestlet|2022.03.19|
 |✅|the-new-road|新路|forestlet|2022.03.19|
+|✅|the-pumpkin-chase|追逐南瓜派|forestlet|2022.03.26|
