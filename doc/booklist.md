@@ -116,3 +116,4 @@
 |✅|the-new-road|新路|forestlet|2022.03.19|
 |✅|the-pumpkin-chase|追逐南瓜派|forestlet|2022.03.26|
 |✅|theres-an-alien-in-my-house|家里来了外星人|forestlet|2022.03.26|
+|✅|the-sea|大海|forestlet|2022.04.02|

@@ -1471,5 +1471,18 @@
             "朋友"
         ],
         "src": "https://bookdash.org/books/theres-an-alien-in-my-house/"
+    },
+    "the-sea": {
+        "book_cn": "大海",
+        "contents": "在一个非常炎热的日子，一个孩子去到海边，在那儿，她发现了一个可以和海浪一起玩的游戏。",
+        "cover": "the-sea/the-sea_cover.jpg",
+        "file": "the-sea/the-sea_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.04.02",
+        "tags": [
+            "大海",
+            "朋友"
+        ],
+        "src": "https://bookdash.org/books/the-sea/"
     }
 }
