@@ -21,13 +21,23 @@ function isExist(arr, ran) {
 }
 
 // change object data, so can read online
+// 绘本对应的全局变量
+var picture_book_page
 $("#viewer").on('show.bs.modal', (event) => {
     let button = event.relatedTarget
     let file = button.getAttribute('data-bs-file')
     let obj = "<object type='application/pdf' data='" + file + "' id='review' style='width: 100%; height: 100%;'></object>";
     $(".modal-body").append(obj)
+
+    let page = window.location.href.match(/page=(\d+)/)[1]
+    picture_book_page = button.getAttribute('page')
+    let picture_book_name = button.getAttribute('id')
+    $("#title").text(picture_book_name)
+    history.pushState("", "", `index.html?page=${page}&name=${picture_book_name}`);
 })
 $("#viewer").on('hide.bs.modal', () => {
+    let page = window.location.href.match(/page=(\d+)/)[1]
+    history.pushState("", "", `index.html?page=${page}`);
     $(".modal-body").empty()
 })
 
@@ -45,8 +55,7 @@ $("#searchInput").bind('keypress', function (event) {
 function search() {
     if ($("#searchInput").val() == "") return
     let keyword = $("#searchInput").val()
-
-    window.open(window.location.origin + `/bookdash-cn/web/page/search.html?search=${keyword}`)
+    window.open(window.location.href.replace(/\/[(index)|(page)].+/, `/page/search.html?search=${keyword}`))
 }
 
 // pages
@@ -146,9 +155,13 @@ function showCarousels(book_info, book_num) {
             this_carousel.find(".tags").append(tag_element)
         })
         this_carousel.find("p").eq(0).text(this_book.contents)
-        this_carousel.find("button").eq(0).attr("data-bs-toggle", "modal")
-        this_carousel.find("button").eq(0).attr("data-bs-target", "#viewer")
-        this_carousel.find("button").eq(0).attr("data-bs-file", "../asset/" + this_book.file)
+        this_carousel.find("button").eq(0).attr({
+            "id": book_names[num],
+            "page": Math.ceil(num / 12),
+            "data-bs-toggle": "modal",
+            "data-bs-target": "#viewer",
+            "data-bs-file": "../asset/" + this_book.file
+        })
         this_carousel.find("small").text(`翻译日期：${this_book.date}`)
         this_carousel.find(".en-url").eq(0).attr("href", this_book.src)
         this_carousel.find("a").eq(0).attr("href", "../asset/" + this_book.file)
@@ -185,9 +198,13 @@ function showCards(book_info, book_num) {
             this_card.find(".tags").append(tag_element)
         })
         this_card.find("p.card-text").text(this_book.contents)
-        this_card.find("button").eq(0).attr("data-bs-toggle", "modal")
-        this_card.find("button").eq(0).attr("data-bs-target", "#viewer")
-        this_card.find("button").eq(0).attr("data-bs-file", "../asset/" + this_book.file)
+        this_card.find("button").eq(0).attr({
+            "id": book_names[i],
+            "page": current_page,
+            "data-bs-toggle": "modal",
+            "data-bs-target": "#viewer",
+            "data-bs-file": "../asset/" + this_book.file
+        })
         this_card.find("small").text(`翻译日期：${this_book.date}`)
         this_card.find(".en-url").eq(0).attr("href", this_book.src)
         this_card.find("button").eq(1).find("a").attr("href", "../asset/" + this_book.file)
@@ -219,7 +236,6 @@ function showPage(book_info) {
     if (current_page == null) {
         window.location = window.location.origin + window.location.pathname + "?page=1"
     }
-
     setPagination(current_page, page_len)
     // 页码样式
     highLightPagination(current_page, page_len)
@@ -227,4 +243,22 @@ function showPage(book_info) {
     showCarousels(book_info, book_num)
     // cards
     showCards(book_info, book_num)
+
+    // 如果有打开绘本
+    let picture_book = params.get('name')
+    if (picture_book != null) {
+        $(`#${picture_book}`).click()
+        console.log($(`#${picture_book}`));
+    }
 }
+
+// share 分享按钮
+$("#share").click(() => {
+    let page = picture_book_page
+    let name = $("#title").text()
+    $("#copy_url").text(`${window.location.origin}${window.location.pathname}?page=${page}&name=${name}`)
+    let url = document.getElementById("copy_url")
+    url.select()
+    document.execCommand("Copy")
+    $('.toast').toast('show')
+})

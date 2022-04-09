@@ -105,4 +105,4 @@
    - [x] 📖 Pagination
    - [x] 🔍 Search
    - [x] 🚀 Github Pages
-   - [ ] 🐾 Share
+   - [x] 🤗 Share

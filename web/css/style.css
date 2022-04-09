@@ -159,8 +159,33 @@ small {
 
 /* modal */
 
+.modal-fullscreen .modal-body {
+  overflow-y: hidden !important;
+}
+
 #viewer {
   padding-right: 0 !important;
+}
+
+#copy_url {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#share {
+  margin-left: 20px;
+}
+
+#share span i {
+  font-size: 1rem !important;
+}
+
+.copy_toast {
+  position: fixed;
+  right: 40px;
+  top: 12px;
+  width: 160px;
 }
 
 /* nav */
