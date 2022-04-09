@@ -21,7 +21,7 @@
   <header>
     <div class="navbar">
       <div class="container">
-        <div class="col-4">
+        <div class="col-3">
           <a href="/bookdash-cn/web" class="title text-white"> <span style="font-size: 1.4rem;">🏠</span> 绘本小屋 </a>
         </div>
         <div class="col-6">
@@ -32,7 +32,7 @@
             </button>
           </div>
         </div>
-        <div class="col-1 offset-1">
+        <div class="col-2 offset-1">
           <a href="https://github.com/forestlet/bookdash-cn" class="text-white" title="github">
             <i class="bi bi-github" style="font-size: 1.4rem;"> </i>
           </a>
@@ -178,9 +178,26 @@
 
     <!-- modal -->
     <div class="modal fade" id="viewer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog" style="min-width:calc(100vw - 80px)">
+      <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
-          <div class="modal-body" style="height:calc(100vh - 60px)">
+          <div class="modal-header">
+            <h5 class="modal-title" id="title"></h5>
+            <button class="btn btn-outline-secondary btn-sm" id="share" title="share">
+              <span><i class="bi bi-link-45deg" style="font-size: 1.4rem;"></i>拷贝网址</span>
+            </button>
+            <textarea id="copy_url"></textarea>
+            <div class="copy_toast">
+              <div class="toast align-items-center text-white bg-secondary border-0" role="alert" aria-live="assertive"
+                aria-atomic="true" id="toast" data-bs-delay="1000">
+                <div class="d-flex">
+                  <div class="toast-body" id="copied">绘本网址已复制~
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
           </div>
         </div>
       </div>
