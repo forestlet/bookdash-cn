@@ -1484,5 +1484,18 @@
             "朋友"
         ],
         "src": "https://bookdash.org/books/the-sea/"
+    },
+    "tigs-world": {
+        "book_cn": "迪格的世界",
+        "contents": "如果世界是圆的，为什么底下的人不会掉下去呢？迪格的妈妈有一个答案，爸爸有另一个。谁说的是真的？",
+        "cover": "tigs-world/tigs-world_cover.jpg",
+        "file": "tigs-world/tigs-world_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.04.07",
+        "tags": [
+            "探险",
+            "知识"
+        ],
+        "src": "https://bookdash.org/books/tigs-world/"
     }
 }
