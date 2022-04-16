@@ -1497,5 +1497,18 @@
             "知识"
         ],
         "src": "https://bookdash.org/books/tigs-world/"
+    },
+    "toast": {
+        "book_cn": "吐司面包",
+        "contents": "在美丽花园里野餐，开始新的冒险。谁会得到吐司面包？谁又能留住它呢？",
+        "cover": "toast/toast_cover.jpg",
+        "file": "toast/toast_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.04.16",
+        "tags": [
+            "冒险",
+            "野餐"
+        ],
+        "src": "https://bookdash.org/books/toast/"
     }
 }
