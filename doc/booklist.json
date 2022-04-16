@@ -1510,5 +1510,17 @@
             "野餐"
         ],
         "src": "https://bookdash.org/books/toast/"
+    },
+    "to-the-top": {
+        "book_cn": "登顶",
+        "contents": "和我们一起爬山吧！小心许多小动物……你会看到大大的世界。如果我们互相帮助，我们就能登上顶峰！",
+        "cover": "to-the-top/to-the-top_cover.jpg",
+        "file": "to-the-top/to-the-top_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.04.16",
+        "tags": [
+            "爬山"
+        ],
+        "src": "https://bookdash.org/books/to-the-top/"
     }
 }
