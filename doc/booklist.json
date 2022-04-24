@@ -1522,5 +1522,17 @@
             "爬山"
         ],
         "src": "https://bookdash.org/books/to-the-top/"
+    },
+    "tumi-goes-to-the-park":{
+        "book_cn": "图米去公园",
+        "contents": "这是图米第一次去公园，她太激动了，那有好多玩的。她还交一个新朋友……",
+        "cover": "tumi-goes-to-the-park/tumi-goes-to-the-park_cover.jpg",
+        "file": "tumi-goes-to-the-park/tumi-goes-to-the-park_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.04.24",
+        "tags": [
+            "玩耍"
+        ],
+        "src": "https://bookdash.org/books/tumi-goes-to-the-park/"
     }
 }
