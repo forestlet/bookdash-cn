@@ -1523,7 +1523,7 @@
         ],
         "src": "https://bookdash.org/books/to-the-top/"
     },
-    "tumi-goes-to-the-park":{
+    "tumi-goes-to-the-park": {
         "book_cn": "图米去公园",
         "contents": "这是图米第一次去公园，她太激动了，那有好多玩的。她还交一个新朋友……",
         "cover": "tumi-goes-to-the-park/tumi-goes-to-the-park_cover.jpg",
@@ -1531,8 +1531,23 @@
         "translator": "forestlet",
         "date": "2022.04.24",
         "tags": [
-            "玩耍"
+            "玩耍",
+            "朋友"
         ],
         "src": "https://bookdash.org/books/tumi-goes-to-the-park/"
+    },
+    "unathi-and-the-dirty-smelly-beast": {
+        "book_cn": "乌娜蒂和脏脏臭臭的怪兽",
+        "contents": "什么在跟着乌娜蒂……",
+        "cover": "unathi-and-the-dirty-smelly-beast/unathi-and-the-dirty-smelly-beast_cover.jpg",
+        "file": "unathi-and-the-dirty-smelly-beast/unathi-and-the-dirty-smelly-beast_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.04.24",
+        "tags": [
+            "玩耍",
+            "动物",
+            "狗"
+        ],
+        "src": "https://bookdash.org/books/unathi-and-the-dirty-smelly-beast/"
     }
 }
