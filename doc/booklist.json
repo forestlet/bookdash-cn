@@ -1561,5 +1561,18 @@
             "玩耍"
         ],
         "src": "https://bookdash.org/books/vuyo/"
+    },
+    "walking-together": {
+        "book_cn": "一起走",
+        "contents": "当沿途有那么多美好的景色，去诊所的路途不一定无聊。",
+        "cover": "walking-together/walking-together_cover.jpg",
+        "file": "walking-together/walking-together_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.04.30",
+        "tags": [
+            "亲情",
+            "陪伴"
+        ],
+        "src": "https://bookdash.org/books/walking-together/"
     }
 }
