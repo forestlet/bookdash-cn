@@ -1549,5 +1549,17 @@
             "狗"
         ],
         "src": "https://bookdash.org/books/unathi-and-the-dirty-smelly-beast/"
+    },
+    "vuyo": {
+        "book_cn": "乌佑",
+        "contents": "在这本无字书中，我们体验了快乐宝宝乌佑生命中的一天。",
+        "cover": "vuyo/vuyo_cover.jpg",
+        "file": "vuyo/vuyo_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.04.30",
+        "tags": [
+            "玩耍"
+        ],
+        "src": "https://bookdash.org/books/vuyo/"
     }
 }
