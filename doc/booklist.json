@@ -1574,5 +1574,17 @@
             "陪伴"
         ],
         "src": "https://bookdash.org/books/walking-together/"
+    },
+    "what-if": {
+        "book_cn": "如果",
+        "contents": "南迪想知道世上各种各样奇怪的事情。她从一个简单的问题开始问：如果……",
+        "cover": "what-if/what-if_cover.jpg",
+        "file": "what-if/what-if_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.05.07",
+        "tags": [
+            "想象"            
+        ],
+        "src": "https://bookdash.org/books/what-if/"
     }
 }
