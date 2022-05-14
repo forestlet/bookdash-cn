@@ -1612,5 +1612,17 @@
             "梦想"
         ],
         "src": "https://bookdash.org/books/when-i-grow-up/"
+    },
+    "where-is-lulu": {
+        "book_cn": "露露在哪儿",
+        "contents": "露露在哪儿？她为什么藏了起来？",
+        "cover": "where-is-lulu/where-is-lulu_cover.jpg",
+        "file": "where-is-lulu/where-is-lulu_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.05.14",
+        "tags": [
+            "书"
+        ],
+        "src": "https://bookdash.org/books/where-is-lulu/"
     }
 }
