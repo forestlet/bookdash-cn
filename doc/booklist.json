@@ -1624,5 +1624,29 @@
             "书"
         ],
         "src": "https://bookdash.org/books/where-is-lulu/"
+    },
+    "where-is-thabo": {
+        "book_cn": "塔伯在哪儿",
+        "contents": "塔伯全家正为这天收拾准备，但是在匆忙中搞出了许多乱子。而这时，塔伯在哪？",
+        "cover": "where-is-thabo/where-is-thabo_cover.jpg",
+        "file": "where-is-thabo/where-is-thabo_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.05.21",
+        "tags": [
+            "足球"
+        ],
+        "src": "https://bookdash.org/books/where-is-thabo/"
+    },
+    "wheres-that-cat": {
+        "book_cn": "猫猫去哪儿了",
+        "contents": "尼奥和她的爸爸是发明家。他们几乎可以解决任何问题……但他们找不到尼奥的猫！尼奥到处找，但猫不见了。也许这与她父亲的最新发明有关。",
+        "cover": "wheres-that-cat/wheres-that-cat_cover.jpg",
+        "file": "wheres-that-cat/wheres-that-cat_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.05.21",
+        "tags": [
+            "猫"
+        ],
+        "src": "https://bookdash.org/books/wheres-that-cat/"
     }
 }
