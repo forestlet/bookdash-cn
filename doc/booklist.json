@@ -1648,5 +1648,21 @@
             "猫"
         ],
         "src": "https://bookdash.org/books/wheres-that-cat/"
+    },
+    "who-is-our-friend": {
+        "book_cn": "谁是我们的朋友",
+        "contents": "犀牛、鳄鱼、长颈鹿和斑马都有一个想不到的朋友。你能猜出它是谁吗？",
+        "cover": "who-is-our-friend/who-is-our-friend_cover.jpg",
+        "file": "who-is-our-friend/who-is-our-friend_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.05.28",
+        "tags": [
+            "鸟",
+            "鳄鱼",
+            "斑马",
+            "长颈鹿",
+            "犀牛"
+        ],
+        "src": "https://bookdash.org/books/who-is-our-friend/"
     }
 }

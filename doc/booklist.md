@@ -130,3 +130,4 @@
 |✅|where-is-lulu|露露在哪儿|forestlet|2022.05.14|
 |✅|where-is-thabo|塔伯在哪儿|forestlet|2022.05.21|
 |✅|wheres-that-cat|猫猫去哪儿了|forestlet|2022.05.21|
+|✅|who-is-our-friend|谁是我们的朋友|forestlet|2022.05.28|
