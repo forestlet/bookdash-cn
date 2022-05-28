@@ -1664,5 +1664,17 @@
             "犀牛"
         ],
         "src": "https://bookdash.org/books/who-is-our-friend/"
+    },
+    "whose-button-is-this": {
+        "book_cn": "这是谁的纽扣",
+        "contents": "叮叮开启了寻找丢失纽扣主人的冒险之旅。一路上，它探索，它奇迹般地逃脱，还结交了新的朋友。",
+        "cover": "whose-button-is-this/whose-button-is-this_cover.jpg",
+        "file": "whose-button-is-this/whose-button-is-this_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.05.28",
+        "tags": [
+            "寻找"
+        ],
+        "src": "https://bookdash.org/books/whose-button-is-this/"
     }
 }
