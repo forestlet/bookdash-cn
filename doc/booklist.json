@@ -1688,5 +1688,18 @@
             "鞋子"
         ],
         "src": "https://bookdash.org/books/whose-shoe-is-this/"
+    },
+    "whos-that-baby": {
+        "book_cn": "那是谁",
+        "contents": "来了一个男孩，他会是谁？",
+        "cover": "whos-that-baby/whos-that-baby_cover.jpg",
+        "file": "whos-that-baby/whos-that-baby_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.06.04",
+        "tags": [
+            "镜子",
+            "自己"
+        ],
+        "src": "https://bookdash.org/books/whos-that-baby/"
     }
 }
