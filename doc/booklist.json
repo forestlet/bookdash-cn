@@ -1676,5 +1676,17 @@
             "寻找"
         ],
         "src": "https://bookdash.org/books/whose-button-is-this/"
+    },
+    "whose-shoe-is-this": {
+        "book_cn": "这是谁的鞋子",
+        "contents": "菲兹乐在床下帮婆婆找鞋子。然而，他却找到了许多其他的鞋子。这些鞋子是谁的？他们会穿这些鞋子去哪儿？",
+        "cover": "whose-shoe-is-this/whose-shoe-is-this_cover.jpg",
+        "file": "whose-shoe-is-this/whose-shoe-is-this_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.06.04",
+        "tags": [
+            "鞋子"
+        ],
+        "src": "https://bookdash.org/books/whose-shoe-is-this/"
     }
 }

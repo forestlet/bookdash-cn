@@ -132,3 +132,4 @@
 |✅|wheres-that-cat|猫猫去哪儿了|forestlet|2022.05.21|
 |✅|who-is-our-friend|谁是我们的朋友|forestlet|2022.05.28|
 |✅|whose-button-is-this|这是谁的纽扣|forestlet|2022.05.28|
+|✅|whose-shoe-is-this|这是谁的鞋子|forestlet|2022.06.04|
