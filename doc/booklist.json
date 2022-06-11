@@ -1701,5 +1701,30 @@
             "自己"
         ],
         "src": "https://bookdash.org/books/whos-that-baby/"
+    },
+    "who-takes-the-train": {
+        "book_cn": "火车上有什么人？",
+        "contents": "纳勒迪第一次坐火车，她想知道她会看到什么人。火车上充满了惊喜！",
+        "cover": "who-takes-the-train/who-takes-the-train_cover.jpg",
+        "file": "who-takes-the-train/who-takes-the-train_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.06.11",
+        "tags": [
+            "火车",
+            "沙滩"
+        ],
+        "src": "https://bookdash.org/books/who-takes-the-train/"
+    },
+    "why-birds-sing-at-dawn": {
+        "book_cn": "鸟儿为何在黎明歌唱",
+        "contents": "干旱降临在快乐森林，鸟妈妈去寻找魔法雨虫。谁能唱歌带她回家？",
+        "cover": "why-birds-sing-at-dawn/why-birds-sing-at-dawn_cover.jpg",
+        "file": "why-birds-sing-at-dawn/why-birds-sing-at-dawn_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.06.11",
+        "tags": [
+            "鸟"
+        ],
+        "src": "https://bookdash.org/books/why-birds-sing-at-dawn/"
     }
 }

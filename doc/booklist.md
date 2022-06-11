@@ -134,3 +134,5 @@
 |✅|whose-button-is-this|这是谁的纽扣|forestlet|2022.05.28|
 |✅|whose-shoe-is-this|这是谁的鞋子|forestlet|2022.06.04|
 |✅|whos-that-baby|那是谁|forestlet|2022.06.04|
+|✅|who-takes-the-train|火车上有什么人？|forestlet|2022.06.11|
+|✅|why-birds-sing-at-dawn|鸟儿为何在黎明歌唱|forestlet|2022.06.11|
