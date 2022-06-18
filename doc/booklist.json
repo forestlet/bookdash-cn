@@ -1739,5 +1739,17 @@
             "蝴蝶"
         ],
         "src": "https://bookdash.org/books/wiggle-jiggle/"
+    },
+    "woof-woof": {
+        "book_cn": "汪汪",
+        "contents": "狗狗想玩，但孩子有些害怕。",
+        "cover": "woof-woof/woof-woof_cover.jpg",
+        "file": "woof-woof/woof-woof_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.06.18",
+        "tags": [
+            "狗"
+        ],
+        "src": "https://bookdash.org/books/woof-woof/"
     }
 }
