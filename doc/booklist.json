@@ -1726,5 +1726,18 @@
             "鸟"
         ],
         "src": "https://bookdash.org/books/why-birds-sing-at-dawn/"
+    },
+    "wiggle-jiggle": {
+        "book_cn": "扭来扭去",
+        "contents": "扭扭虫扭来扭去，经历着一场充满惊喜的冒险。",
+        "cover": "wiggle-jiggle/wiggle-jiggle_cover.jpg",
+        "file": "wiggle-jiggle/wiggle-jiggle_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.06.18",
+        "tags": [
+            "毛毛虫",
+            "蝴蝶"
+        ],
+        "src": "https://bookdash.org/books/wiggle-jiggle/"
     }
 }
