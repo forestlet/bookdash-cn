@@ -1751,5 +1751,18 @@
             "狗"
         ],
         "src": "https://bookdash.org/books/woof-woof/"
+    },
+    "you-yes-you": {
+        "book_cn": "嘿，你！",
+        "contents": "狗狗想玩，但孩子有些害怕。",
+        "cover": "you-yes-you/you-yes-you_cover.jpg",
+        "file": "you-yes-you/you-yes-you_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.06.25",
+        "tags": [
+            "冒险",
+            "怪兽"
+        ],
+        "src": "https://bookdash.org/books/you-yes-you/"
     }
 }

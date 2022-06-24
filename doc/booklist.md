@@ -138,3 +138,4 @@
 |✅|why-birds-sing-at-dawn|鸟儿为何在黎明歌唱|forestlet|2022.06.11|
 |✅|wiggle-jiggle|扭来扭去|forestlet|2022.06.18|
 |✅|woof-woof|汪汪|forestlet|2022.06.18|
+|✅|you-yes-you|嘿，你！|forestlet|2022.06.25|
