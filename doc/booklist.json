@@ -1764,5 +1764,18 @@
             "怪兽"
         ],
         "src": "https://bookdash.org/books/you-yes-you/"
+    },
+    "sindiwe-and-the-fireflies": {
+        "book_cn": "辛迪韦和萤火虫",
+        "contents": "从前有一个女孩叫辛迪韦·马戈纳。她有写故事的天赋。晚上，小辛迪韦的祖母会给她讲神奇故事，关于食人魔、巨人、森林里的动物和草原上的小动物。这是辛迪韦最喜欢的时光。看她是如何成长，经历了自己的冒险，穿越大洋，用自己的故事改变了世界。",
+        "cover": "sindiwe-and-the-fireflies/sindiwe-and-the-fireflies_cover.jpg",
+        "file": "sindiwe-and-the-fireflies/sindiwe-and-the-fireflies_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.07.02",
+        "tags": [
+            "故事",
+            "励志"
+        ],
+        "src": "https://bookdash.org/books/sindiwe-and-the-fireflies/"
     }
 }

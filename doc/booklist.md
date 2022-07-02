@@ -139,3 +139,4 @@
 |✅|wiggle-jiggle|扭来扭去|forestlet|2022.06.18|
 |✅|woof-woof|汪汪|forestlet|2022.06.18|
 |✅|you-yes-you|嘿，你！|forestlet|2022.06.25|
+|✅|sindiwe-and-the-fireflies|辛迪韦和萤火虫|forestlet|2022.07.02|
