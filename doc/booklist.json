@@ -1777,5 +1777,18 @@
             "励志"
         ],
         "src": "https://bookdash.org/books/sindiwe-and-the-fireflies/"
+    },
+    "singing-the-truth": {
+        "book_cn": "唱出事实",
+        "contents": "来看看这个小女孩长大后如何通过自己的歌声帮助南非人民获得自由的奇妙故事。",
+        "cover": "singing-the-truth/singing-the-truth_cover.jpg",
+        "file": "singing-the-truth/singing-the-truth_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.07.10",
+        "tags": [
+            "故事",
+            "南非"
+        ],
+        "src": "https://bookdash.org/books/singing-the-truth/"
     }
 }
