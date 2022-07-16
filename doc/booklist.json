@@ -1790,5 +1790,17 @@
             "南非"
         ],
         "src": "https://bookdash.org/books/singing-the-truth/"
+    },
+    "the-biscuit-jar-must-fall": {
+        "book_cn": "怎么拿到饼干罐子",
+        "contents": "普鲁顿告诉米奇和她的朋友，当他们打扫完米奇房间后，就可以吃饼干。但当它们完成后，却找不到普鲁顿了。于是米奇和她的朋友们花了一整天时间思考，如何把饼干罐拿下来……",
+        "cover": "the-biscuit-jar-must-fall/the-biscuit-jar-must-fall_cover.jpg",
+        "file": "the-biscuit-jar-must-fall/the-biscuit-jar-must-fall_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.07.16",
+        "tags": [
+            "思考"
+        ],
+        "src": "https://bookdash.org/books/the-biscuit-jar-must-fall/"
     }
 }
