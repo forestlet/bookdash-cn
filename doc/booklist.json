@@ -1802,5 +1802,17 @@
             "思考"
         ],
         "src": "https://bookdash.org/books/the-biscuit-jar-must-fall/"
+    },
+    "the-cottonwool-doctor": {
+        "book_cn": "棉花医生",
+        "contents": "玛格丽特既聪明又好奇，她怀有远大理想。但是 200 年前，女孩不能成为医生。于是她剪短头发，穿上男孩的衣服。从那时起，没有人知道玛格丽特是个女孩。她成为了詹姆斯·巴里医生。",
+        "cover": "the-cottonwool-doctor/the-cottonwool-doctor_cover.jpg",
+        "file": "the-cottonwool-doctor/the-cottonwool-doctor_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.07.23",
+        "tags": [
+            "女性主义"
+        ],
+        "src": "https://bookdash.org/books/the-cottonwool-doctor/"
     }
 }
