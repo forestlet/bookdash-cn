@@ -1814,5 +1814,18 @@
             "女性主义"
         ],
         "src": "https://bookdash.org/books/the-cottonwool-doctor/"
+    },
+    "the-fish-and-chickens-wedding": {
+        "book_cn": "鱼和鸡的婚礼",
+        "contents": "从前有只鸡叫西基兹瓦，她是个孤儿……",
+        "cover": "the-fish-and-chickens-wedding/the-fish-and-chickens-wedding_cover.jpg",
+        "file": "the-fish-and-chickens-wedding/the-fish-and-chickens-wedding_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.08.03",
+        "tags": [
+            "朋友",
+            "婚礼"
+        ],
+        "src": "https://bookdash.org/books/the-fish-and-chickens-wedding/"
     }
 }

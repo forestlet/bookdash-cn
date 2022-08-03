@@ -143,3 +143,4 @@
 |✅|singing-the-truth|唱出事实|forestlet|2022.07.10|
 |✅|the-biscuit-jar-must-fall|怎么拿到饼干罐子|forestlet|2022.07.16|
 |✅|the-cottonwool-doctor|棉花医生|forestlet|2022.07.23|
+|✅|the-fish-and-chickens-wedding|鱼和鸡的婚礼|forestlet|2022.08.03|
