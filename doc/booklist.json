@@ -1827,5 +1827,18 @@
             "婚礼"
         ],
         "src": "https://bookdash.org/books/the-fish-and-chickens-wedding/"
+    },
+    "the-lazy-ant": {
+        "book_cn": "懒蚂蚁",
+        "contents": "懒蚂蚁总是偷懒，他让其他蚂蚁做所有工作。他会停止懒惰吗？",
+        "cover": "the-lazy-ant/the-lazy-ant_cover.jpg",
+        "file": "the-lazy-ant/the-lazy-ant_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.08.06",
+        "tags": [
+            "勤奋",
+            "改变"
+        ],
+        "src": "https://bookdash.org/books/the-lazy-ant/"
     }
 }
