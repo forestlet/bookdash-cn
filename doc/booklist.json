@@ -1840,5 +1840,18 @@
             "改变"
         ],
         "src": "https://bookdash.org/books/the-lazy-ant/"
+    },
+    "the-lion-who-wouldnt-try": {
+        "book_cn": "怕输的狮子",
+        "contents": "除了除了狮子，丛林中所有的动物都在玩耍。狮子为什么不参加？",
+        "cover": "the-lion-who-wouldnt-try/the-lion-who-wouldnt-try_cover.jpg",
+        "file": "the-lion-who-wouldnt-try/the-lion-who-wouldnt-try_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.08.13",
+        "tags": [
+            "游戏",
+            "快乐"
+        ],
+        "src": "https://bookdash.org/books/the-lion-who-wouldnt-try/"
     }
 }
