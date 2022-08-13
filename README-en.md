@@ -88,7 +88,7 @@
 
 5. Add picture book info to [booklist.md](doc/booklist.md)
 
-   Just `cd` 'util' path and use `node transform.js` to generate automatically
+   Just use `node util/transform.js` to generate automatically
 
 6. New added picture book will be automatically posted to the web page 🚀
 
