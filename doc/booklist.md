@@ -146,3 +146,4 @@
 |✅|the-fish-and-chickens-wedding|鱼和鸡的婚礼|forestlet|2022.08.03|
 |✅|the-lazy-ant|懒蚂蚁|forestlet|2022.08.06|
 |✅|the-lion-who-wouldnt-try|怕输的狮子|forestlet|2022.08.13|
+|✅|the-rainbow-cloud|彩虹云|forestlet|2022.08.20|

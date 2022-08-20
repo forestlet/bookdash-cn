@@ -1853,5 +1853,17 @@
             "快乐"
         ],
         "src": "https://bookdash.org/books/the-lion-who-wouldnt-try/"
+    },
+    "the-rainbow-cloud": {
+        "book_cn": "彩虹云",
+        "contents": "姆卡巴伊和玛玛是一对双胞胎，她们遇见了欺负别人的人和可怕的幽灵。她们能战胜他们吗？",
+        "cover": "the-rainbow-cloud/the-rainbow-cloud_cover.jpg",
+        "file": "the-rainbow-cloud/the-rainbow-cloud_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.08.20",
+        "tags": [
+            "双胞胎"
+        ],
+        "src": "https://bookdash.org/books/the-rainbow-cloud/"
     }
 }
