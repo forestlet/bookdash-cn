@@ -1865,5 +1865,18 @@
             "双胞胎"
         ],
         "src": "https://bookdash.org/books/the-rainbow-cloud/"
+    },
+    "there-must-be-a-rainbow": {
+        "book_cn": "风雨彩虹",
+        "contents": "这是个充满希望的故事。杰布利帮助村民在暴风雨袭击山谷后并重拾乐观。",
+        "cover": "there-must-be-a-rainbow/there-must-be-a-rainbow_cover.jpg",
+        "file": "there-must-be-a-rainbow/there-must-be-a-rainbow_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.08.28",
+        "tags": [
+            "希望",
+            "乐观"
+        ],
+        "src": "https://bookdash.org/books/there-must-be-a-rainbow/"
     }
 }
