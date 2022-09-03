@@ -148,3 +148,4 @@
 |✅|the-lion-who-wouldnt-try|怕输的狮子|forestlet|2022.08.13|
 |✅|the-rainbow-cloud|彩虹云|forestlet|2022.08.20|
 |✅|there-must-be-a-rainbow|风雨彩虹|forestlet|2022.08.28|
+|✅|theres-a-fire-on-the-mountain|山火|forestlet|2022.08.28|

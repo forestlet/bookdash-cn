@@ -1878,5 +1878,18 @@
             "乐观"
         ],
         "src": "https://bookdash.org/books/there-must-be-a-rainbow/"
+    },
+    "theres-a-fire-on-the-mountain": {
+        "book_cn": "山火",
+        "contents": "图莉和朋友常玩“山上着火了”的游戏。但有一天，山上真的发生了火灾，所有美丽的植物都化为了灰烬。图莉和朋友们很伤心，直到他们看到了一些小小的红色和绿色，那会是什么？",
+        "cover": "theres-a-fire-on-the-mountain/theres-a-fire-on-the-mountain_cover.jpg",
+        "file": "theres-a-fire-on-the-mountain/theres-a-fire-on-the-mountain_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.08.28",
+        "tags": [
+            "希望",
+            "乐观"
+        ],
+        "src": "https://bookdash.org/books/theres-a-fire-on-the-mountain/"
     }
 }
