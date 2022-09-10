@@ -1891,5 +1891,18 @@
             "乐观"
         ],
         "src": "https://bookdash.org/books/theres-a-fire-on-the-mountain/"
+    },
+    "the-things-that-really-matter": {
+        "book_cn": "真正重要的",
+        "contents": "旅行中最重要的是什么？在组琪、坦多和爸爸妈妈的旅程中发现吧。",
+        "cover": "the-things-that-really-matter/the-things-that-really-matter_cover.jpg",
+        "file": "the-things-that-really-matter/the-things-that-really-matter_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.09.10",
+        "tags": [
+            "旅行",
+            "亲情"
+        ],
+        "src": "https://bookdash.org/books/the-things-that-really-matter/"
     }
 }
