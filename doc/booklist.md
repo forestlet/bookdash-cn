@@ -150,3 +150,4 @@
 |✅|there-must-be-a-rainbow|风雨彩虹|forestlet|2022.08.28|
 |✅|theres-a-fire-on-the-mountain|山火|forestlet|2022.08.28|
 |✅|the-things-that-really-matter|真正重要的|forestlet|2022.09.10|
+|✅|the-three-doof-doofs|三只咚咚怪|forestlet|2022.09.17|

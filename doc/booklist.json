@@ -1904,5 +1904,18 @@
             "亲情"
         ],
         "src": "https://bookdash.org/books/the-things-that-really-matter/"
+    },
+    "the-three-doof-doofs": {
+        "book_cn": "三只咚咚怪",
+        "contents": "你有没有想过晚上的“咚咚”声是什么？听了这个故事你就能安心睡觉。",
+        "cover": "the-three-doof-doofs/the-three-doof-doofs_cover.jpg",
+        "file": "the-three-doof-doofs/the-three-doof-doofs_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.09.17",
+        "tags": [
+            "晚上",
+            "睡觉"
+        ],
+        "src": "https://bookdash.org/books/the-three-doof-doofs/"
     }
 }
