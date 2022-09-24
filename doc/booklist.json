@@ -1917,5 +1917,17 @@
             "睡觉"
         ],
         "src": "https://bookdash.org/books/the-three-doof-doofs/"
+    },
+    "the-very-tired-lioness": {
+        "book_cn": "十分疲惫的母狮",
+        "contents": "母狮十分疲惫，她的姐妹女儿们希望她一起来狩猎，太阳也在呼唤她……",
+        "cover": "the-very-tired-lioness/the-very-tired-lioness_cover.jpg",
+        "file": "the-very-tired-lioness/the-very-tired-lioness_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.09.24",
+        "tags": [
+            "睡觉"
+        ],
+        "src": "https://bookdash.org/books/the-very-tired-lioness/"
     }
 }
