@@ -153,3 +153,4 @@
 |✅|the-three-doof-doofs|三只咚咚怪|forestlet|2022.09.17|
 |✅|the-very-tired-lioness|十分疲惫的母狮|forestlet|2022.09.24|
 |✅|thuli-special-and-the-secret|图莉和特别的秘密|forestlet|2022.10.01|
+|✅|tlotlegos-tea-party|特洛特戈的下午茶|forestlet|2022.10.08|

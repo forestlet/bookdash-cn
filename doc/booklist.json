@@ -1942,5 +1942,17 @@
             "朋友"
         ],
         "src": "https://bookdash.org/books/thuli-special-and-the-secret/"
+    },
+    "tlotlegos-tea-party": {
+        "book_cn": "特洛特戈的下午茶",
+        "contents": "特洛特戈正在准备下午茶！但他摆桌子时，奇怪的事情却一直在发生……",
+        "cover": "tlotlegos-tea-party/tlotlegos-tea-party_cover.jpg",
+        "file": "tlotlegos-tea-party/tlotlegos-tea-party_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.10.08",
+        "tags": [
+            "下午茶"
+        ],
+        "src": "https://bookdash.org/books/tlotlegos-tea-party/"
     }
 }
