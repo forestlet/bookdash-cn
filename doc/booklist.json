@@ -1954,5 +1954,17 @@
             "下午茶"
         ],
         "src": "https://bookdash.org/books/tlotlegos-tea-party/"
+    },
+    "tortoise-finds-his-home": {
+        "book_cn": "乌龟回家",
+        "contents": "乌龟出发找他的房子。一路上，他遇到新朋友帮忙。但天空阴沉，远处电闪雷鸣。乌龟能及时找到自己的房子吗？",
+        "cover": "tortoise-finds-his-home/tortoise-finds-his-home_cover.jpg",
+        "file": "tortoise-finds-his-home/tortoise-finds-his-home_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.10.15",
+        "tags": [
+            "帮忙"
+        ],
+        "src": "https://bookdash.org/books/tortoise-finds-his-home/"
     }
 }
