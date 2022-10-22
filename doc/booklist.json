@@ -1966,5 +1966,17 @@
             "帮忙"
         ],
         "src": "https://bookdash.org/books/tortoise-finds-his-home/"
+    },
+    "whats-at-the-park": {
+        "book_cn": "公园里面有什么？",
+        "contents": "佐伊喜欢在公园探索发现。有一天，她寻得了一个惊喜……",
+        "cover": "whats-at-the-park/whats-at-the-park_cover.jpg",
+        "file": "whats-at-the-park/whats-at-the-park_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.10.22",
+        "tags": [
+            "小狗"
+        ],
+        "src": "https://bookdash.org/books/whats-at-the-park/"
     }
 }
