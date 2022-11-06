@@ -1991,5 +1991,18 @@
             "冒险"
         ],
         "src": "https://bookdash.org/books/tones-big-drop/"
+    },
+    "whats-in-the-pot": {
+        "book_cn": "锅里有什么",
+        "contents": "山姆想吃晚饭。锅里有什么？等等看……",
+        "cover": "whats-in-the-pot/whats-in-the-pot_cover.jpg",
+        "file": "whats-in-the-pot/whats-in-the-pot_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.11.06",
+        "tags": [
+            "做饭",
+            "吃饭"
+        ],
+        "src": "https://bookdash.org/books/whats-in-the-pot/"
     }
 }
