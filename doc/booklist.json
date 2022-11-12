@@ -2004,5 +2004,18 @@
             "吃饭"
         ],
         "src": "https://bookdash.org/books/whats-in-the-pot/"
+    },
+    "why-is-nita-upside-down": {
+        "book_cn": "妮塔为什么要倒挂着？",
+        "contents": "妮塔正倒挂着，她能正过来吗？",
+        "cover": "why-is-nita-upside-down/why-is-nita-upside-down_cover.jpg",
+        "file": "why-is-nita-upside-down/why-is-nita-upside-down_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.11.12",
+        "tags": [
+            "朋友",
+            "不同"
+        ],
+        "src": "https://bookdash.org/books/why-is-nita-upside-down/"
     }
 }
