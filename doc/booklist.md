@@ -159,3 +159,4 @@
 |✅|tones-big-drop|托恩掉下来了|forestlet|2022.10.29|
 |✅|whats-in-the-pot|锅里有什么|forestlet|2022.11.06|
 |✅|why-is-nita-upside-down|妮塔为什么要倒挂着？|forestlet|2022.11.12|
+|✅|why-is-there-a-hole-in-the-wall|崖壁上为什么有个洞？|forestlet|2022.11.19|

@@ -2017,5 +2017,18 @@
             "不同"
         ],
         "src": "https://bookdash.org/books/why-is-nita-upside-down/"
+    },
+    "why-is-there-a-hole-in-the-wall": {
+        "book_cn": "崖壁上为什么有个洞？",
+        "contents": "“崖壁上为什么有个洞？”努利萨问。他得到了很多有趣的答案，但他一直在问……",
+        "cover": "why-is-there-a-hole-in-the-wall/why-is-there-a-hole-in-the-wall_cover.jpg",
+        "file": "why-is-there-a-hole-in-the-wall/why-is-there-a-hole-in-the-wall_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.11.19",
+        "tags": [
+            "海崖",
+            "好奇"
+        ],
+        "src": "https://bookdash.org/books/why-is-there-a-hole-in-the-wall/"
     }
 }
