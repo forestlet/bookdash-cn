@@ -159,6 +159,10 @@ small {
 
 /* modal */
 
+.modal-header h5 {
+  margin-right: 12px;
+}
+
 .modal-fullscreen .modal-body {
   overflow-y: hidden !important;
 }
