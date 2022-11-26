@@ -65,7 +65,7 @@
 |✅|small-birds-big-adventure|小小鸟的大冒险|forestlet|2021.10.11|
 |✅|thatos-birthday-surprise|塔托的生日惊喜|forestlet|2021.10.19|
 |✅|tejus-shadow|泰茹的影子|forestlet|2021.10.19|
-|✅|yapo-saves-the-day|亚伯反败为胜|forestlet|2021.10.24|
+|✅|yapo-saves-the-day|亚博力挽狂澜|forestlet|2021.10.24|
 |✅|thats-not-thabi|那不是塔比|forestlet|2021.10.24|
 |✅|maddy-moona|玛迪·穆娜的动物园|forestlet|2021.10.24|
 |✅|sbus-special-shoes|寺布的神奇帆布鞋|forestlet|2021.11.13|
