@@ -2030,5 +2030,19 @@
             "好奇"
         ],
         "src": "https://bookdash.org/books/why-is-there-a-hole-in-the-wall/"
+    },
+    "yes-you-can": {
+        "book_cn": "你可以！",
+        "contents": "一起来到兰佳老师的课堂，看看同学们分享他们长大后想做什么吧！",
+        "cover": "yes-you-can/yes-you-can_cover.jpg",
+        "file": "yes-you-can/yes-you-can_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.12.04",
+        "tags": [
+            "职业",
+            "工作",
+            "未来"
+        ],
+        "src": "https://bookdash.org/books/yes-you-can/"
     }
 }
