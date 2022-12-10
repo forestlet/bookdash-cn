@@ -2044,5 +2044,19 @@
             "未来"
         ],
         "src": "https://bookdash.org/books/yes-you-can/"
+    },
+    "zandi-and-birdy-monster": {
+        "book_cn": "赞迪与鸟怪",
+        "contents": "赞迪有一个别人都看不见的朋友——鸟怪。他们制作魔法药水，一起装酷和冒险。",
+        "cover": "zandi-and-birdy-monster/zandi-and-birdy-monster_cover.jpg",
+        "file": "zandi-and-birdy-monster/zandi-and-birdy-monster_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.12.10",
+        "tags": [
+            "朋友",
+            "幻想",
+            "想象"
+        ],
+        "src": "https://bookdash.org/books/zandi-and-birdy-monster/"
     }
 }
