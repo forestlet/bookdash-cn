@@ -2058,5 +2058,18 @@
             "想象"
         ],
         "src": "https://bookdash.org/books/zandi-and-birdy-monster/"
+    },
+    "zanele-sees-numbers": {
+        "book_cn": "找数字的扎内娜",
+        "contents": "到处都有数字，但扎内娜找不到。",
+        "cover": "zanele-sees-numbers/zanele-sees-numbers_cover.jpg",
+        "file": "zanele-sees-numbers/zanele-sees-numbers_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.12.18",
+        "tags": [
+            "数字",
+            "寻找"
+        ],
+        "src": "https://bookdash.org/books/zanele-sees-numbers/"
     }
 }

@@ -162,3 +162,4 @@
 |✅|why-is-there-a-hole-in-the-wall|崖壁上为什么有个洞？|forestlet|2022.11.19|
 |✅|yes-you-can|你可以！|forestlet|2022.12.04|
 |✅|zandi-and-birdy-monster|赞迪与鸟怪|forestlet|2022.12.10|
+|✅|zanele-sees-numbers|找数字的扎内娜|forestlet|2022.12.18|
