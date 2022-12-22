@@ -101,7 +101,7 @@ small {
 
 .carousel-item .imgContainer > img:last-of-type {
   width: 100%;
-  filter: blur(40px);
+  filter: contrast(0.5);
   z-index: 1;
   position: absolute;
 }
