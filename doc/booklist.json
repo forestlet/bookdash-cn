@@ -2071,5 +2071,19 @@
             "寻找"
         ],
         "src": "https://bookdash.org/books/zanele-sees-numbers/"
+    },
+    "zanele-situ-my-story": {
+        "book_cn": "扎内娜希图我的故事",
+        "contents": "小时候，扎内娜希图被告知无法走路了。但坐在轮椅上并没有阻止她。她努力训练，成为了世界著名的运动员。这是她的故事……",
+        "cover": "zanele-situ-my-story/zanele-situ-my-story_cover.jpg",
+        "file": "zanele-situ-my-story/zanele-situ-my-story_cn.pdf",
+        "translator": "forestlet",
+        "date": "2022.12.31",
+        "tags": [
+            "奥运会",
+            "运动员",
+            "励志"
+        ],
+        "src": "https://bookdash.org/books/zanele-situ-my-story/"
     }
 }

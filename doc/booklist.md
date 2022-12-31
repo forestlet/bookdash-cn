@@ -163,3 +163,4 @@
 |✅|yes-you-can|你可以！|forestlet|2022.12.04|
 |✅|zandi-and-birdy-monster|赞迪与鸟怪|forestlet|2022.12.10|
 |✅|zanele-sees-numbers|找数字的扎内娜|forestlet|2022.12.18|
+|✅|zanele-situ-my-story|扎内娜希图我的故事|forestlet|2022.12.31|
