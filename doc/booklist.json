@@ -2085,5 +2085,19 @@
             "励志"
         ],
         "src": "https://bookdash.org/books/zanele-situ-my-story/"
+    },
+    "together-were-strong": {
+        "book_cn": "在一起，我们很强大",
+        "contents": "从出生到去世，阿尔贝蒂娜·西苏鲁过着爱与牺牲的生活。她是一位勇敢的骑马女孩，是她家人、社区和南非的幸事。这个故事讲述了一个独特而强大的女人，无论发生什么，她都坚持自己的信念，这给人以激励。",
+        "cover": "together-were-strong/together-were-strong_cover.jpg",
+        "file": "together-were-strong/together-were-strong_cn.pdf",
+        "translator": "forestlet",
+        "date": "2023.01.08",
+        "tags": [
+            "传记",
+            "女性",
+            "南非"
+        ],
+        "src": "https://bookdash.org/books/together-were-strong/"
     }
 }
