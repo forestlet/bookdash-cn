@@ -2099,5 +2099,18 @@
             "南非"
         ],
         "src": "https://bookdash.org/books/together-were-strong/"
+    },
+    "the-baby-book": {
+        "book_cn": "宝宝书",
+        "contents": "本书将帮助孩子了解美妙的身体以及婴儿是如何出生的。这不是一本故事书，而是向孩子们解释生命如何诞生的绝佳资源。如果没有成年人的指导和解释，一些插图可能不适合12岁以下的儿童。",
+        "cover": "the-baby-book/the-baby-book_cover.jpg",
+        "file": "the-baby-book/the-baby-book_cn.pdf",
+        "translator": "forestlet",
+        "date": "2023.01.28",
+        "tags": [
+            "性",
+            "生育"
+        ],
+        "src": "https://bookdash.org/books/the-baby-book/"
     }
 }
